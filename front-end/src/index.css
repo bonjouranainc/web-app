@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+:root {
+  --ba-yellow: #EBD831;
+  --ba-blue: #89ABE3;
+  --g1: #F2F2F2;
+  --g2: #CCCCCC;
+}
+
