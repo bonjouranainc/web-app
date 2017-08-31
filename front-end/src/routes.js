@@ -5,8 +5,8 @@ import {
   Link,
   Switch
 } from 'react-router-dom';
-import Landing from './scenes/Landing/components/Landing/Landing.js';
-import LearnMore from './scenes/LearnMore/components/LearnMore/LearnMore.js'
+import Landing from './scenes/Landing/components/Landing/index.js';
+import LearnMore from './scenes/LearnMore/components/LearnMore/index.js'
 
 class Routes extends Component {
   render() {
