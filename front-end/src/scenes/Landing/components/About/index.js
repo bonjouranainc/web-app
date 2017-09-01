@@ -9,15 +9,15 @@ class About extends Component {
     return(
       <div className='wrapper'>
         <div>
-          <h1>Servicio de calidad</h1> 
+          <h1 className='sh-txt'>Servicio de calidad</h1> 
           <embed src={ url1 } />
         </div>
         <div>
-          <h1>Personal confiable y seguro</h1> 
+          <h1 className='sh-txt'>Personal confiable y seguro</h1> 
           <embed src={ url2 } />
         </div>
         <div>
-          <h1>Hogar limpio y fresco</h1> 
+          <h1 className='sh-txt'>Hogar limpio y fresco</h1> 
           <embed src={ url3 } />
         </div>
         <div>

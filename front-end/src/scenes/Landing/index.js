@@ -15,6 +15,8 @@ class Landing extends Component {
         <About />
         <HowItWorks />
         <Testimonials />
+        <Partnerships />
+        <NeedHelp />
       </div>
     );
   }
