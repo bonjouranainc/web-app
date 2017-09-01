@@ -7,8 +7,8 @@ body {
 /* 
 
   Global variables
-  ba = Bonjour Ana
-  g = Gray
+    ba = Bonjour Ana
+    g = Gray
 
 */
 :root {
@@ -18,11 +18,24 @@ body {
   --g2: #CCCCCC;
 }
 
-/* Button styles */
+/*
+  Button styles 
+    y = yellow
+    b = blue
+    o = outline
+*/
 .button-y {
   padding: 0.5em 2em 0.5em 2em;
   color: #000;
   background-color: var(--ba-yellow);
+  text-decoration: none;  
+  border-radius: 10px;
+}
+
+.button-y-o {
+  padding: 0.5em 2em 0.5em 2em;
+  color: #000;
+  background-color: none;
   text-decoration: none;  
   border: solid 1px var(--ba-yellow);
   border-radius: 10px;
@@ -33,23 +46,36 @@ body {
   color: #000;
   background-color: var(--ba-blue);
   text-decoration: none;  
-  border: solid 1px var(--ba-blue);
   border-radius: 10px;
 }
 
 /*
   Text styles
-  h = header
-  sh = secondary headers
-  p = paragraph
+    h = header
+    sh = sub headers
+    p = paragraph
+    r = regular (text-weight)
+    b = bold (text-weight)
 */
 
-.h-txt {
+.h-txt-b {
   font-size: 2em;
+  font-weight: 900;
 }
 
-.sh-txt {
+.h-txt-r {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.sh-txt-b {
   font-size: 1.5em;
+  font-weight: 900;
+}
+
+.sh-txt-r {
+  font-size: 1.5em;
+  font-weight: 400;
 }
 
 .p-txt {

@@ -6,7 +6,7 @@ class Welcome extends Component {
     return (
       <div className='wrapper'>
         <div>
-          <h1 className='h-txt'>Completamos tus tareas del hogar y
+          <h1 className='h-txt-b'>Completamos tus tareas del hogar y
           necesidades diarias</h1>
         </div>
         <div>

@@ -5,7 +5,7 @@ class Partnerships extends Component {
     return (
       <div className='wrapper'>
         <div>
-          Partnerships
+          <h1 className='h-txt-b'>Partnerships</h1>
         </div>
         <div>
           <p className='p-txt'>Eres realtor, dueño de propiedades vacacionales 
