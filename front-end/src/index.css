@@ -4,6 +4,13 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+/* 
+
+  Global variables
+  ba = Bonjour Ana
+  g = Gray
+
+*/
 :root {
   --ba-yellow: #EBD831;
   --ba-blue: #89ABE3;
@@ -11,6 +18,7 @@ body {
   --g2: #CCCCCC;
 }
 
+/* Button styles */
 .button-y {
   padding: 0.5em 2em 0.5em 2em;
   color: #000;
@@ -27,5 +35,23 @@ body {
   text-decoration: none;  
   border: solid 1px var(--ba-blue);
   border-radius: 10px;
+}
 
+/*
+  Text styles
+  h = header
+  sh = secondary headers
+  p = paragraph
+*/
+
+.h-txt {
+  font-size: 2em;
+}
+
+.sh-txt {
+  font-size: 1.5em;
+}
+
+.p-txt {
+  font-size: 1em;
 }
