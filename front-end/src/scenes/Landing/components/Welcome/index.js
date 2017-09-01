@@ -10,8 +10,12 @@ class Welcome extends Component {
           necesidades diarias</h1>
         </div>
         <div>
-          <button>Limpieza</button> 
-          <button>Servicios</button>
+          <a href='#' className='button-y'>
+            Limpieza
+          </a>
+          <a href='#' className='button-y'>
+            Servicios
+          </a>
         </div>
         <div>
           <embed src={ url } />

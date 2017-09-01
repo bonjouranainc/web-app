@@ -7,7 +7,7 @@ import url3 from '../../images/clean-house-img.svg';
 class About extends Component {
   render() {
     return(
-      <div>
+      <div className='wrapper'>
         <div>
           <h1>Servicio de calidad</h1> 
           <embed src={ url1 } />
@@ -19,6 +19,11 @@ class About extends Component {
         <div>
           <h1>Hogar limpio y fresco</h1> 
           <embed src={ url3 } />
+        </div>
+        <div>
+          <a href='#'>
+            Learn More
+          </a>
         </div>
       </div>
     ); 

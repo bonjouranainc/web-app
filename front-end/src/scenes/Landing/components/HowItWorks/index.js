@@ -7,7 +7,7 @@ import url3 from '../../images/tasks-done-img.svg';
 class HowItWorks extends Component {
   render() {
     return (
-      <div>
+      <div className='wrapper'>
         <div>
           <h1>Como funciona?</h1>
         </div>

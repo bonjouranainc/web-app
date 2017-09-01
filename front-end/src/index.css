@@ -11,3 +11,21 @@ body {
   --g2: #CCCCCC;
 }
 
+.button-y {
+  padding: 0.5em 2em 0.5em 2em;
+  color: #000;
+  background-color: var(--ba-yellow);
+  text-decoration: none;  
+  border: solid 1px var(--ba-yellow);
+  border-radius: 10px;
+}
+
+.button-b {
+  padding: 0.5em 2em 0.5em 2em;
+  color: #000;
+  background-color: var(--ba-blue);
+  text-decoration: none;  
+  border: solid 1px var(--ba-blue);
+  border-radius: 10px;
+
+}
