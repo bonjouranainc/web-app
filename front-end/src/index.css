@@ -5,17 +5,22 @@ body {
 }
 
 /* 
-
   Global variables
     ba = Bonjour Ana
     g = Gray
-
 */
 :root {
   --ba-yellow: #EBD831;
   --ba-blue: #89ABE3;
   --g1: #F2F2F2;
   --g2: #CCCCCC;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*
@@ -29,7 +34,7 @@ body {
   color: #000;
   background-color: var(--ba-yellow);
   text-decoration: none;  
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .button-y-o {
@@ -38,7 +43,7 @@ body {
   background-color: none;
   text-decoration: none;  
   border: solid 1px var(--ba-yellow);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .button-b {
@@ -46,7 +51,7 @@ body {
   color: #000;
   background-color: var(--ba-blue);
   text-decoration: none;  
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 /*

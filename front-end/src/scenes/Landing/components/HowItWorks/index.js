@@ -4,10 +4,12 @@ import url1 from '../../images/services-img.svg';
 import url2 from '../../images/visit-img.svg';
 import url3 from '../../images/tasks-done-img.svg';
 
+import './styles.css';
+
 class HowItWorks extends Component {
   render() {
     return (
-      <div className='wrapper'>
+      <div className='howItWorks wrapper'>
         <div>
           <h1 className='h-txt-b'>Como funciona?</h1>
         </div>

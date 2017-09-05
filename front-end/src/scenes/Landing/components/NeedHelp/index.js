@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 
+import './styles.css';
+
 class NeedHelp extends Component {
   render() {
     return (
-      <div className='wrapper'> 
+      <div className='needHelp wrapper'> 
         <div>
           <h1 className='h-txt-r'>Necesitas Ayuda?</h1>
           <h1 className='h-txt-b'>Te resolvemos</h1>
         </div>
-        <div>
+        <div className='btn-group'>
           <a href='#' className='button-y-o'> 
             Handyman
           </a>

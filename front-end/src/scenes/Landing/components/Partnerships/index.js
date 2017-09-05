@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
+import './styles.css';
+
 class Partnerships extends Component {
   render() {
     return (
-      <div className='wrapper'>
+      <div className='partnerships wrapper'>
         <div>
           <h1 className='h-txt-b'>Partnerships</h1>
         </div>
@@ -13,7 +15,7 @@ class Partnerships extends Component {
         servicios?</p>
         </div>
         <div>
-          <a href='#' className='button-y'>
+          <a href='#' className='button-b'>
             Boton
           </a>
         </div>
