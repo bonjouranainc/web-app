@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import url from '../../images/welcome-img.svg';
+import url from '../../images/svg/welcome-img.svg';
+import fallback from '../../images/png/welcome-img.png';
 
 import './styles.css';
 
@@ -20,7 +21,7 @@ class Welcome extends Component {
             Servicios
           </a>
         </div>
-        <img src={ url } />
+        <img src={ url } onerror='this.src={ fallback }' />
       </div>
     );
   }
