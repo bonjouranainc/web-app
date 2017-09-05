@@ -14,17 +14,17 @@ class About extends Component {
   render() {
     return(
       <div className='about wrapper'>
-        <div>
+        <div className='row1'>
           <h1 className='sh-txt-b'>Servicio de calidad</h1> 
           <img src={ url1 } onerror='this.src={ fallback1 }' />
         </div>
-        <div>
+        <div className='row2'>
           <h1 className='sh-txt-b'>Personal confiable y seguro</h1> 
-          <embed src={ url2 } onerror='this.src={ fallback2 }' />
+          <img src={ url2 } onerror='this.src={ fallback2 }' />
         </div>
-        <div>
+        <div className='row3'>
           <h1 className='sh-txt-b'>Hogar limpio y fresco</h1> 
-          <embed src={ url3 } onerror='this.src={ fallback3 }' />
+          <img src={ url3 } onerror='this.src={ fallback3 }' />
         </div>
         <div>
           <a href='#' className='button-y'>

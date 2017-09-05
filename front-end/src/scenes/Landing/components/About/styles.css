@@ -1,3 +1,15 @@
 .about {
   background-color: var(--g1);
 }
+
+.about img {
+  max-width: 40%;
+  height: auto;
+}
+
+.row1, .row2, .row3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
