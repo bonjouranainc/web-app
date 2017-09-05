@@ -7,9 +7,16 @@
   height: auto;
 }
 
+.about a {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .row1, .row2, .row3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+

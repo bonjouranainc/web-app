@@ -5,3 +5,8 @@
   text-align: center;
 }
 
+.header img {
+  max-width: 65%;
+  height: auto;
+}
+

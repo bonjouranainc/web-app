@@ -26,11 +26,9 @@ class About extends Component {
           <h1 className='sh-txt-b'>Hogar limpio y fresco</h1> 
           <img src={ url3 } onerror='this.src={ fallback3 }' />
         </div>
-        <div>
-          <a href='#' className='button-y'>
-            Learn More
-          </a>
-        </div>
+        <a href='#' className='button-y'>
+          Learn More
+        </a>
       </div>
     ); 
   }
