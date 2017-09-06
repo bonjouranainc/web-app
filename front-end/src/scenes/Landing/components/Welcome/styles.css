@@ -1,12 +1,13 @@
-.header-txt  {
+.welcome  {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.header img {
-  max-width: 65%;
+.welcome img {
+  max-width: 80%;
   height: auto;
+  margin: 2em;
 }
 
