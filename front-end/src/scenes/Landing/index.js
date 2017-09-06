@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Header from '../../components/Header/index.js';
 import Welcome from './components/Welcome/index.js';
 import About from './components/About/index.js';
 import HowItWorks from './components/HowItWorks/index.js';
@@ -11,6 +12,7 @@ class Landing extends Component {
   render() {
     return (
       <div>
+        <Header />
         <Welcome />
         <About />
         <HowItWorks />
