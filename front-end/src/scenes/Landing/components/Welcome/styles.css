@@ -7,9 +7,14 @@
   text-align: center;
 }
 
+.welcome-btns {
+  display: flex;
+}
+
 .welcome img {
   max-width: 80%;
   height: auto;
   margin: 2em;
 }
+
 
