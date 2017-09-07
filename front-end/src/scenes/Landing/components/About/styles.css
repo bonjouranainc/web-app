@@ -3,13 +3,8 @@
 }
 
 .about img {
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
-}
-
-.about a {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .row1, .row2, .row3 {
@@ -17,6 +12,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  height: auto;
+  text-align: center;
 }
-
 
