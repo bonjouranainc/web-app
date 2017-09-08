@@ -5,6 +5,7 @@
 .about img {
   max-width: 30%;
   height: auto;
+  margin-bottom: 1em;
 }
 
 .row1, .row2, .row3 {
