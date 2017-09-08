@@ -10,8 +10,9 @@ class Welcome extends Component {
     return (
       <div className='welcome wrapper'>
         <div className='header-txt'>
-          <h1 className='h-txt-b'>Completamos tus tareas del hogar y
-          necesidades diarias</h1>
+          <h1 className='h-txt-b'>Completamos <br/>
+          tus tareas del hogar <br/>
+          y necesidades diarias</h1>
         </div>
         <div className='welcome-btns'>
           <a href='#' className='button-y'>
