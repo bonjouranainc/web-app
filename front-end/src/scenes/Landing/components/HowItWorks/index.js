@@ -17,18 +17,18 @@ class HowItWorks extends Component {
         <div>
           <h1 className='b-txt'>Como funciona?</h1>
         </div>
-        <div className='row1'>
+        <div className='row'>
           <img src={ url1 } onerror='this.src={ fallback1 }' />
           <h2>1 Escoja los servicios</h2>
           <p>Seleccione entre una variedad de servicios para el hogar 
           y seleccione el día y  hora que desea recibir el servicvio.</p> 
         </div>
-        <div className='row2'>
+        <div className='row'>
           <img src={ url2 } onerror='this.src={ fallback2 }' />
           <h2>2 Reciba su visita</h2>
           <p>Un personal entrenado y confiable le visitará cada semana 
           u ocasión para brindarle el servicio.</p>
-        <div className='row3'>
+        <div className='row'>
           <img src={ url3 } onerror='this.src={ fallback3}' />
           <h2>3 Voila! Todas sus tareas completadas</h2>
           <p>Llega a un hogar limpio y fresco, con las compras del 

@@ -6,10 +6,10 @@ class Partnerships extends Component {
   render() {
     return (
       <div className='partnerships wrapper'>
-        <div>
+        <div className='row'>
           <h1>Partnerships</h1>
         </div>
-        <div>
+        <div className='row'>
           <p>Eres realtor, dueño de propiedades vacacionales 
         y/o desarrollador y estas interesado en nuestros
         servicios?</p>

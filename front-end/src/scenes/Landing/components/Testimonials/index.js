@@ -8,7 +8,7 @@ class Testimonials extends Component {
   render() {
     return (
       <div className='testimonials wrapper'>
-        <div className='row1'>
+        <div className='row'>
           <img src={ url } />
           <p className='b-txt'>Name</p>
           <p>Who is it?</p>
