@@ -55,6 +55,21 @@ a {
 }
 
 /*
+  Text styles
+*/
+
+
+/* Add bold */
+.b-txt {
+  font-weight: 900;
+}
+
+/* Small text */
+.s-txt {
+  font-size: 0.8em;
+}
+
+/*
   Button styles 
     y = yellow
     b = blue
@@ -89,45 +104,6 @@ a {
   text-decoration: none;  
   border-radius: 5px;
   margin: 0.5em;
-}
-
-/*
-  Text styles
-    h = header
-    sh = sub headers
-    p = paragraph
-    r = regular (text-weight)
-    b = bold (text-weight)
-*/
-
-.h-txt-b {
-  font-size: 1.8em;
-  font-weight: 900;
-}
-
-.h-txt-r {
-  font-size: 1.8em;
-  font-weight: 400;
-}
-
-.sh-txt-b {
-  font-size: 1.3em;
-  font-weight: 900;
-}
-
-.sh-txt-r {
-  font-size: 1.3em;
-  font-weight: 400;
-}
-
-.p-txt {
-  font-size: 0.9em;
-  font-weight: 400;
-}
-
-/* Add bold */
-.b-txt {
-  font-weight: 900;
 }
 
 /*

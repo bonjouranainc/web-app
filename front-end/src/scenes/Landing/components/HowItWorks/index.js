@@ -21,7 +21,7 @@ class HowItWorks extends Component {
           <img src={ url1 } onerror='this.src={ fallback1 }' />
           <h2>1 Escoja los servicios</h2>
           <p>Seleccione entre una variedad de servicios para el hogar 
-          y seleccione el día y  hora que desea recibir el servicvio.</p> 
+          y escoja el día y  hora que desea recibir el servicvio.</p> 
         </div>
         <div className='row'>
           <img src={ url2 } onerror='this.src={ fallback2 }' />

@@ -1,0 +1,18 @@
+.footerBottom {
+  height: 10vh;
+  background-color: var(--g2);
+  display: flex; 
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footerBottom p {
+  margin: 0.5em 1em 0.5em 0.5em;
+}
+
+.footerBottom a {
+  margin: 0.5em;
+  color: #000;
+  text-decoration: none;
+}
