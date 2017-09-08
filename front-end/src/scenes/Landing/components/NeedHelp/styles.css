@@ -1,4 +1,19 @@
+.needHelp {
+  display: none;
+}
+
+.needHelp h1 {
+  margin: 0;
+}
+
 .btn-group {
   display: flex;
   flex-wrap: wrap;
 }
+
+@media only screen and (min-width : 768px) {
+  .needHelp {
+    display: initial;
+  }
+}
+

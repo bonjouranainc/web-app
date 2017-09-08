@@ -6,9 +6,9 @@ class NeedHelp extends Component {
   render() {
     return (
       <div className='needHelp wrapper'> 
-        <div>
+        <div className='row'>
           <h1>Necesitas Ayuda?</h1>
-          <h1>Te resolvemos</h1>
+          <h1 className='b-txt'>Te resolvemos</h1>
         </div>
         <div className='btn-group'>
           <a href='#' className='button-y-o'> 

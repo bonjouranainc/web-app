@@ -30,7 +30,8 @@ class HowItWorks extends Component {
           u ocasión para brindarle el servicio.</p>
         <div className='row'>
           <img src={ url3 } onerror='this.src={ fallback3}' />
-          <h2>3 Voila! Todas sus tareas completadas</h2>
+          <h2>3 Voila! <br/>
+          Todas sus tareas completadas</h2>
           <p>Llega a un hogar limpio y fresco, con las compras del 
           supermercado realizada, el dry-cleaning recogido y todas 
           sus tareas completadas.</p>
