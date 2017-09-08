@@ -1,0 +1,9 @@
+.howItWorks img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.howItWorks p {
+  margin: 0 2em 2em 2em;
+}
