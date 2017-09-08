@@ -15,25 +15,25 @@ class HowItWorks extends Component {
     return (
       <div className='howItWorks wrapper'>
         <div>
-          <h1>Como funciona?</h1>
+          <h1 className='b-txt'>Como funciona?</h1>
         </div>
         <div>
+          <img src={ url1 } onerror='this.src={ fallback1 }' />
           <h2>1 Escoja los servicios</h2>
           <p>Seleccione entre una variedad de servicios para el hogar 
           y seleccione el día y  hora que desea recibir el servicvio.</p> 
-          <img src={ url1 } onerror='this.src={ fallback1 }' />
         </div>
         <div>
+          <img src={ url2 } onerror='this.src={ fallback2 }' />
           <h2>2 Reciba su visita</h2>
           <p>Un personal entrenado y confiable le visitará cada semana 
           u ocasión para brindarle el servicio.</p>
-          <img src={ url2 } onerror='this.src={ fallback2 }' />
         <div>
+          <img src={ url3 } onerror='this.src={ fallback3}' />
           <h2>3 Voila! Todas sus tareas completadas</h2>
           <p>Llega a un hogar limpio y fresco, con las compras del 
           supermercado realizada, el dry-cleaning recogido y todas 
           sus tareas completadas.</p>
-          <img src={ url3 } onerror='this.src={ fallback3}' />
         </div>
         </div>
       </div>
