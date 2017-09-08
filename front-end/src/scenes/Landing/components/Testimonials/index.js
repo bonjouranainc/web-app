@@ -12,7 +12,7 @@ class Testimonials extends Component {
           <img src={ url } />
           <p className='b-txt'>Name</p>
           <p>Who is it?</p>
-          <p id='quote'>Quote about persons opinion on the product</p>
+          <p>Quote about persons opinion on the product</p>
         </div>
       </div>
     );

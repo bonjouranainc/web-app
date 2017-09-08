@@ -57,7 +57,8 @@ p {
     o = outline
 */
 .button-y {
-  padding: 0.5em 2em 0.5em 2em;
+  display: flex;
+  padding: 0.5em 1.5em 0.5em 1.5em;
   color: #000;
   background-color: var(--ba-yellow);
   text-decoration: none;  
@@ -66,7 +67,8 @@ p {
 }
 
 .button-y-o {
-  padding: 0.5em 2em 0.5em 2em;
+  display: flex;
+  padding: 0.5em 1.5em 0.5em 1.5em;
   color: #000;
   background-color: none;
   text-decoration: none;  
@@ -76,7 +78,8 @@ p {
 }
 
 .button-b {
-  padding: 0.5em 2em 0.5em 2em;
+  display: flex;
+  padding: 0.5em 1.5em 0.5em 1.5em;
   color: #fff;
   background-color: var(--ba-blue);
   text-decoration: none;  
