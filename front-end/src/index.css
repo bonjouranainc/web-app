@@ -17,6 +17,20 @@ body {
 }
 
 h1 {
+  font-size: 1.6em;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 0;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
   margin: 0;
 }
 
@@ -63,36 +77,12 @@ h1 {
 
 /*
   Text styles
-    h = header
-    sh = sub headers
-    p = paragraph
     r = regular (text-weight)
     b = bold (text-weight)
+    Add bold 
 */
 
-.h-txt-b {
-  font-size: 1.8em;
+.b-txt {
   font-weight: 900;
 }
 
-.h-txt-r {
-  font-size: 1.8em;
-  font-weight: 400;
-}
-
-.sh-txt-b {
-  font-size: 1.3em;
-  font-weight: 900;
-}
-
-.sh-txt-r {
-  font-size: 1.3em;
-  font-weight: 400;
-}
-
-.p-txt {
-  font-size: 0.9em;
-  font-weight: 400;
-}
-
-.material-icons.md-24 { font-size: 24px; }
