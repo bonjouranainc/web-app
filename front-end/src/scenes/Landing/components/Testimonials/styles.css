@@ -1,3 +1,16 @@
 .testimonials {
   background-color: var(--g1);
 }
+
+.testimonials img {
+  width: 30%;
+  margin: 2em 1em 0 1em;
+}
+
+.testimonials p {
+  margin: 0.5em;
+}
+
+#quote {
+  margin-bottom: 2em;
+}

@@ -2,14 +2,18 @@ import React, { Component } from 'react';
 
 import './styles.css';
 
+import url from '../../images/svg/testimonial-img.svg';
+
 class Testimonials extends Component {
   render() {
     return (
       <div className='testimonials wrapper'>
-        <p>img</p>
-        <h1>Name</h1>
-        <h3>Who is it?</h3>
-        <p>Quote about persons opinion on the product</p>
+        <div className='row1'>
+          <img src={ url } />
+          <p className='b-txt'>Name</p>
+          <p>Who is it?</p>
+          <p id='quote'>Quote about persons opinion on the product</p>
+        </div>
       </div>
     );
   }
