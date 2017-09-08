@@ -16,3 +16,53 @@
   color: #000;
   text-decoration: none;
 }
+
+.footerTop {
+  height: 30vh;
+  background-color: var(--g1);
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footerTop img {
+  height: 15%; 
+  width: auto;
+  margin: 0.5em;
+}
+
+.footerTop a {
+  margin: 0.5em;
+  color: #000;
+  text-decoration: none;
+  margin: 0.5em;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+
+.info {
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+}
+
+.more {
+  display: flex;
+  flex-direction: column;
+}
+
+.locations {
+  display: none;  
+}
+
+@media only screen and (min-width : 768px) {
+  .locations {
+    display: initial;
+  }
+}
