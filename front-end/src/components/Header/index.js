@@ -7,10 +7,10 @@ class Header extends Component {
     return (
       <div className='header'> 
         <div className='logo'>
-          <h1 className='p-txt'>Bonjour Ana</h1>
+          <h1 className='h-txt-r'>BA</h1>
         </div>
         <div className='menu'>
-          <h1>#</h1>
+          <i class="material-icons">&#xE5D2;</i>
         </div>
       </div>
     ); 
