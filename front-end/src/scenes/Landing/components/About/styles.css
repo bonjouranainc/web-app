@@ -8,13 +8,3 @@
   margin-bottom: 1em;
 }
 
-.row1, .row2, .row3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: auto;
-  text-align: center;
-}
-
