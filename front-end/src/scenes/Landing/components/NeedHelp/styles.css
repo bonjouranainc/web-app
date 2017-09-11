@@ -1,5 +1,6 @@
 .needHelp {
   display: none;
+  padding: 2em 1em;
 }
 
 .needHelp h1 {
@@ -7,13 +8,18 @@
 }
 
 .btn-group {
+  margin-top: 2em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (min-width : 768px) {
   .needHelp {
-    display: initial;
+    display: flex;
   }
 }
+
+
 
