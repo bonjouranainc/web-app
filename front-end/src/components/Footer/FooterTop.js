@@ -21,9 +21,6 @@ class FooterTop extends Component {
               Sobre BA
             </a>
             <a href='#'>
-              FAQ
-            </a>
-            <a href='#'>
               Blog
             </a>
             <a href='#'>
