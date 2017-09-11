@@ -10,7 +10,7 @@ class Header extends Component {
           <h1 className='h-txt-r'>BA</h1>
         </div>
         <div className='menu'>
-          <i class="material-icons">&#xE5D2;</i>
+          <i className="material-icons">menu</i>
         </div>
       </div>
     ); 
