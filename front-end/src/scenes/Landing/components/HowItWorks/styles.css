@@ -3,7 +3,7 @@
 }
 
 .howItWorks img {
-  max-width: 50%;
+  width: 50%;
   height: auto;
   margin-bottom: 1em;
 }
@@ -22,3 +22,35 @@
   }
 }
 
+@media only screen and (min-width: 1000px) {
+  .howItWorks p {
+    margin: 0;
+  }
+
+  .howItWorks img {
+    width: 20%;
+  }
+
+  .group {
+    width: 90vw;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .group1 {
+    flex-direction: row-reverse;
+  }
+
+  .group3 {
+    flex-direction: row-reverse;
+  }
+
+  .cont {
+    width: 30vw;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -7,8 +7,16 @@
   text-align: center;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .welcome-btns {
   display: flex;
+  align-items: center;
 }
 
 .welcome img {
@@ -20,5 +28,16 @@
 @media only screen and (min-width: 768px) {
   .welcome img {
     max-width: 55%; 
+    margin: 3em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .welcome {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .welcome img {
+    width: 40%;
   }
 }

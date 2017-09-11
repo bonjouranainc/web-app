@@ -17,25 +17,31 @@ class HowItWorks extends Component {
         <div>
           <h1 className='b-txt'>Como funciona?</h1>
         </div>
-        <div className='row'>
+        <div className='row group group1'>
           <img src={ url1 } onerror='this.src={ fallback1 }' />
-          <h2>1 Escoja los servicios</h2>
-          <p>Seleccione entre una variedad de servicios para el hogar 
-          y escoja el día y  hora que desea recibir el servicvio.</p> 
+          <div className='cont'>
+            <h2>1 Escoja los servicios</h2>
+            <p>Seleccione entre una variedad de servicios para el hogar 
+            y escoja el día y  hora que desea recibir el servicvio.</p> 
+          </div>
         </div>
-        <div className='row'>
+        <div className='row group group2'>
           <img src={ url2 } onerror='this.src={ fallback2 }' />
-          <h2>2 Reciba su visita</h2>
-          <p>Un personal entrenado y confiable le visitará cada semana 
-          u ocasión para brindarle el servicio.</p>
-        <div className='row'>
-          <img src={ url3 } onerror='this.src={ fallback3}' />
-          <h2>3 Voila! <br/>
-          Todas sus tareas completadas</h2>
-          <p>Llega a un hogar limpio y fresco, con las compras del 
-          supermercado realizada, el dry-cleaning recogido y todas 
-          sus tareas completadas.</p>
+          <div className='cont'>
+            <h2>2 Reciba su visita</h2>
+            <p>Un personal entrenado y confiable le visitará cada semana 
+            u ocasión para brindarle el servicio.</p>
+          </div>
         </div>
+        <div className='row group group3'>
+          <img src={ url3 } onerror='this.src={ fallback3}' />
+          <div className='cont'>
+            <h2>3 Voila! <br/>
+            Todas sus tareas completadas</h2>
+            <p>Llega a un hogar limpio y fresco, con las compras del 
+            supermercado realizada, el dry-cleaning recogido y todas 
+            sus tareas completadas.</p>
+          </div>
         </div>
       </div>
     );
