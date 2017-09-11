@@ -79,6 +79,10 @@
     justify-content: center;
   }
 
+  .footerTop img {
+    margin: 0.5em 1em;
+  }
+
   .footerTop {
     height: 25vh;
   }
