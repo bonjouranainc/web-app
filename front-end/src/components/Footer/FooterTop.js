@@ -39,15 +39,15 @@ class FooterTop extends Component {
               Unete a nosotros
             </a>
           </div>
-          <div className='locations'>
-            <h2>Locations</h2>
-              <p>San Juan</p>
-              <p>Carolina</p>
-              <p>Guaynabo</p>
-              <p>Canovanas</p>
-              <p>Caguas</p>
-              <p>Trujillo Alto</p>
-              <p>Bayamon</p>
+          <div className='locations s-txt'>
+            <p className='b-txt'>Locations</p>
+            <p>San Juan</p>
+            <p>Carolina</p>
+            <p>Guaynabo</p>
+            <p>Canovanas</p>
+            <p>Caguas</p>
+            <p>Trujillo Alto</p>
+            <p>Bayamon</p>
           </div>
         </div>
       </div>
