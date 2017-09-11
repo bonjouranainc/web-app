@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import facebook from './images/facebook-icon.svg';
 import twitter from './images/twitter-icon.svg';
 import instagram from './images/instagram-icon.svg';
+import medium from './images/Monogram.svg';
 
 import './styles.css';
 
@@ -12,8 +13,9 @@ class FooterTop extends Component {
       <div className='footerTop'> 
         <div className='social'>
           <img src={ facebook } />
-          <img src={ twitter } />
+          <img src={ medium } />
           <img src={ instagram } />
+          <img src={ twitter } />
         </div>
         <div className='info'>
           <div className='more s-txt'>

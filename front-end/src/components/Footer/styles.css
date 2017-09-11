@@ -9,9 +9,9 @@
 }
 
 .footerTop img {
-  height: 30%; 
+  height: 35%; 
   width: auto;
-  margin: 0.5em;
+  margin: 1em;
 }
 
 .footerTop a {
@@ -73,14 +73,28 @@
 }
 
 @media only screen and (min-width : 768px) {
+  .footerTop img {
+    padding: 1em;
+  }
+
+  .social {
+  }
+}
+
+@media only screen and (min-width : 1100px) {
   .locations {
     display: flex;  
     flex-direction: column;
     justify-content: center;
   }
 
+  .social {
+    padding: 0 2em; 
+  }
+
   .footerTop img {
-    margin: 0.5em 1em;
+    height: 20%;
+    margin: 1em;
   }
 
   .footerTop {
