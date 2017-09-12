@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import logo from './images/ba-logo.svg';
 import './styles.css';
 
 class Header extends Component {
@@ -7,7 +8,9 @@ class Header extends Component {
     return (
       <div className='header'> 
         <div className='logo'>
-          <h1 className='h-txt-r'>BA</h1>
+          <a href='#'>
+            <img src={ logo } />
+          </a>
         </div>
         <div className='menu'>
           <i className="material-icons">menu</i>

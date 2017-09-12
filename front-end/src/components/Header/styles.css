@@ -8,3 +8,15 @@
   width: auto;
 }
 
+.logo img {
+  width: 15%;
+  height: auto;
+}
+
+@media only screen and (min-width : 768px) {
+  .logo img {
+    width: 30%;  
+  }
+}
+
+
