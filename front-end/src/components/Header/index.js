@@ -12,8 +12,13 @@ class Header extends Component {
             <img src={ logo } />
           </a>
         </div>
-        <div className='menu'>
-          <i className="material-icons">menu</i>
+        <div className='menu s-txt'>
+          <a href='#'>
+            <p>Register</p>
+          </a>
+          <a href='#'>
+            <p>Sign in</p>
+          </a>
         </div>
       </div>
     ); 

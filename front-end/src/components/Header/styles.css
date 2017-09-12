@@ -9,8 +9,22 @@
 }
 
 .logo img {
-  width: 15%;
+  width: 20%;
   height: auto;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 0.5em;
+  white-space: nowrap;
 }
 
 @media only screen and (min-width : 768px) {
