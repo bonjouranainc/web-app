@@ -15,7 +15,7 @@ class FooterTop extends Component {
           <a href='http://facebook.com/bonjouranainc' target='_blank'>
             <img src={ facebook } />
           </a>
-          <a href='#' target='_blank'>
+          <a href='https://medium.com/@bonjouranainc' target='_blank'>
             <img src={ medium } />
           </a>
           <a href='http://instagram.com/bonjouranainc' target='_blank'>
