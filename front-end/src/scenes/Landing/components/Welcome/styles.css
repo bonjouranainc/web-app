@@ -1,6 +1,7 @@
 .welcome  {
   height: 90vh;
   width: auto;
+  margin-top: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;

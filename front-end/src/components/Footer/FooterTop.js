@@ -12,10 +12,18 @@ class FooterTop extends Component {
     return (
       <div className='footerTop'> 
         <div className='social'>
-          <img src={ facebook } />
-          <img src={ medium } />
-          <img src={ instagram } />
-          <img src={ twitter } />
+          <a href='http://facebook.com/bonjouranainc' target='_blank'>
+            <img src={ facebook } />
+          </a>
+          <a href='#' target='_blank'>
+            <img src={ medium } />
+          </a>
+          <a href='http://instagram.com/bonjouranainc' target='_blank'>
+            <img src={ instagram } />
+          </a>
+          <a href='http://twitter.com/bonjouranainc' target='_blank'>
+            <img src={ twitter } />
+          </a>
         </div>
         <div className='info'>
           <div className='more s-txt'>
