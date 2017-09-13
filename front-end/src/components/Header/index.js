@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import logo from './images/ba-logo.svg';
+import logo from './images/ba-logo-w.svg';
 import './styles.css';
 
 class Header extends Component {
