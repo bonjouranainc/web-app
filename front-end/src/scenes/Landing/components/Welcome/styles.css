@@ -1,4 +1,4 @@
-.welcome  {
+.l-welcome  {
   height: 90vh;
   width: auto;
   margin-top: 10vh;
@@ -20,35 +20,35 @@
   align-items: center;
 }
 
-.welcome img {
+.l-welcome img {
   max-width: 80%;
   height: auto;
   margin: 2em;
 }
 
 @media only screen and (min-width: 320px) and (orientation: landscape) {
-  .welcome {
+  .l-welcome {
     flex-direction: row;
     justify-content: space-around;
   }
-  .welcome img {
+  .l-welcome img {
     width: 40%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .welcome img {
+  .l-welcome img {
     max-width: 55%; 
     margin: 3em;
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  .welcome {
+  .l-welcome {
     flex-direction: row;
     justify-content: space-around;
   }
-  .welcome img {
+  .l-welcome img {
     width: 40%;
   }
 }

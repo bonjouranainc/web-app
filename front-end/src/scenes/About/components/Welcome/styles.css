@@ -1,0 +1,13 @@
+.a-welcome  {
+  height: 20vh;
+  width: auto;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.a-welcome h1 {
+  margin: 0; 
+}

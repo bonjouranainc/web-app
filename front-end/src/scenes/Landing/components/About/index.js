@@ -15,15 +15,15 @@ class About extends Component {
     return(
       <div className='about wrapper'>
         <div className='content'>
-          <div className='row'>
+          <div className='col'>
             <h2>Servicio de calidad</h2> 
             <img src={ url1 } onerror='this.src={ fallback1 }' />
           </div>
-          <div className='row'>
+          <div className='col'>
             <h2>Personal confiable y seguro</h2> 
             <img src={ url2 } onerror='this.src={ fallback2 }' />
           </div>
-          <div className='row'>
+          <div className='col'>
             <h2>Hogar limpio y fresco</h2> 
             <img src={ url3 } onerror='this.src={ fallback3 }' />
           </div>

@@ -5,7 +5,9 @@ import {
   Link,
   Switch
 } from 'react-router-dom';
+
 import Landing from './scenes/Landing/index.js';
+import About from './scenes/About/index.js'
 import LearnMore from './scenes/LearnMore/index.js'
 
 class Routes extends Component {
@@ -14,6 +16,7 @@ class Routes extends Component {
       <Router> 
         <Switch>
           <Route exact path='/' component={Landing} />
+          <Route path='/about' component={About} />
           <Route path='/learn' component={LearnMore} />
         </Switch>
       </Router>

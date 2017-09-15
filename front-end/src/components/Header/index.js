@@ -28,7 +28,7 @@ class Header extends Component {
     return (
       <div className={'header ' + classHide }> 
         <div className='logo'>
-          <a href='#'>
+          <a href='/'>
             <img src={ logo } />
           </a>
         </div>

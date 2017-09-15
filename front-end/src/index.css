@@ -53,16 +53,25 @@ a {
 }
 
 
-/* Rows */
-.row {
+/* Cols & Rows */
+.col {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   width: 100vw;
   height: auto;
   text-align: center;
-  width: auto;
 }
 
 /*

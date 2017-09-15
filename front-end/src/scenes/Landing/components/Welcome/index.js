@@ -8,7 +8,7 @@ import './styles.css';
 class Welcome extends Component {
   render() {
     return (
-      <div className='welcome wrapper'>
+      <div className='l-welcome wrapper'>
         <div className='main'>
           <div className='header-txt'>
             <h1>Completamos <br/>
