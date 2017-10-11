@@ -16,10 +16,12 @@ class Welcome extends Component {
             y <span className='b-txt'>necesidades diarias</span></h1>
           </div>
           <div className='welcome-btns'>
-            <a href='#' className='button-y'>
+            <a href='https://bonjourana.com/collections/servicio-al-hogar/products/servicio-de-limpieza' 
+            className='button-y'>
               Limpieza
             </a>
-            <a href='#' className='button-y'>
+            <a href='https://bonjourana.com/collections/servicio-al-hogar' 
+            className='button-y'>
               Servicios
             </a>
           </div>
