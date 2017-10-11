@@ -1,0 +1,7 @@
+.staff {
+  padding: 2em 1em;
+} 
+
+.staff-header, .staff-body {
+  display: none;
+}

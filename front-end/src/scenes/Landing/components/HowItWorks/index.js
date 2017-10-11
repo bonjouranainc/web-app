@@ -15,7 +15,7 @@ class HowItWorks extends Component {
     return (
       <div className='howItWorks wrapper'>
         <div>
-          <h1 className='b-txt'>Como funciona?</h1>
+          <h1 className='b-txt'>Cómo funciona?</h1>
         </div>
         <div className='col group group1'>
           <img src={ url1 } onerror='this.src={ fallback1 }' />

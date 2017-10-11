@@ -6,10 +6,10 @@ class Staff extends Component {
   render() {
     return (
       <div className='staff wrapper'>
-        <div className='row'>
+        <div className='row staff-header'>
           <h1 className='b-txt'>Staff</h1>
         </div>
-        <div className='row'>
+        <div className='row staff-body'>
           <div className='person'>
             <h2>image</h2>
           </div>
@@ -26,7 +26,7 @@ class Staff extends Component {
             <h2>image</h2>
           </div>
         </div>
-        <div className='row'>
+        <div className='row staff-body'>
           <div className='person'>
             <h2>image</h2>
           </div>
@@ -43,7 +43,7 @@ class Staff extends Component {
             <h2>image</h2>
           </div>
         </div>
-          <a href='#' className='button-y'>Join Us</a>
+          <a href='mailto:hi@bonjourana.com' className='button-y'>Join Us</a>
       </div>
     );
   }
