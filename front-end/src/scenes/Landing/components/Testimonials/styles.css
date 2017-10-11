@@ -10,3 +10,21 @@
 .testimonials p {
   margin: 0.5em;
 }
+
+.navigation {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation i {
+  padding: 0.5em;
+}
+
+@media only screen and (min-width: 768px) {
+  .navigation i {
+    padding: 1em;
+  }
+}
