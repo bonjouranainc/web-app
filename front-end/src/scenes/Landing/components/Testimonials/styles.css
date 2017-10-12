@@ -1,10 +1,11 @@
 .testimonials {
   background-color: var(--g1);
-  padding: 2em 0;
+  padding: 2em 1em;
 }
 
 .testimonials img {
-  width: 30%;
+  width: auto;
+  height: 6em;
   border-radius: 100px;
 }
 
@@ -14,19 +15,43 @@
 }
 
 .navigation {
-  height: 100%;
+  height: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
 }
 
 .navigation i {
   padding: 0.5em;
 }
 
+.navigation button {
+  background-color: transparent;
+  border: none;
+}
+
 @media only screen and (min-width: 768px) {
+  .testimonials p {
+    margin: 1em 6em 2em 6em; 
+  }
+  
   .navigation i {
     padding: 1em;
+  }
+
+  .testimonial img {
+    width: auto;
+    height: 8em;
+    border-radius: 100px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .testimonial img {
+    width: auto;
+    height: 10em;
+    border-radius: 100px;
   }
 }

@@ -20,4 +20,4 @@ class Testimonial extends Component {
   }
 }
 
-export default Testimonial
+export default Testimonial;
