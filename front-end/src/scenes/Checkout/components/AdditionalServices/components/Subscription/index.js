@@ -1,35 +1,38 @@
 import React, { Component } from 'react';
 
-import './styles.css';
+import '../../styles.css';
 
-class Recurrence extends Component {
+class Subscription extends Component {
   render() {
     return (
-      <div className='recurrence wrapper'>
-        <div className='col'>
-          <p className='b-txt'>Recurrence</p> 
-          <p className='s-txt'>Escoja la recurrencia de los servicios</p>
+      <div className='additional-services'>
+        <div className='row'>
+          <button
+            className='button-y-o' 
+          >
+            Compra de Alimentos
+          </button>
+          <button
+            className='button-y-o' 
+          >
+            Dry-cleaning
+          </button>
+          <button
+            className='button-y-o' 
+          >
+            Laundry 
+          </button>
         </div>
         <div className='row'>
           <button
             className='button-y-o' 
           >
-            Semanal
+            Sastre
           </button>
           <button
             className='button-y-o' 
           >
-            Bi-Semanal
-          </button>
-          <button
-            className='button-y-o' 
-          >
-            Mensual 
-          </button>
-          <button
-            className='button-y-o' 
-          >
-            Una Vez
+            Zapatero
           </button>
         </div>
       </div>
@@ -37,4 +40,4 @@ class Recurrence extends Component {
   }
 }
 
-export default Recurrence;
+export default Subscription;

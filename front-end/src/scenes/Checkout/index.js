@@ -10,9 +10,13 @@ import Totals from './components/Totals/index.js';
 
 class Checkout extends Component {
   render() {
+
     return (
-      <div>
+      <div className='wrapper'>
+        <h1>Checkout</h1>
         <Recurrence />
+        <AdditionalServices />
+        <HomeType />
       </div>
     );
   }
