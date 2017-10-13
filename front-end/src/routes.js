@@ -9,6 +9,7 @@ import {
 import Landing from './scenes/Landing/index.js';
 import About from './scenes/About/index.js'
 import LearnMore from './scenes/LearnMore/index.js'
+import Checkout from './scenes/Checkout/index.js'
 
 class Routes extends Component {
   render() {
@@ -18,6 +19,7 @@ class Routes extends Component {
           <Route exact path='/' component={Landing} />
           <Route path='/about' component={About} />
           <Route path='/learn' component={LearnMore} />
+          <Route path='/checkout' component={Checkout} />
         </Switch>
       </Router>
     ); 

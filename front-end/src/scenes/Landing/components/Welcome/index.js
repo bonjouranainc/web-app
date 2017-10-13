@@ -26,7 +26,6 @@ class Welcome extends Component {
             </a>
           </div>
         </div>
-        <img src={ url } onerror='this.src={ fallback }' />
       </div>
     );
   }
