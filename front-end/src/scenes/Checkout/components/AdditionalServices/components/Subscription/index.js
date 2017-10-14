@@ -6,6 +6,10 @@ class Subscription extends Component {
   render() {
     return (
       <div className='additional-services'>
+        <div className='col'>
+          <p className='b-txt'>Additional Services</p> 
+            <p className='s-txt'>Escoja servicios adicionales</p>
+        </div>
         <div className='row'>
           <button
             className='button-y-o' 

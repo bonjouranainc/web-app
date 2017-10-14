@@ -1,8 +1,24 @@
 import React, { Component } from 'react';
 
+import OneTimeAdditionalServices from '../AdditionalServices/components/OneTime/index.js'
+import SubscriptionAdditionalServices from '../AdditionalServices/components/Subscription/index.js'
+
 import './styles.css';
 
 class Recurrence extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      subscribedUser: false,
+      oneTimeUser: false
+    }
+
+    this._toggleOneTimeUser = this._toggleOneTimeUser.bind(this);
+    this._toggleSubscriptionUser = this._toggleSubscriptionUser.bind(this);
+
+  }
+
   render() {
     return (
       <div className='recurrence wrapper'>
@@ -13,28 +29,55 @@ class Recurrence extends Component {
         <div className='row'>
           <button
             className='button-y-o' 
+            onClick={this._toggleSubscriptionUser}
           >
             Semanal
           </button>
           <button
             className='button-y-o' 
+            onClick={this._toggleSubscriptionUser}
           >
             Bi-Semanal
           </button>
           <button
             className='button-y-o' 
+            onClick={this._toggleSubscriptionUser}
           >
             Mensual 
           </button>
           <button
             className='button-y-o' 
+            onClick={this._toggleOneTimeUser}
           >
             Una Vez
           </button>
         </div>
+        { this.state.subscribedUser ?
+          <OneTimeAdditionalServices />
+          :
+          null }
+        {this.state.oneTimeUser ?
+          <SubscriptionAdditionalServices />
+          :
+          null }
       </div>
     );
   }
+
+  _toggleOneTimeUser() {
+      this.setState({
+        subscribedUser: false,
+        oneTimeUser: !this.state.oneTimeUser
+      })
+  }
+
+  _toggleSubscriptionUser() {
+      this.setState({
+        oneTimeUser: false,
+        subscribedUser: !this.state.oneTimeUser
+      })
+  }
+
 }
 
 export default Recurrence;

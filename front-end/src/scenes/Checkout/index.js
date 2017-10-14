@@ -9,13 +9,20 @@ import Hours from './components/Hours/index.js';
 import Totals from './components/Totals/index.js';
 
 class Checkout extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+    }
+
+  }
+
   render() {
 
     return (
       <div className='wrapper'>
         <h1>Checkout</h1>
         <Recurrence />
-        <AdditionalServices />
         <HomeType />
         <Days />
         <Hours />
