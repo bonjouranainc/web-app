@@ -6,7 +6,9 @@ class Totals extends Component {
   render() {
     return (
       <div className='totals'>
-        <h1>Totals</h1> 
+        <p className='s-txt'>Sub-total</p>
+        <p className='s-txt b-txt'>Savings</p>
+        <h2>Total</h2>
       </div>
     );
   }

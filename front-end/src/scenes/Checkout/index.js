@@ -17,6 +17,9 @@ class Checkout extends Component {
         <Recurrence />
         <AdditionalServices />
         <HomeType />
+        <Days />
+        <Hours />
+        <Totals />
       </div>
     );
   }
