@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import OneTimeAdditionalServices from '../AdditionalServices/components/OneTime/index.js'
 import SubscriptionAdditionalServices from '../AdditionalServices/components/Subscription/index.js'
+import AdditionalServices from '../AdditionalServices/index.js'
 
 import './styles.css';
 
@@ -53,13 +54,14 @@ class Recurrence extends Component {
           </button>
         </div>
         { this.state.subscribedUser ?
-          <SubscriptionAdditionalServices />
-          :
-          null }
-        {this.state.oneTimeUser ?
-          <OneTimeAdditionalServices />
-          :
-          null }
+        <SubscriptionAdditionalServices />
+        :
+        null
+        }
+        { this.state.oneTimeUser ? 
+        <OneTimeAdditionalServices />
+        :
+        null }
       </div>
     );
   }

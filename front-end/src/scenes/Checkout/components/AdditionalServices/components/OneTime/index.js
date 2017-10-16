@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import HomeType from '../../../HomeType/index.js';
+
 import '../../styles.css';
 
 class OneTime extends Component {

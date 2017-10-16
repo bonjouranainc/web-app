@@ -6,34 +6,48 @@ class Days extends Component {
   render() {
     return (
       <div className='days'>
-        <input type='checkbox' className='weekday' id='sun' />
-        <label for='sun'>
-          Sun
-        </label>
-        <input type='checkbox' className='weekday' id='mon' />
-        <label for='mon'>
-          Mon
-        </label>
-        <input type='checkbox' className='weekday' id='tue' />
-        <label for='tue'>
-          Tue
-        </label>
-        <input type='checkbox' className='weekday' id='wed' />
-        <label for='wed'>
-          Wed
-        </label>
-        <input type='checkbox' className='weekday' id='thu' />
-        <label for='thu'>
-          Thu
-        </label>
-        <input type='checkbox' className='weekday' id='fri' />
-        <label for='fri'>
-          Fri
-        </label>
-        <input type='checkbox' className='weekday' id='sat' />
-        <label for='sat'>
-          Sat
-        </label>
+        <div className='inline-picker'>
+          <label for='sun'>
+          <input type='checkbox' className='weekday' id='sun' />
+            <span>Sun</span>
+          </label>
+        </div>
+        <div className='inline-picker'>
+          <label for='mon'>
+          <input type='checkbox' className='weekday' id='mon' />
+            <span>Mon</span>
+          </label>
+        </div>
+        <div className='inline-picker'>
+          <label for='tue'>
+          <input type='checkbox' className='weekday' id='tue' />
+            <span>Tue</span>
+          </label>
+        </div>
+        <div className='inline-picker'>
+          <label for='wed'>
+          <input type='checkbox' className='weekday' id='wed' />
+            <span>Wed</span>
+          </label>
+        </div>
+        <div className='inline-picker'>
+          <label for='thu'>
+          <input type='checkbox' className='weekday' id='thu' />
+            <span>Thu</span>
+          </label>
+        </div>
+        <div className='inline-picker'>
+          <label for='fri'>
+          <input type='checkbox' className='weekday' id='fri' />
+            <span>Fri</span>
+          </label>
+        </div>
+        <div className='inline-picker'>
+          <label for='sat'>
+          <input type='checkbox' className='weekday' id='sat' />
+            <span>Sat</span>
+          </label>
+        </div>
       </div>
     );
   }

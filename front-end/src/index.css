@@ -144,10 +144,16 @@ a {
 /* Checkboxes */
 
 .checkbox-btn {
-  color: #000;
   background-color: transparent;
   border: solid 1px var(--ba-yellow);
   border-radius: 5px;
+  margin: 0.5em;
+  overflow: auto;
+  float: left;
+}
+
+.inline-picker {
+  background-color: var(--g1);
   margin: 0.5em;
   overflow: auto;
   float: left;
@@ -157,20 +163,23 @@ a {
   float: left;
 }
 
-.checkbox-btn label span {
+.checkbox-btn, .inline-picker label span {
   padding: 0.5em 1.5em 0.5em 1.5em;
   text-align: center;
   display: block;
 }
 
-.checkbox-btn label input {
+.checkbox-btn, .inline-picker label input {
   position: absolute;
   top: -20px;
 }
 
-.checkbox-btn input:checked + span {
+.checkbox-btn, .inline-picker input:checked + span {
   background-color: var(--ba-yellow);
 }
+
+
+
 /*
     Custom, iPhone Retina 
     @media only screen and (min-width : 320px) {

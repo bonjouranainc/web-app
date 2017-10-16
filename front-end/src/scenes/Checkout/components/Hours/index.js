@@ -6,62 +6,60 @@ class Hours extends Component {
   render() {
     return (
       <div className='hours'>
-        <form>
-          <div>
-            <input type='checkbox' className='weekday' id='sun' />
+          <div className='inline-picker'>
             <label for='7'>
-              7 AM
+            <input type='checkbox' className='weekday' id='sun' />
+              <span>7 AM</span>
             </label>
           </div>
-          <div>
-            <input type='checkbox' className='weekday' id='mon' />
+          <div className='inline-picker'>
             <label for='8'>
-              8 AM
+            <input type='checkbox' className='weekday' id='mon' />
+              <span>8 AM</span>
             </label>
           </div>
-          <div>
-            <input type='checkbox' className='weekday' id='tue' />
+          <div className='inline-picker'>
             <label for='9'>
-              9 AM
+            <input type='checkbox' className='weekday' id='tue' />
+              <span>9 AM</span>
             </label>
           </div>
-          <div>
-            <input type='checkbox' className='weekday' id='wed' />
+          <div className='inline-picker'>
             <label for='10'>
-              10 AM
+            <input type='checkbox' className='weekday' id='wed' />
+              <span>10 AM</span>
             </label>
           </div>
-          <div>
-            <input type='checkbox' className='weekday' id='thu' />
+          <div className='inline-picker'>
             <label for='11'>
-              11 AM
+            <input type='checkbox' className='weekday' id='thu' />
+              <span>11 AM</span>
             </label>
           </div>
-          <div>
-            <input type='checkbox' className='weekday' id='fri' />
+          <div className='inline-picker'>
             <label for='12'>
-              12 PM
+            <input type='checkbox' className='weekday' id='fri' />
+              <span>12 PM</span>
             </label>
           </div>
-          <div>
-            <input type='checkbox' className='weekday' id='sat' />
+          <div className='inline-picker'>
             <label for='1'>
-              1 PM
+            <input type='checkbox' className='weekday' id='sat' />
+              <span>1 PM</span>
             </label>
           </div>
-          <div>
-            <input type='checkbox' className='weekday' id='sat' />
+          <div className='inline-picker'>
             <label for='2'>
-              2 PM
-            </label>
-          </div>
-          <div>
             <input type='checkbox' className='weekday' id='sat' />
-            <label for='3'>
-              3 PM
+              <span>2 PM</span>
             </label>
           </div>
-        </form>
+          <div className='inline-picker'>
+            <label for='3'>
+            <input type='checkbox' className='weekday' id='sat' />
+              <span>3 PM</span>
+            </label>
+          </div>
       </div>
     );
   }
