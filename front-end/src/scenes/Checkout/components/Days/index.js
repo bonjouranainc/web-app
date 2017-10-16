@@ -9,45 +9,45 @@ class Days extends Component {
         <form>
           <div>
             <input type='checkbox' className='weekday' id='sun' />
-            <lable for='sun'>
+            <label for='sun'>
               Sun
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='mon' />
-            <lable for='mon'>
+            <label for='mon'>
               Mon
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='tue' />
-            <lable for='tue'>
+            <label for='tue'>
               Tue
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='wed' />
-            <lable for='wed'>
+            <label for='wed'>
               Wed
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='thu' />
-            <lable for='thu'>
+            <label for='thu'>
               Thu
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='fri' />
-            <lable for='fri'>
+            <label for='fri'>
               Fri
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='sat' />
-            <lable for='sat'>
+            <label for='sat'>
               Sat
-            </lable>
+            </label>
           </div>
         </form>
       </div>

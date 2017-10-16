@@ -9,57 +9,57 @@ class Hours extends Component {
         <form>
           <div>
             <input type='checkbox' className='weekday' id='sun' />
-            <lable for='7'>
+            <label for='7'>
               7 AM
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='mon' />
-            <lable for='8'>
+            <label for='8'>
               8 AM
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='tue' />
-            <lable for='9'>
+            <label for='9'>
               9 AM
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='wed' />
-            <lable for='10'>
+            <label for='10'>
               10 AM
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='thu' />
-            <lable for='11'>
+            <label for='11'>
               11 AM
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='fri' />
-            <lable for='12'>
+            <label for='12'>
               12 PM
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='sat' />
-            <lable for='1'>
+            <label for='1'>
               1 PM
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='sat' />
-            <lable for='2'>
+            <label for='2'>
               2 PM
-            </lable>
+            </label>
           </div>
           <div>
             <input type='checkbox' className='weekday' id='sat' />
-            <lable for='3'>
+            <label for='3'>
               3 PM
-            </lable>
+            </label>
           </div>
         </form>
       </div>

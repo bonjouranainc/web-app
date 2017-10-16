@@ -67,7 +67,7 @@ class Recurrence extends Component {
   _toggleOneTimeUser() {
       this.setState({
         subscribedUser: false,
-        oneTimeUser: !this.state.oneTimeUser
+        neTimeUser: !this.state.oneTimeUser
       })
   }
 
