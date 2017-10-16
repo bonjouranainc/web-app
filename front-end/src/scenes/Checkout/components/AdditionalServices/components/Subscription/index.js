@@ -10,34 +10,27 @@ class Subscription extends Component {
           <p className='b-txt'>Additional Services</p> 
             <p className='s-txt'>Escoja servicios adicionales</p>
         </div>
-        <div className='row'>
-          <button
-            className='button-y-o' 
-          >
+        <div className='subscription-services'>
+          <input type='checkbox' className='service' id='compra' />
+          <label for='compra'>
             Compra de Alimentos
-          </button>
-          <button
-            className='button-y-o' 
-          >
+          </label>
+          <input type='checkbox' className='service' id='dry-cleaning' />
+          <label for='dry-cleaning'>
             Dry-cleaning
-          </button>
-          <button
-            className='button-y-o' 
-          >
+          </label>
+          <input type='checkbox' className='service' id='laundry' />
+          <label for='laundry'>
             Laundry 
-          </button>
-        </div>
-        <div className='row'>
-          <button
-            className='button-y-o' 
-          >
+          </label>
+          <input type='checkbox' className='service' id='sastre' />
+          <label for='sastre'>
             Sastre
-          </button>
-          <button
-            className='button-y-o' 
-          >
+          </label>
+          <input type='checkbox' className='service' id='zapatero' />
+          <label for='zapatero'>
             Zapatero
-          </button>
+          </label>
         </div>
       </div>
     );

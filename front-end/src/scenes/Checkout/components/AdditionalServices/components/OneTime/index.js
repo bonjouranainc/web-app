@@ -5,56 +5,44 @@ import '../../styles.css';
 class OneTime extends Component {
   render() {
     return (
-      <div className='one-time'>
+      <div className='additional-services'>
         <div className='col'>
           <p className='b-txt'>Additional Services</p> 
             <p className='s-txt'>Escoja servicios adicionales</p>
         </div>
-        <div className='row'>
-          <button
-            className='button-y-o' 
-          >
+        <div className='one-time-services'>
+          <input type='checkbox' className='service' id='' />
+          <label for=''>
             Estufa
-          </button>
-          <button
-            className='button-y-o' 
-          >
+          </label>
+          <input type='checkbox' className='service' id='' />
+          <label for=''>
             Nevera
-          </button>
-          <button
-            className='button-y-o' 
-          >
+          </label>
+          <input type='checkbox' className='service' id='' />
+          <label for=''>
             Patio o Terraza
-          </button>
-        </div>
-        <div className='row'>
-          <button
-            className='button-y-o' 
-          >
+          </label>
+          <input type='checkbox' className='service' id='' />
+          <label for=''>
             Alacena y Gabinetes
-          </button>
-          <button
-            className='button-y-o' 
-          >
+          </label>
+          <input type='checkbox' className='service' id='' />
+          <label for=''>
             Marquesina
-          </button>
-          <button
-            className='button-y-o' 
-          >
+          </label>
+          <input type='checkbox' className='service' id='' />
+          <label for=''>
             Recogido del hogar
-          </button>
-        </div>
-        <div className='row'>
-          <button
-            className='button-y-o' 
-          >
+          </label>
+          <input type='checkbox' className='service' id='' />
+          <label for=''>
             Laundry
-          </button>
-          <button
-            className='button-y-o' 
-          >
+          </label>
+          <input type='checkbox' className='service' id='' />
+          <label for=''>
             Limpieza de parte frontal de la casa
-          </button>
+          </label>
         </div>
       </div>
     );

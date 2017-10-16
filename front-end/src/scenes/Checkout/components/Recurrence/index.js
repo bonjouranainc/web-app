@@ -53,11 +53,11 @@ class Recurrence extends Component {
           </button>
         </div>
         { this.state.subscribedUser ?
-          <OneTimeAdditionalServices />
+          <SubscriptionAdditionalServices />
           :
           null }
         {this.state.oneTimeUser ?
-          <SubscriptionAdditionalServices />
+          <OneTimeAdditionalServices />
           :
           null }
       </div>
