@@ -6,50 +6,34 @@ class Days extends Component {
   render() {
     return (
       <div className='days'>
-        <form>
-          <div>
-            <input type='checkbox' className='weekday' id='sun' />
-            <label for='sun'>
-              Sun
-            </label>
-          </div>
-          <div>
-            <input type='checkbox' className='weekday' id='mon' />
-            <label for='mon'>
-              Mon
-            </label>
-          </div>
-          <div>
-            <input type='checkbox' className='weekday' id='tue' />
-            <label for='tue'>
-              Tue
-            </label>
-          </div>
-          <div>
-            <input type='checkbox' className='weekday' id='wed' />
-            <label for='wed'>
-              Wed
-            </label>
-          </div>
-          <div>
-            <input type='checkbox' className='weekday' id='thu' />
-            <label for='thu'>
-              Thu
-            </label>
-          </div>
-          <div>
-            <input type='checkbox' className='weekday' id='fri' />
-            <label for='fri'>
-              Fri
-            </label>
-          </div>
-          <div>
-            <input type='checkbox' className='weekday' id='sat' />
-            <label for='sat'>
-              Sat
-            </label>
-          </div>
-        </form>
+        <input type='checkbox' className='weekday' id='sun' />
+        <label for='sun'>
+          Sun
+        </label>
+        <input type='checkbox' className='weekday' id='mon' />
+        <label for='mon'>
+          Mon
+        </label>
+        <input type='checkbox' className='weekday' id='tue' />
+        <label for='tue'>
+          Tue
+        </label>
+        <input type='checkbox' className='weekday' id='wed' />
+        <label for='wed'>
+          Wed
+        </label>
+        <input type='checkbox' className='weekday' id='thu' />
+        <label for='thu'>
+          Thu
+        </label>
+        <input type='checkbox' className='weekday' id='fri' />
+        <label for='fri'>
+          Fri
+        </label>
+        <input type='checkbox' className='weekday' id='sat' />
+        <label for='sat'>
+          Sat
+        </label>
       </div>
     );
   }
