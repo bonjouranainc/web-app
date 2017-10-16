@@ -11,26 +11,36 @@ class Subscription extends Component {
             <p className='s-txt'>Escoja servicios adicionales</p>
         </div>
         <div className='subscription-services'>
-          <input type='checkbox' className='service' id='compra' />
+          <div className='checkbox-btn'>
           <label for='compra'>
-            Compra de Alimentos
+          <input type='checkbox' className='service' id='compra' />
+            <span>Compra de Alimentos</span>
           </label>
-          <input type='checkbox' className='service' id='dry-cleaning' />
-          <label for='dry-cleaning'>
-            Dry-cleaning
-          </label>
-          <input type='checkbox' className='service' id='laundry' />
-          <label for='laundry'>
-            Laundry 
-          </label>
-          <input type='checkbox' className='service' id='sastre' />
-          <label for='sastre'>
-            Sastre
-          </label>
-          <input type='checkbox' className='service' id='zapatero' />
-          <label for='zapatero'>
-            Zapatero
-          </label>
+          </div>
+          <div className='checkbox-btn'>
+            <label for='dry-cleaning'>
+            <input type='checkbox' className='service' id='dry-cleaning' />
+              <span>Dry-cleaning</span>
+            </label>
+          </div>
+          <div className='checkbox-btn'>
+            <label for='laundry'>
+            <input type='checkbox' className='service' id='laundry' />
+              <span>Laundry</span>
+            </label>
+          </div>
+          <div className='checkbox-btn'>
+            <label for='sastre'>
+            <input type='checkbox' className='service' id='sastre' />
+              <span>Sastre</span>
+            </label>
+          </div>
+          <div className='checkbox-btn'>
+            <label for='zapatero'>
+            <input type='checkbox' className='service' id='zapatero' />
+              <span>Zapatero</span>
+            </label>
+          </div>
         </div>
       </div>
     );
