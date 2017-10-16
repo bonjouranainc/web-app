@@ -11,38 +11,48 @@ class OneTime extends Component {
             <p className='s-txt'>Escoja servicios adicionales</p>
         </div>
         <div className='one-time-services'>
-          <input type='checkbox' className='service' id='estufa' />
-          <label for='estufa'>
-            Estufa
-          </label>
-          <input type='checkbox' className='service' id='nevera' />
-          <label for='nevera'>
-            Nevera
-          </label>
-          <input type='checkbox' className='service' id='patio' />
+          <div className='checkbox-btn'>
+            <label for='estufa'>
+            <input type='checkbox' className='service' id='estufa' />
+              <span>Estufa</span>
+            </label>
+          </div>
+          <div className='checkbox-btn'>
+            <label for='nevera'>
+              <input type='checkbox' className='service' id='nevera' />
+                <span>Nevera</span>
+            </label>
+          </div>
+          <div className='checkbox-btn'>
           <label for='patio'>
-            Patio o Terraza
+            <input type='checkbox' className='service' id='patio' />
+              <span>Patio o Terraza</span>
           </label>
-          <input type='checkbox' className='service' id='alacena' />
+          </div>
+          <div className='checkbox-btn'>
           <label for='alacena'>
-            Alacena y Gabinetes
+            <input type='checkbox' className='service' id='alacena' />
+              <span>Alacena y Gabinetes</span>
           </label>
-          <input type='checkbox' className='service' id='marquesina' />
-          <label for='marquesina'>
-            Marquesina
-          </label>
-          <input type='checkbox' className='service' id='recogido' />
+          </div>
+          <div className='checkbox-btn'>
           <label for='recogido'>
-            Recogido del hogar
+            <input type='checkbox' className='service' id='recogido' />
+              <span>Recogido del hogar</span>
           </label>
-          <input type='checkbox' className='service' id='laundry' />
+          </div>
+          <div className='checkbox-btn'>
           <label for='laundry'>
-            Laundry
+            <input type='checkbox' className='service' id='laundry' />
+              <span>Laundry</span>
           </label>
-          <input type='checkbox' className='service' id='landscaping' />
+          </div>
+          <div className='checkbox-btn'>
           <label for='landscaping'>
-            Limpieza de parte frontal de la casa
+            <input type='checkbox' className='service' id='landscaping' />
+              <span>Limpieza de parte frontal de la casa</span>
           </label>
+          </div>
         </div>
       </div>
     );
