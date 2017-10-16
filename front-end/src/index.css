@@ -141,6 +141,36 @@ a {
   margin: 0.5em;
 }
 
+/* Checkboxes */
+
+.checkbox-btn {
+  color: #000;
+  background-color: transparent;
+  border: solid 1px var(--ba-yellow);
+  border-radius: 5px;
+  margin: 0.5em;
+  overflow: auto;
+  float: left;
+}
+
+.checkbox-btn label {
+  float: left;
+}
+
+.checkbox-btn label span {
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  text-align: center;
+  display: block;
+}
+
+.checkbox-btn label input {
+  position: absolute;
+  top: -20px;
+}
+
+.checkbox-btn input:checked + span {
+  background-color: var(--ba-yellow);
+}
 /*
     Custom, iPhone Retina 
     @media only screen and (min-width : 320px) {

@@ -13,14 +13,18 @@ class HomeType extends Component {
           <p className='s-txt'>Escoja el tipo de casa</p>
         </div>
         <div className='row'>
-          <input type='checkbox' className='home-type' id='casa' />
-          <label for='casa'>
-            Casa
-          </label>
-          <input type='checkbox' className='home-type' id='apartamento' />
-          <label for='apartamento'>
-            Apartamento
-          </label>
+          <div className='checkbox-btn'>
+            <label for='casa'>
+            <input type='checkbox' className='home-type' id='casa' />
+              <span>Casa</span>
+            </label>
+          </div>
+          <div className='checkbox-btn'>
+            <label for='apartamento'>
+            <input type='checkbox' className='home-type' id='apartamento' />
+              <span>Apartamento</span>
+            </label>
+          </div>
         </div>
         <div className='row'>
           <p>Pisos</p>
