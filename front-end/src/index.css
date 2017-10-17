@@ -35,6 +35,11 @@ a {
   font-size: 1em;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+}
+
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 2.5em;
@@ -50,6 +55,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2em 1em;
 }
 
 
@@ -89,48 +95,21 @@ a {
   font-size: 0.8em;
 }
 
+/* Buttons */
+
 /*
   Button styles 
     y = yellow
     b = blue
     o = outline
 */
-/* Buttons */
-
-.btn-y {
-  display: flex;
-  padding: 0.5em 1.5em 0.5em 1.5em;
-  color: #000;
-  background-color: var(--ba-yellow);
-  text-decoration: none;  
-  border-radius: 5px;
-  margin: 0.5em;
-}
-
-.btn-y-o {
-  display: flex;
-  padding: 0.5em 1.5em 0.5em 1.5em;
-  color: #000;
-  background-color: transparent;
-  font-size: 1em;
-  text-decoration: none;  
-  border: solid 1px var(--ba-yellow);
-  border-radius: 5px;
-  margin: 0.5em;
-}
-
-.btn-y-o:active {
-  background-color: var(--ba-yellow);
-}
-
-
-/* Not buttons ex. a href */
 
 .button-y {
   display: flex;
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #000;
   background-color: var(--ba-yellow);
+  font-size: 1em;
   text-decoration: none;  
   border-radius: 5px;
   margin: 0.5em;
@@ -157,6 +136,7 @@ a {
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #fff;
   background-color: var(--ba-blue);
+  font-size: 1em;
   text-decoration: none;  
   border-radius: 5px;
   margin: 0.5em;
