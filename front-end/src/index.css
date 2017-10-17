@@ -95,15 +95,17 @@ button {
 .s-txt {
   font-size: 0.8em;
 }
-
 /* Buttons */
 
 /*
   Button styles 
     y = yellow
     b = blue
+    w = white
     o = outline
 */
+
+/* Solid yellow button */
 
 .button-y {
   display: flex;
@@ -116,6 +118,31 @@ button {
   margin: 0.5em;
 }
 
+.button-y:active {
+  background-color: transparent;
+}
+
+/* Solid blue button */
+
+.button-b {
+  display: flex;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  color: #fff;
+  background-color: var(--ba-blue);
+  font-size: 1em;
+  text-decoration: none;  
+  border-radius: 5px;
+  margin: 0.5em;
+  transition: background-color .3s;
+}
+
+.button-b:active {
+  background-color: transparent;
+}
+
+
+/* Outline yellow button */
+
 .button-y-o {
   display: flex;
   padding: 0.5em 1.5em 0.5em 1.5em;
@@ -126,11 +153,14 @@ button {
   border: solid 1px var(--ba-yellow);
   border-radius: 5px;
   margin: 0.5em;
+  transition: background-color .3s;
 }
 
 .button-y-o:active {
   background-color: var(--ba-yellow);
 }
+
+/* Outline white button */
 
 .button-w-o {
   display: flex;
@@ -142,6 +172,7 @@ button {
   border: solid 1px #fff;
   border-radius: 5px;
   margin: 0.5em;
+  transition: background-color .3s;
 }
 
 .button-w-o:active {
@@ -149,15 +180,15 @@ button {
   background-color: var(--ba-yellow);
 }
 
-.button-b {
+/* Button Groups */
+
+.btn-group {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   display: flex;
-  padding: 0.5em 1.5em 0.5em 1.5em;
-  color: #fff;
-  background-color: var(--ba-blue);
-  font-size: 1em;
-  text-decoration: none;  
-  border-radius: 5px;
-  margin: 0.5em;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Checkbox buttons */
@@ -193,6 +224,8 @@ button {
   transition: background-color .3s;
 }
 
+/* Inline pickers ex. Day, Hours */
+
 .inline-picker {
   background-color: var(--g1);
   margin: 0.5em;
@@ -220,16 +253,5 @@ button {
 .inline-picker input:checked + span {
   background-color: var(--ba-yellow);
   transition: background-color .3s;
-}
-
-/* Button Groups */
-
-.btn-group {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 
