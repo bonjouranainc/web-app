@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-import url from '../../images/svg/welcome-img.svg';
-import fallback from '../../images/png/welcome-img.png';
-
 import './styles.css';
 
 class Welcome extends Component {

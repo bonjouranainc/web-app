@@ -25,14 +25,6 @@
   align-items: center;
 }
 
-/*
-.l-welcome img {
-  max-width: 80%;
-  height: auto;
-  margin: 2em;
-}
-*/
-
 @media only screen and (min-width: 320px) and (orientation: landscape) {
   .l-welcome {
     flex-direction: row;
