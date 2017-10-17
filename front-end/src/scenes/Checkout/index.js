@@ -20,7 +20,7 @@ class Checkout extends Component {
   render() {
 
     return (
-      <div className='wrapper'>
+      <div className='col'>
         <h1>Checkout</h1>
         <Recurrence />
         <HomeType />
