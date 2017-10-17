@@ -1,12 +1,15 @@
 .l-welcome  {
   height: 100vh;
+  padding-top: 0;
+  padding-bottom: 0;
   width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('../../images/jpg/ba-bg.jpg');
+  background-image: url('../../images/jpg/ba-bg-mob.jpg');
   background-size: 100%;
+  background-repeat: no-repeat;
   color: #fff;
 }
 
@@ -51,6 +54,7 @@
   .l-welcome {
     flex-direction: row;
     justify-content: space-around;
+    background-image: url('../../images/jpg/ba-bg.jpg');
   }
   .l-welcome img {
     width: 40%;
