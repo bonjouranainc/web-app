@@ -5,7 +5,13 @@ import './styles.css';
 class Hours extends Component {
   render() {
     return (
-      <div className='hours'>
+      <div className='hours wrapper'>
+        <div className='col'>
+          <p className='b-txt'>Horas</p>
+          <p className='s-txt'>Escoja las horas en las que desee 
+          recibir nuestra visita</p>
+        </div>
+        <div className='btn-group'>
           <div className='inline-picker'>
             <label for='7'>
             <input type='checkbox' className='weekday' id='sun' />
@@ -60,6 +66,7 @@ class Hours extends Component {
               <span>3 PM</span>
             </label>
           </div>
+        </div>
       </div>
     );
   }

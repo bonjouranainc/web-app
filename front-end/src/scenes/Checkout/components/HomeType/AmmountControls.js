@@ -16,7 +16,7 @@ class AmmountControls extends Component {
 
   render() {
     return (
-      <div className='row'>
+      <div className='ammount-controls row'>
         <button
           onClick={this._subtract}
         >

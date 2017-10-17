@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import OneTimeAdditionalServices from '../AdditionalServices/components/OneTime/index.js'
 import SubscriptionAdditionalServices from '../AdditionalServices/components/Subscription/index.js'
-import AdditionalServices from '../AdditionalServices/index.js'
 
 import './styles.css';
 
@@ -27,7 +26,7 @@ class Recurrence extends Component {
           <p className='b-txt'>Recurrence</p> 
           <p className='s-txt'>Escoja la recurrencia de los servicios</p>
         </div>
-        <div className='row'>
+        <div className='btn-group'>
           <button
             className='button-y-o' 
             onClick={this._toggleSubscriptionUser}

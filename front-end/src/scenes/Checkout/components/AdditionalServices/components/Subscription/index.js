@@ -7,12 +7,12 @@ import '../../styles.css';
 class Subscription extends Component {
   render() {
     return (
-      <div className='additional-services'>
+      <div className='additional-services wrapper'>
         <div className='col'>
           <p className='b-txt'>Additional Services</p> 
             <p className='s-txt'>Escoja servicios adicionales</p>
         </div>
-        <div className='subscription-services'>
+        <div className='btn-group'>
           <div className='checkbox-btn'>
           <label for='compra'>
           <input type='checkbox' className='service' id='compra' />

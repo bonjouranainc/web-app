@@ -95,6 +95,37 @@ a {
     b = blue
     o = outline
 */
+/* Buttons */
+
+.btn-y {
+  display: flex;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  color: #000;
+  background-color: var(--ba-yellow);
+  text-decoration: none;  
+  border-radius: 5px;
+  margin: 0.5em;
+}
+
+.btn-y-o {
+  display: flex;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  color: #000;
+  background-color: transparent;
+  font-size: 1em;
+  text-decoration: none;  
+  border: solid 1px var(--ba-yellow);
+  border-radius: 5px;
+  margin: 0.5em;
+}
+
+.btn-y-o:active {
+  background-color: var(--ba-yellow);
+}
+
+
+/* Not buttons ex. a href */
+
 .button-y {
   display: flex;
   padding: 0.5em 1.5em 0.5em 1.5em;
@@ -110,6 +141,7 @@ a {
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #000;
   background-color: transparent;
+  font-size: 1em;
   text-decoration: none;  
   border: solid 1px var(--ba-yellow);
   border-radius: 5px;
@@ -141,7 +173,7 @@ a {
   margin: 0.5em;
 }
 
-/* Checkboxes */
+/* Checkbox buttons */
 
 .checkbox-btn {
   background-color: transparent;
@@ -152,6 +184,25 @@ a {
   float: left;
 }
 
+.checkbox-btn label {
+  float: left;
+}
+
+.checkbox-btn label span {
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  text-align: center;
+  display: block;
+}
+
+.checkbox-btn label input {
+  position: absolute;
+  top: -20px;
+}
+
+.checkbox-btn input:checked + span {
+  background-color: var(--ba-yellow);
+}
+
 .inline-picker {
   background-color: var(--g1);
   margin: 0.5em;
@@ -159,30 +210,59 @@ a {
   float: left;
 }
 
-.checkbox-btn label {
+.inline-picker label {
   float: left;
 }
 
-.checkbox-btn, .inline-picker label span {
+.inline-picker label span {
   padding: 0.5em 1.5em 0.5em 1.5em;
   text-align: center;
   display: block;
 }
 
-.checkbox-btn, .inline-picker label input {
+.inline-picker label input {
   position: absolute;
   top: -20px;
 }
 
-.checkbox-btn, .inline-picker input:checked + span {
+.inline-picker input:checked + span {
   background-color: var(--ba-yellow);
 }
 
+/* Button Groups */
+
+.btn-group {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /*
     Custom, iPhone Retina 
     @media only screen and (min-width : 320px) {
+.checkbox-btn label {
+  float: left;
+}
+
+.checkbox-btn label span {
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  text-align: center;
+  display: block;
+}
+
+.checkbox-btn label input {
+  position: absolute;
+  top: -20px;
+}
+
+.checkbox-btn input:checked + span {
+  background-color: var(--ba-yellow);
+}
+
 
     }
 
