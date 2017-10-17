@@ -38,6 +38,7 @@ a {
 button {
   border: none;
   background-color: transparent;
+  transition: background-color .3s;
 }
 
 @media only screen and (min-width: 768px) {
@@ -172,15 +173,18 @@ button {
   padding: 0.5em 1.5em 0.5em 1.5em;
   text-align: center;
   display: block;
+  transition: background-color .3s;
 }
 
 .checkbox-btn label input {
   position: absolute;
   top: -20px;
+  transition: background-color .3s;
 }
 
 .checkbox-btn input:checked + span {
   background-color: var(--ba-yellow);
+  transition: background-color .3s;
 }
 
 .inline-picker {
@@ -198,15 +202,18 @@ button {
   padding: 0.5em 1.5em 0.5em 1.5em;
   text-align: center;
   display: block;
+  transition: background-color .3s;
 }
 
 .inline-picker label input {
   position: absolute;
   top: -20px;
+  transition: background-color .3s;
 }
 
 .inline-picker input:checked + span {
   background-color: var(--ba-yellow);
+  transition: background-color .3s;
 }
 
 /* Button Groups */
