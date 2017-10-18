@@ -30,19 +30,7 @@ class FooterTop extends Component {
             <a href='/about'>
               Sobre BA
             </a>
-            <a href='#'>
-              Blog
-            </a>
-            <a href='#'>
-              Gift cards
-            </a>
-            <a href='#'>
-              Testimonials
-            </a>
-            <a href='#'>
-              Partners  
-            </a>
-            <a href='#'>
+            <a href='mailto:hi@bonjourana.com'>
               Unete a nosotros
             </a>
           </div>
