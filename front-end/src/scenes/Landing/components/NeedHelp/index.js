@@ -7,8 +7,8 @@ class NeedHelp extends Component {
     return (
       <div className='needHelp wrapper'> 
         <div className='col'>
-          <h1>Necesitas Ayuda?</h1>
-          <h1 className='b-txt'>Te resolvemos</h1>
+          <h1>¿Necesitas Ayuda?</h1>
+          <h1 className='b-txt'>¡Te resolvemos!</h1>
         </div>
         <div className='btn-group'>
           <a href='#' className='button-y-o'> 

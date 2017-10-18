@@ -15,7 +15,7 @@ class Partnerships extends Component {
         servicios?</p>
         </div>
         <div>
-          <a href='#' className='button-b'>
+          <a href='hi@bonjourana.com' className='button-b'>
             Boton
           </a>
         </div>
