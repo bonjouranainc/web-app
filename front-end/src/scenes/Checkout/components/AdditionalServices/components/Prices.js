@@ -1,4 +1,4 @@
-let oneTimePrice = {
+let oneTimePrices = {
   groceries: 14.99,
   dryCleaning: 12.99,
   laundry: 12.99,
@@ -21,7 +21,7 @@ let oneTimePrice = {
   furnitureCleaning: 8.00
 }
 
-let weeklyPrice = {
+let weeklyPrices = {
   groceries: 9.99,
   dryCleaning: 8.99,
   laundry: 8.99,
@@ -44,7 +44,7 @@ let weeklyPrice = {
   furnitureCleaning: 5.00
 }
 
-let biWeeklyPrice = {
+let biWeeklyPrices = {
   groceries: 11.99,
   dryCleaning: 9.99,
   laundry: 9.99,
@@ -67,7 +67,7 @@ let biWeeklyPrice = {
   furnitureCleaning: 7.00
 }
 
-let monthlyPrice = {
+let monthlyPrices = {
   groceries: 14.99,
   dryCleaning: 12.99,
   laundry: 12.99,
@@ -90,7 +90,7 @@ let monthlyPrice = {
   furnitureCleaning: 8.00
 }
 
-let offerPrice = {
+let offerPrices = {
   groceries: 7.99,
   dryCleaning: 6.99,
   laundry: 6.99,
@@ -99,11 +99,10 @@ let offerPrice = {
 }
 
 export default {
-  oneTimePrice,
-  weeklyPrice,
-  biWeeklyPrice,
-  monthlyPrice,
-  offerPrice
+  oneTimePrices,
+  weeklyPrices,
+  biWeeklyPrices,
+  monthlyPrices,
+  offerPrices
 }
-
 

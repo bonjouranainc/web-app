@@ -68,14 +68,14 @@ class Recurrence extends Component {
         </div>
         { this.state.subscribedUser ?
         <SubscriptionAdditionalServices 
-          userState={this.state} 
+          userState={this.state.pricing} 
         />
         :
         null
         }
         { this.state.oneTimeUser ? 
         <OneTimeAdditionalServices 
-          userState={this.state} 
+          userState={this.state.pricing} 
         />
         :
         null }
@@ -90,9 +90,8 @@ class Recurrence extends Component {
         biWeeklyUser: false,
         monthlyUser: false,
         subscribedUser: false,
-        pricing: Prices.oneTimePrice
+        pricing: Prices.oneTimePrices
       })
-      console.log(this.state.pricing);
   }
   
   _toggleWeeklyUser() {
@@ -102,9 +101,8 @@ class Recurrence extends Component {
         biWeeklyUser: false,
         monthlyUser: false,
         subscribedUser: true,
-        pricing: Prices.weeklyPrice
+        pricing: Prices.weeklyPrices
       })
-      console.log(this.state.pricing);
   }
 
   _toggleBiWeeklyUser() {
@@ -114,9 +112,8 @@ class Recurrence extends Component {
         biWeeklyUser: true,
         monthlyUser: false,
         subscribedUser: true,
-        pricing: Prices.biWeeklyPrice
+        pricing: Prices.biWeeklyPrices
       })
-      console.log(this.state.pricing);
   }
 
   _toggleMonthlyUser() {
@@ -126,9 +123,8 @@ class Recurrence extends Component {
         biWeeklyUser: false,
         monthlyUser: true,
         subscribedUser: true,
-        pricing: Prices.monthlyPrice
+        pricing: Prices.monthlyPrices
       })
-      console.log(this.state.pricing);
   }
 
 }
