@@ -15,7 +15,8 @@ class Recurrence extends Component {
       weeklyUser: false,
       biWeeklyUser: false,
       monthlyUser: false,
-      subscribedUser: false
+      subscribedUser: false,
+      pricing: {}
     }
 
     this._toggleOneTimeUser = this._toggleOneTimeUser.bind(this);
@@ -26,6 +27,13 @@ class Recurrence extends Component {
   }
 
   render() {
+    
+  let Pricing = null;
+
+  let oneTimePrice = Prices.oneTimePrice;
+  let biWeeklyPrice = Prices.biWeeklyPrice;
+  let monthlyPrice = Prices.monthlyPrice;
+
     return (
       <div className='recurrence wrapper'>
         <div className='col'>
@@ -81,7 +89,8 @@ class Recurrence extends Component {
         weeklyUser: false,
         biWeeklyUser: false,
         monthlyUser: false,
-        subscribedUser: false
+        subscribedUser: false,
+        pricing: Prices.oneTimePrice
       })
   }
   
@@ -91,7 +100,8 @@ class Recurrence extends Component {
         weeklyUser: true,
         biWeeklyUser: false,
         monthlyUser: false,
-        subscribedUser: true
+        subscribedUser: true,
+        pricing: Prices.weeklyPrice
       })
   }
 
@@ -101,7 +111,8 @@ class Recurrence extends Component {
         weeklyUser: false,
         biWeeklyUser: true,
         monthlyUser: false,
-        subscribedUser: true
+        subscribedUser: true,
+        pricing: Prices.biWeeklyPrice
       })
   }
 
@@ -111,7 +122,8 @@ class Recurrence extends Component {
         weeklyUser: false,
         biWeeklyUser: false,
         monthlyUser: true,
-        subscribedUser: true
+        subscribedUser: true,
+        pricing: Prices.monthlyPrice
       })
   }
 
