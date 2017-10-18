@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import OneTimeAdditionalServices from '../AdditionalServices/components/OneTime/index.js'
 import SubscriptionAdditionalServices from '../AdditionalServices/components/Subscription/index.js'
+import Prices from '../AdditionalServices/components/Prices.js';
 
 import './styles.css';
 
@@ -10,12 +11,17 @@ class Recurrence extends Component {
     super(props);
 
     this.state = {
-      subscribedUser: false,
-      oneTimeUser: false
+      oneTimeUser: false,
+      weeklyUser: false,
+      biWeeklyUser: false,
+      monthlyUser: false,
+      subscribedUser: false
     }
 
     this._toggleOneTimeUser = this._toggleOneTimeUser.bind(this);
-    this._toggleSubscriptionUser = this._toggleSubscriptionUser.bind(this);
+    this._toggleWeeklyUser = this._toggleWeeklyUser.bind(this);
+    this._toggleBiWeeklyUser = this._toggleBiWeeklyUser.bind(this);
+    this._toggleMonthlyUser = this._toggleMonthlyUser.bind(this);
 
   }
 
@@ -29,19 +35,19 @@ class Recurrence extends Component {
         <div className='btn-group'>
           <button
             className='button-y-o' 
-            onClick={this._toggleSubscriptionUser}
+            onClick={this._toggleWeeklyUser}
           >
             Semanal
           </button>
           <button
             className='button-y-o' 
-            onClick={this._toggleSubscriptionUser}
+            onClick={this._toggleBiWeeklyUser}
           >
             Bi-Semanal
           </button>
           <button
             className='button-y-o' 
-            onClick={this._toggleSubscriptionUser}
+            onClick={this._toggleMonthlyUser}
           >
             Mensual 
           </button>
@@ -53,12 +59,16 @@ class Recurrence extends Component {
           </button>
         </div>
         { this.state.subscribedUser ?
-        <SubscriptionAdditionalServices />
+        <SubscriptionAdditionalServices 
+          userState={this.state} 
+        />
         :
         null
         }
         { this.state.oneTimeUser ? 
-        <OneTimeAdditionalServices />
+        <OneTimeAdditionalServices 
+          userState={this.state} 
+        />
         :
         null }
       </div>
@@ -67,14 +77,40 @@ class Recurrence extends Component {
 
   _toggleOneTimeUser() {
       this.setState({
-        subscribedUser: false,
-        oneTimeUser: true
+        oneTimeUser: true,
+        weeklyUser: false,
+        biWeeklyUser: false,
+        monthlyUser: false,
+        subscribedUser: false
+      })
+  }
+  
+  _toggleWeeklyUser() {
+      this.setState({
+        oneTimeUser: false,
+        weeklyUser: true,
+        biWeeklyUser: false,
+        monthlyUser: false,
+        subscribedUser: true
       })
   }
 
-  _toggleSubscriptionUser() {
+  _toggleBiWeeklyUser() {
       this.setState({
-        oneTimeUser: false,
+        oneTimeUser: true,
+        weeklyUser: false,
+        biWeeklyUser: true,
+        monthlyUser: false,
+        subscribedUser: true
+      })
+  }
+
+  _toggleMonthlyUser() {
+      this.setState({
+        oneTimeUser: true,
+        weeklyUser: false,
+        biWeeklyUser: false,
+        monthlyUser: true,
         subscribedUser: true
       })
   }

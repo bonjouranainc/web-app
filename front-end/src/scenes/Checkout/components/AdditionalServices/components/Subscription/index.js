@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import HomeType from '../../../HomeType/index.js';
+import Prices from '../Prices.js';
 
 import '../../styles.css';
 
