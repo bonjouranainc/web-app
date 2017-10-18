@@ -1,3 +1,9 @@
-.terms-of-use {
-  padding: 5em;
+.terms-and-privacy {
+  padding: 2em;
+}
+
+@media only screen and (min-width: 768px) {
+  .terms-and-privacy {
+    padding: 5em;
+  }
 }

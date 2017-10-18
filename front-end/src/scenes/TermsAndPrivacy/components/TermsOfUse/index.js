@@ -5,8 +5,8 @@ import '../../styles.css';
 class TermsOfUse extends Component {
   render() {
     return(
-      <div className='terms-of-use wrapper'> 
-        <h1 className='b-txt'>Terminos generales de uso</h1>
+      <div className='terms-and-privacy'> 
+        <h1 className='b-txt wrapper'>Terminos generales de uso</h1>
         <p>ESTE ACUERDO CONSTITUYE UNA RENUNCIA DE ACCIÓN DE CLASE Y REQUIERE EL USO DE 
         ARBITRAJE DE MANERA INDIVIDUAL PARA RESOLVER DISPUTAS EN LUGAR DE JUICIOS POR JURADO.</p>
         <p>Estos Términos de Uso (los “Términos”) gobiernan su uso en los servicios de Bonjour Ana, Inc. (la “Compañía”) disponibles en nuestra página web localizada en https://bonjourana.com (la “Página Web”), y aplicaciones, incluyendo la aplicación Bonjour Ana que facilite la coordinación, gerencia, manejo y desempeño de ciertas quehaceres y tareas del hogar. Al marcar el botón de “Yo acepto”, completar el proceso de registro, buscar en nuestra Página Web, descargar e instalar la aplicación o utilizar nuestro servicio, usted reconoce que ha leído y entendido estos Términos y está de acuerdo a respetarlos. Si no, no descargue la aplicación ni use nuestra Página Web ni Servicios.</p>
