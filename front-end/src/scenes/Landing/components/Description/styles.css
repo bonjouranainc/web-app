@@ -1,0 +1,33 @@
+.description {
+  height: 100vh;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url('../../images/jpg/description-bg-mob.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.description h2 {
+  text-align: left;
+}
+
+.description div {
+  margin: 2em 1em;
+}
+
+@media only screen and (min-width: 1000px) {
+  .description {
+    background-image: url('../../images/jpg/description-bg.jpg');
+  }
+
+  .description div {
+    margin: 3em;
+    align-items: flex-start;
+    max-width: 25vw;
+  }
+}

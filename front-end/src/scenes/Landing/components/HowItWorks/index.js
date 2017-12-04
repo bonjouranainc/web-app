@@ -4,10 +4,6 @@ import url1 from '../../images/svg/services-img.svg';
 import url2 from '../../images/svg/visit-img.svg';
 import url3 from '../../images/svg/tasks-done-img.svg';
 
-import fallback1 from '../../images/png/services-img.png';
-import fallback2 from '../../images/png/visit-img.png';
-import fallback3 from '../../images/png/tasks-done-img.png';
-
 import './styles.css';
 
 class HowItWorks extends Component {

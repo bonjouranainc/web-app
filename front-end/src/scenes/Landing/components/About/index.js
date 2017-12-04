@@ -4,10 +4,6 @@ import url1 from '../../images/svg/quality-img.svg';
 import url2 from '../../images/svg/security-img.svg';
 import url3 from '../../images/svg/clean-house-img.svg';
 
-import fallback1 from '../../images/png/quality-img.png';
-import fallback2 from '../../images/png/security-img.png';
-import fallback3 from '../../images/png/clean-house-img.png';
-
 import './styles.css';
 
 class About extends Component {
