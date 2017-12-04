@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import url1 from '../../images/svg/quality-img.svg';
 import url2 from '../../images/svg/security-img.svg';
 import url3 from '../../images/svg/clean-house-img.svg';
+import url4 from '../../images/svg/ba-girl-cut.svg';
 
 import './styles.css';
 
@@ -12,17 +13,18 @@ class About extends Component {
       <div className='about wrapper'>
         <div className='content'>
           <div className='col'>
-            <img src={ url1 } onerror='this.src={ fallback1 }' />
+            <img src={ url1 } />
             <h2>Servicio de calidad</h2> 
           </div>
           <div className='col'>
-            <img src={ url2 } onerror='this.src={ fallback2 }' />
+            <img src={ url2 } />
             <h2>Personal confiable y seguro</h2> 
           </div>
           <div className='col'>
-            <img src={ url3 } onerror='this.src={ fallback3 }' />
+            <img src={ url3 } />
             <h2>Hogar limpio y fresco</h2> 
           </div>
+            <img src={ url4 } className='girl' />
         </div>
       </div>
     ); 

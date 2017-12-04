@@ -1,6 +1,7 @@
 .about {
   height: auto;
-  background-color: var(--g1);
+  background-color: #fff;
+  padding-bottom: 0;
 }
 
 .about img {
@@ -9,9 +10,24 @@
   margin-bottom: 1em;
 }
 
+.girl {
+  width: 40% !important;
+  margin: 0 !important;
+  margin-top: -3em !important;
+  margin-bottom: -0.5vh !important;
+  margin-left: -3em !important;
+}
+
 @media only screen and (min-width: 768px) {
   .about img {
     width: 25%; 
+  }
+
+  .girl {
+    width: 50% !important;
+    margin-top: -10em !important;
+    margin-bottom: -0.4vh !important;
+    margin-left: -10em !important;
   }
 }
 
@@ -24,7 +40,11 @@
   }
 
   .about img {
-    height: 55%; 
+    width: 55%; 
+  }
+
+  .girl {
+    width: 10% !important;
   }
 }
 

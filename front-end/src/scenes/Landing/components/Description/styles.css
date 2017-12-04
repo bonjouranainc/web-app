@@ -20,9 +20,22 @@
   margin: 2em 1em;
 }
 
+@media only screen and (min-width: 768px) {
+  .description {
+    height: 40vh;
+    background-image: url('../../images/jpg/description-bg.jpg');
+  }
+
+  .description div {
+    align-items: flex-start;
+    max-width: 25vw;
+  }
+}
+
+
 @media only screen and (min-width: 1000px) {
   .description {
-    background-image: url('../../images/jpg/description-bg.jpg');
+    height: 100vh;
   }
 
   .description div {
