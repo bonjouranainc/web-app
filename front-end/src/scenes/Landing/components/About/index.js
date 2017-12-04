@@ -16,21 +16,18 @@ class About extends Component {
       <div className='about wrapper'>
         <div className='content'>
           <div className='col'>
-            <h2>Servicio de calidad</h2> 
             <img src={ url1 } onerror='this.src={ fallback1 }' />
+            <h2>Servicio de calidad</h2> 
           </div>
           <div className='col'>
-            <h2>Personal confiable y seguro</h2> 
             <img src={ url2 } onerror='this.src={ fallback2 }' />
+            <h2>Personal confiable y seguro</h2> 
           </div>
           <div className='col'>
-            <h2>Hogar limpio y fresco</h2> 
             <img src={ url3 } onerror='this.src={ fallback3 }' />
+            <h2>Hogar limpio y fresco</h2> 
           </div>
         </div>
-        <a href='#' className='button-y'>
-          Learn More
-        </a>
       </div>
     ); 
   }

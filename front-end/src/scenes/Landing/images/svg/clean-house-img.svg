@@ -1,1 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 172 203" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"><g><g><g><path d="M97.222,88.886l-76.953,0c0,0 0,74.034 0,101.239c0,5.471 4.402,9.924 9.873,9.986c24.291,0.278 86.766,0.992 111.352,1.273c2.683,0.031 5.267,-1.014 7.176,-2.9c1.908,-1.887 2.982,-4.459 2.982,-7.142c0,-24.053 0,-82.48 0,-82.48" style="fill:none;stroke:#000;stroke-width:3px;"/><path d="M142.91,88.886l-23.866,0" style="fill:none;stroke:#000;stroke-width:3px;"/><path d="M161.964,84.61l8.457,4.276l-10.182,0" style="fill:none;stroke:#000;stroke-width:3px;"/><path d="M20.269,88.886l-18.769,0c0,0 62.46,-31.581 79.955,-40.426c2.833,-1.433 6.178,-1.433 9.011,0c13.162,6.655 50.63,25.599 50.63,25.599" style="fill:none;stroke:#000;stroke-width:3px;"/></g><g><path d="M108.025,61.906l12.387,30.967l-12.387,30.968l-12.387,-30.968l12.387,-30.967Z" style="fill:none;stroke:#ebd831;stroke-width:3px;"/><path d="M132.799,1.5l12.387,30.967l-12.387,30.968l-12.387,-30.968l12.387,-30.967Z" style="fill:none;stroke:#ebd831;stroke-width:3px;"/><path d="M151.647,48.028l12.387,30.968l-12.387,30.967l-12.387,-30.967l12.387,-30.968Z" style="fill:none;stroke:#89abe3;stroke-width:3px;"/></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120.1 114.2" enable-background="new 0 0 120.1 114.2" xml:space="preserve">
+<g>
+	<g>
+		<polygon fill="#8CABD9" points="87.2,105.4 6.6,105.4 6.6,48.3 46.9,26.7 87.2,48.3 		"/>
+	</g>
+	<polygon fill="#8CABD9" points="94.2,46 91.9,37.4 86.5,35.2 91.9,32.9 94.2,24.3 96.5,32.9 101.9,35.2 96.5,37.4 	"/>
+	<polygon fill="#8CABD9" points="109.5,38.4 107.3,29.9 101.9,27.6 107.3,25.3 109.5,16.8 111.8,25.3 117.2,27.6 111.8,29.9 	"/>
+	<polygon fill="#8CABD9" points="86.5,25.1 84.2,16.5 78.8,14.3 84.2,12 86.5,3.4 88.8,12 94.2,14.3 88.8,16.5 	"/>
+</g>
+</svg>
