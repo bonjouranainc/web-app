@@ -4,6 +4,7 @@ import url1 from '../../images/svg/quality-img.svg';
 import url2 from '../../images/svg/security-img.svg';
 import url3 from '../../images/svg/clean-house-img.svg';
 import url4 from '../../images/svg/ba-girl-cut.svg';
+import url5 from '../../images/svg/ba-girl.svg';
 
 import './styles.css';
 
@@ -24,7 +25,10 @@ class About extends Component {
             <img src={ url3 } />
             <h2>Hogar limpio y fresco</h2> 
           </div>
-            <img src={ url4 } className='girl' />
+          <div className='col'>
+            <img src={ url4 } className='girl-cut' />
+          </div>
+            <img src={ url5 } className='girl' />
         </div>
       </div>
     ); 

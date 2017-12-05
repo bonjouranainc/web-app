@@ -1,7 +1,7 @@
 .about {
   height: auto;
   background-color: #fff;
-  padding-bottom: 0;
+  padding: 5em 0 0 0; 
 }
 
 .about img {
@@ -10,12 +10,15 @@
   margin-bottom: 1em;
 }
 
-.girl {
+.girl-cut {
   width: 40% !important;
   margin: 0 !important;
   margin-top: -3em !important;
-  margin-bottom: -0.5vh !important;
-  margin-left: -3em !important;
+  margin-left: -15em !important;
+}
+
+.girl {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -23,28 +26,43 @@
     width: 25%; 
   }
 
-  .girl {
+  .girl-cut {
     width: 50% !important;
     margin-top: -10em !important;
-    margin-bottom: -0.4vh !important;
-    margin-left: -10em !important;
+    margin-left: -30em !important;
+  }
+
+  .girl {
+    display: none;
   }
 }
 
 @media only screen and (min-width: 1000px) {
+  .about {
+    height: auto;
+    background-color: #fff;
+    padding: 5em 0 5em 0; 
+  }
+
   .content {
     width: 100vw;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row-reverse;
     justify-content: space-around; 
   }
 
   .about img {
-    width: 55%; 
+    height: 35%; 
+  }
+
+  .girl-cut {
+    display: none;
   }
 
   .girl {
-    width: 10% !important;
+    display: inherit;
+    width: 8vw !important;
+    margin-bottom: 0 !important;
   }
 }
 
