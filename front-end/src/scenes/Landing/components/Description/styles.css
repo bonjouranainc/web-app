@@ -48,7 +48,6 @@
 @media only screen and (min-width: 1000px) and (min-height: 768px) {
   .description {
     height: 68vh;
-    background-color: red;
   }
 }
 
