@@ -25,30 +25,27 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 320px) and (orientation: landscape) {
-  .l-welcome {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .l-welcome img {
-    width: 40%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .l-welcome img {
-    max-width: 55%; 
-    margin: 3em;
-  }
-}
-
 @media only screen and (min-width: 1000px) {
   .l-welcome {
-    flex-direction: row;
-    justify-content: space-around;
+    height: 100vh;
     background-image: url('../../images/jpg/ba-bg.jpg');
   }
-  .l-welcome img {
-    width: 40%;
+}
+
+@media only screen and (min-width: 1000px) and (min-height: 768px) {
+  .l-welcome  {
+    height: 70vh;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (min-height: 1000px) {
+  .l-welcome  {
+    height: 40vh;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .l-welcome  {
+    height: 70vh;
   }
 }
