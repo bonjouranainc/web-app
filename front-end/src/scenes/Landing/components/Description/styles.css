@@ -10,6 +10,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   color: #fff;
+  background-color: red;
 }
 
 .description h2 {
@@ -22,7 +23,7 @@
 
 @media only screen and (min-width: 768px) {
   .description {
-    height: 40vh;
+    height: 38vh;
     background-image: url('../../images/jpg/description-bg.jpg');
   }
 
@@ -32,15 +33,33 @@
   }
 }
 
-
 @media only screen and (min-width: 1000px) {
   .description {
-    height: 100vh;
+    height: 90vh;
   }
 
   .description div {
     margin: 3em;
     align-items: flex-start;
     max-width: 25vw;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (min-height: 768px) {
+  .description {
+    height: 68vh;
+    background-color: red;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (min-height: 1000px) {
+  .description {
+    height: 38vh;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .description {
+    height: 68vh;
   }
 }
