@@ -4,7 +4,7 @@
   left: 0;
   top: 0;
   right: 0;
-  height: 10vh;
+  height: 8vh;
   width: auto;
   justify-content: space-between;
   align-items: center;
@@ -36,8 +36,13 @@
 }
 
 @media only screen and (min-width: 320px) and (orientation: landscape) {
+  .header {
+    height: 10vh; 
+  }
+
   .logo img {
-    width: 5%;  
+    width: 20%;  
+    padding-top: 0.2em;
   }
 }
 
@@ -51,5 +56,11 @@
   .header {
     padding: 0 2.5em; 
   }  
+}
+
+@media only screen and (min-height : 1300px) {
+  .header {
+    height: 5vh;
+  }
 }
 
