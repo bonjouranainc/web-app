@@ -6,7 +6,6 @@
   background-image: url('../../images/jpg/partnerships-bg-mob.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: red;
   color: #fff;
 }
 
@@ -33,7 +32,6 @@
 @media only screen and (min-width : 1000px) {
   .partnerships {
     height: 78vh;
-    background-image: url('../../images/jpg/partnerships-bg.jpg');
   }
 }
 
