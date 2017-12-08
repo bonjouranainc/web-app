@@ -10,6 +10,7 @@
   align-items: center;
   padding: 0 1em;
   transition: top .3s, background-color .5s;
+  z-index: 2;
 }
 
 .hide {
