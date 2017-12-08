@@ -20,8 +20,8 @@ class Landing extends Component {
         <Description />
         <HowItWorks />
         <Testimonials />
-        <Partnerships />
         <NeedHelp />
+        <Partnerships />
         <Footer />
       </div>
     );

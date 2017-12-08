@@ -19,19 +19,19 @@ class Team extends Component {
         </div>
         <div className='row'>
           <div className='person'>
-            <img src={ ceo } />
+            <img src={ ceo } alt='' />
             <p className='b-txt s-txt'>
               CEO
             </p>
           </div>
           <div className='person'>
-            <img src={ cmo } />
+            <img src={ cmo } alt='' />
             <p className='b-txt s-txt'>
               CMO
             </p>
           </div>
           <div className='person'>
-            <img src={ coo } />
+            <img src={ coo } alt='' />
             <p className='b-txt s-txt'>
               COO
             </p>
@@ -39,19 +39,19 @@ class Team extends Component {
         </div>
         <div className='row'>
           <div className='person'>
-            <img src={ gd } />
+            <img src={ gd } alt='' />
             <p className='b-txt s-txt'>
               GD Intern
             </p>
           </div>
           <div className='person'>
-            <img src={ dev } />
+            <img src={ dev } alt='' />
             <p className='b-txt s-txt'>
               Developer
             </p>
           </div>
           <div className='person'>
-            <img src={ mkt } />
+            <img src={ mkt } alt='' />
             <p className='b-txt s-txt'>
               MKT Intern
             </p>
@@ -59,7 +59,7 @@ class Team extends Component {
         </div>
         <div className='row'>
           <div className='person'>
-            <img src={ fm } />
+            <img src={ fm } alt='' />
             <p className='b-txt s-txt'>
               Field Manager
             </p>

@@ -15,7 +15,7 @@ class Partnerships extends Component {
         servicios?</h2>
         </div>
         <div className='col'>
-          <img src={ url } />
+          <img src={ url } alt='' />
         </div>
         <div className='col partnershipButton'>
           <a href='hi@bonjourana.com' className='button-b'>

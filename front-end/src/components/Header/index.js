@@ -36,7 +36,7 @@ class Header extends Component {
       > 
         <div className='logo'>
           <a href='/'>
-            <img src={ logo } />
+            <img src={ logo } alt='' />
           </a>
         </div>
         <div className='menu s-txt'>
