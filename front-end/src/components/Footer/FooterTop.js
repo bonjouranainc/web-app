@@ -12,17 +12,21 @@ class FooterTop extends Component {
     return (
       <div className='footerTop'> 
         <div className='social'>
-          <a href='http://facebook.com/bonjouranainc' target='_blank'>
-            <img src={ facebook } />
+          <a href='http://facebook.com/bonjouranainc' target='_blank' 
+          rel="noopener noreferrer">
+            <img src={ facebook } alt=''/>
           </a>
-          <a href='https://medium.com/@bonjouranainc' target='_blank'>
-            <img src={ medium } />
+          <a href='https://medium.com/@bonjouranainc' target='_blank' 
+          rel="noopener noreferrer">
+            <img src={ medium } alt=''/>
           </a>
-          <a href='http://instagram.com/bonjouranainc' target='_blank'>
-            <img src={ instagram } />
+          <a href='http://instagram.com/bonjouranainc' target='_blank' 
+          rel="noopener noreferrer">
+            <img src={ instagram } alt=''/>
           </a>
-          <a href='http://twitter.com/bonjouranainc' target='_blank'>
-            <img src={ twitter } />
+          <a href='http://twitter.com/bonjouranainc' target='_blank' 
+          rel="noopener noreferrer">
+            <img src={ twitter } alt=''/>
           </a>
         </div>
         <div className='info'>

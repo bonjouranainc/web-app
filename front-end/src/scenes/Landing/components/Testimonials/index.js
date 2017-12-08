@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import Testimonial from './Testimonial.js';
-import Navigation from './Navigation.js';
 
 import Tamara from './pictures/tamara-matos.jpg';
 import Mayra from './pictures/mayra-candelaria.jpg';

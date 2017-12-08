@@ -31,6 +31,7 @@
 /* 
   Login and register buttons hidden until accounts are available
 */
+
 .menu a {
   display: none;
   color: #000;
