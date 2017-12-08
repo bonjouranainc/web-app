@@ -40,10 +40,10 @@ class Header extends Component {
           </a>
         </div>
         <div className='menu s-txt'>
-          <a href='#' className='button-w-o'>
+          <a href='/' className='button-w-o'>
             Register
           </a>
-          <a href='#' className='button-w-o'>
+          <a href='/' className='button-w-o'>
             Sign in
           </a>
         </div>
