@@ -12,6 +12,9 @@ class About extends Component {
   render() {
     return(
       <div className='about wrapper'>
+        <div className='row'>
+          <h2>Nuestro Servicio es:</h2>
+        </div>
         <div className='content'>
           <div className='col'>
             <img src={ url1 } alt='' />
