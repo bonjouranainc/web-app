@@ -41,7 +41,10 @@ class Header extends Component {
         </div>
         <div className='menu s-txt'>
           <a href='/' className='button-w-o'>
-            Register
+            Servicios
+          </a>
+          <a href='/' className='button-w-o'>
+            Supermercado
           </a>
           <a href='/' className='button-w-o'>
             Sign in

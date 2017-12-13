@@ -116,10 +116,15 @@ button {
   text-decoration: none;  
   border-radius: 5px;
   margin: 0.5em;
+  transition: background-color .3s;
 }
 
 .button-y:active {
   background-color: transparent;
+}
+
+.button-y:hover {
+  background-color: #fff;
 }
 
 /* Solid blue button */
@@ -138,6 +143,11 @@ button {
 
 .button-b:active {
   background-color: transparent;
+}
+
+.button-b:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 
@@ -160,6 +170,10 @@ button {
   background-color: var(--ba-yellow);
 }
 
+.button-y-o:hover {
+  border-color: #000;
+}
+
 /* Outline white button */
 
 .button-w-o {
@@ -178,6 +192,11 @@ button {
 .button-w-o:active {
   border: solid 1px var(--ba-yellow);
   background-color: var(--ba-yellow);
+}
+
+.button-w-o:hover {
+  color: #000 !important;
+  background-color: #fff;
 }
 
 /* Button Groups */

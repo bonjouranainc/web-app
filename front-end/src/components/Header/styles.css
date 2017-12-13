@@ -29,12 +29,7 @@
   align-items: center;
 }
 
-/* 
-  Login and register buttons hidden until accounts are available
-*/
-
 .menu a {
-  display: none;
   color: #000;
   text-decoration: none;
   margin: 0 0.5em;
