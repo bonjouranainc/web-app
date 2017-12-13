@@ -1,7 +1,7 @@
 .about {
   height: auto;
   background-color: #fff;
-  padding: 1em 0 1em 0 !important;
+  padding: 1em 0 0 0 !important;
 }
 
 .about img {
@@ -38,6 +38,9 @@
 }
 
 @media only screen and (min-width: 1000px) {
+  .about {
+    padding: 1em 0 1em 0 !important;
+  }
   .about {
     height: auto;
     background-color: #fff;

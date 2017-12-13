@@ -15,6 +15,11 @@ class Description extends Component {
             y necesidades diarias.
           </h2>
         </div>
+        <div className='col'>
+          <a href='#' className='button-y'>
+            Coordinar cita de bienvenida
+          </a>
+        </div>
       </div>
     ); 
   }

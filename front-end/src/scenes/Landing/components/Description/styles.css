@@ -4,8 +4,8 @@
   padding-bottom: 0;
   width: auto;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
   background-image: url('../../images/jpg/description-bg-mob.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
@@ -23,18 +23,19 @@
 @media only screen and (min-width: 768px) {
   .description {
     height: 38vh;
+    align-items: flex-start;
     background-image: url('../../images/jpg/description-bg.jpg');
   }
 
   .description div {
     align-items: flex-start;
-    max-width: 25vw;
+    max-width: 40vw;
   }
 }
 
 @media only screen and (min-width: 1000px) {
   .description {
-    height: 90vh;
+    height: 70vh;
   }
 
   .description div {
@@ -58,6 +59,6 @@
 
 @media only screen and (min-width: 1300px) {
   .description {
-    height: 68vh;
+    height: 58vh;
   }
 }
