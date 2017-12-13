@@ -9,7 +9,7 @@ class FooterBottom extends Component {
         <a href='#' className='s-txt'>
           FAQ
         </a>
-         <a href='#' className='s-txt'>
+         <a href='/terms' className='s-txt'>
           Terms & Privacy
         </a>
         <p className='s-txt'>@2017 Bonjour Ana Inc.</p>

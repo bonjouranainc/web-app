@@ -45,8 +45,14 @@ class FooterTop extends Component {
             <p>Guaynabo</p>
             <p>Canovanas</p>
             <p>Caguas</p>
+          </div>
+          <div className='locations s-txt'>
             <p>Trujillo Alto</p>
             <p>Bayamon</p>
+            <p>Toa Baja</p>
+            <p>Toa Alta</p>
+            <p>Dorado</p>
+            <p>Cataño</p>
           </div>
         </div>
       </div>
