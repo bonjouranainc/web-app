@@ -31,6 +31,9 @@ class NeedHelp extends Component {
           <a href='/' className='button-y-o'> 
             Recogido del hogar
           </a>
+          <a href='/' className='button-y-o'> 
+            Limpieza de ventanas
+          </a>
         </div>
         <div className='ba-boy'>
           <img src={ url } alt='' />

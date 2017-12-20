@@ -13,7 +13,7 @@ class About extends Component {
     return(
       <div className='about wrapper'>
         <div className='row'>
-          <h2>Nuestro Servicio es:</h2>
+          <h2>¿Qúe caracteriza nuestro servicio?</h2>
         </div>
         <div className='content'>
           <div className='col'>

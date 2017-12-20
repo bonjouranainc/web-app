@@ -22,6 +22,10 @@
   .needHelp img {
     width: 25%;
   }
+
+  .ba-boy {
+    margin-top: -3vh;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -29,6 +33,9 @@
     width: 25%;
   }
 
+  .ba-boy {
+    margin-top: -1vh;
+  }
 }
 
 @media only screen and (min-width: 1000px) {

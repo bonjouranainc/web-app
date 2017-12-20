@@ -16,7 +16,7 @@ class HowItWorks extends Component {
         <div className='col group group1'>
           <img src={ url1 } alt='' />
           <div className='cont'>
-            <h2>1 Escoja los servicios</h2>
+            <h2>1 Escoja sus servicios</h2>
             <p>Seleccione entre una variedad de servicios para el hogar 
             y escoja el día y  hora que desea recibir el servicvio.</p> 
           </div>
