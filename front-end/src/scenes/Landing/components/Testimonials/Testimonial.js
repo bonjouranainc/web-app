@@ -8,7 +8,7 @@ class Testimonial extends Component {
   render() {
     return (
       <div className='testimonials wrapper'>
-        <img src={this.props.img}></img>
+        <img src={this.props.img} alt=''></img>
         <p className='b-txt'>{this.props.name}</p>
         <p>{this.props.quote}</p>
         <Navigation 
