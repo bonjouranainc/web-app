@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import Recurrence from './components/Recurrence/index.js';
-import AdditionalServices from './components/AdditionalServices/index.js';
 import HomeType from './components/HomeType/index.js';
 import Days from './components/Days/index.js';
 import Hours from './components/Hours/index.js';
