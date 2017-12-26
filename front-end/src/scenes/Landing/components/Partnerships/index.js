@@ -18,7 +18,7 @@ class Partnerships extends Component {
           <img src={ url } alt='' />
         </div>
         <div className='col partnershipButton'>
-          <a href='hi@bonjourana.com' className='button-b'>
+          <a href='mailto:hi@bonjourana.com' className='button-b'>
             Partnerships
           </a>
         </div>
