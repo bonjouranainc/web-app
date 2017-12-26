@@ -6,9 +6,6 @@ class FooterBottom extends Component {
   render() {
     return (
       <div className='footerBottom'> 
-        <a href='#' className='s-txt'>
-          FAQ
-        </a>
          <a href='/terms' className='s-txt'>
           Terms & Privacy
         </a>
