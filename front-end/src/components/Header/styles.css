@@ -22,19 +22,35 @@
   height: auto;
 }
 
-.menu {
-  display: flex;
+.header-btns {
+  display: none;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
 
-.menu a {
-  color: #000;
-  text-decoration: none;
-  margin: 0 0.5em;
-  white-space: nowrap;
+/*
+
+  DELETE AFTER TESTING
+  DELETE AFTER TESTING
+  DELETE AFTER TESTING
+  DELETE AFTER TESTING
+
+*/
+
+.menu-icon button {
+  color: #fff !important;
+  font-size: 1em;
 }
+
+/*
+
+  DELETE AFTER TESTING
+  DELETE AFTER TESTING
+  DELETE AFTER TESTING
+  DELETE AFTER TESTING
+
+*/
+
 
 @media only screen and (min-width: 320px) and (orientation: landscape) {
   .header {
@@ -57,6 +73,14 @@
   .header {
     padding: 0 2.5em; 
   }  
+
+  .header-btns {
+    display: flex;
+  }
+
+  .menu-icon button {
+    display: none; 
+  }
 }
 
 @media only screen and (min-height : 1300px) {
