@@ -28,29 +28,9 @@
   justify-content: center;
 }
 
-/*
-
-  DELETE AFTER TESTING
-  DELETE AFTER TESTING
-  DELETE AFTER TESTING
-  DELETE AFTER TESTING
-
-*/
-
-.menu-icon button {
+.menu-icon i {
   color: #fff !important;
-  font-size: 1em;
 }
-
-/*
-
-  DELETE AFTER TESTING
-  DELETE AFTER TESTING
-  DELETE AFTER TESTING
-  DELETE AFTER TESTING
-
-*/
-
 
 @media only screen and (min-width: 320px) and (orientation: landscape) {
   .header {
@@ -78,7 +58,7 @@
     display: flex;
   }
 
-  .menu-icon button {
+  .menu-icon {
     display: none; 
   }
 }

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import logo from './images/ba-logo-w.svg';
 
+import { Link } from 'react-router-dom';
+
 import './styles.css';
 
 class Header extends Component {
@@ -11,12 +13,10 @@ class Header extends Component {
     this.state = {
       isHidden: false, 
       headerColor: false,
-      menuActive: false
     }
 
     this._hideHeader = this._hideHeader.bind(this);
     this._changeHeaderColor = this._changeHeaderColor.bind(this);
-    this._toggleMenu = this._toggleMenu.bind(this);
   }
 
   componentDidMount(){
@@ -43,11 +43,9 @@ class Header extends Component {
           </a>
         </div>
         <div className='menu-icon'>
-          <button
-            onClick={ this._toggleMenu } 
-          >
+          <Link to='/menu'>
             <i className="material-icons">&#xE5D2;</i>
-          </button>
+          </Link>
         </div>
         <div className='header-btns s-txt'>
           <a href='https://bonjourana.com/collections/servicio-al-hogar' className='button-w-o'>
@@ -80,11 +78,6 @@ class Header extends Component {
       :
       this.setState({ headerColor: false })
   }
-
-  _toggleMenu() {
-    this.setState({ menuActive: !this.state.menuActive });
-  }
-
 }
 
 export default Header;
