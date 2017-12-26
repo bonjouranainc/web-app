@@ -16,7 +16,7 @@ class Description extends Component {
           </h2>
         </div>
         <div className='col'>
-          <a href='#' className='button-y'>
+          <a href='https://bonjourjuana.typeform.com/to/xPEoh8' className='button-y'>
             Coordinar cita de bienvenida
           </a>
         </div>
