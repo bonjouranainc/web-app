@@ -12,7 +12,7 @@ class SpecialOffer extends Component {
           habitaciones que tenga su hogar.
           </p>
           <a href='http://bit.ly/BAOfertaDeLimpieza' className='button-y'>
-            Pruebalo!
+            ¡Pruébalo!
           </a>
         </div>
       </div>
