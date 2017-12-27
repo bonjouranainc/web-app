@@ -37,6 +37,9 @@ class FooterTop extends Component {
             <a href='mailto:hi@bonjourana.com'>
               Unete a nosotros
             </a>
+            <a href='https://bonjourana.com/pages/preguntas-frecuentes'>
+              FAQ
+            </a>
           </div>
           <div className='locations s-txt'>
             <p className='b-txt'>Locations</p>
