@@ -31,13 +31,10 @@ class FooterTop extends Component {
         </div>
         <div className='info'>
           <div className='more s-txt'>
-            <a href='https://bonjourana.com/pages/conoce-sobre-bonjour-ana'>
-              Sobre BA
-            </a>
             <a href='mailto:hi@bonjourana.com'>
               Unete a nosotros
             </a>
-            <a href='https://bonjourana.com/pages/preguntas-frecuentes'>
+            <a href='https://bonjour-ana.myshopify.com/pages/preguntas-frecuentes'>
               FAQ
             </a>
           </div>

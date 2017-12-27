@@ -11,7 +11,7 @@ class SpecialOffer extends Component {
           <p>Prueba nuestro servicio de limpieza sin importar la cantidad de 
           habitaciones que tenga su hogar.
           </p>
-          <a href='http://bit.ly/BAOfertaDeLimpieza' className='button-b'>
+          <a href='https://bonjour-ana.myshopify.com/products/especial-de-limpieza' className='button-black'>
             ¡Pruébalo!
           </a>
         </div>

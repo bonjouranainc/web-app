@@ -48,13 +48,13 @@ class Header extends Component {
           </Link>
         </div>
         <div className='header-btns s-txt'>
-          <a href='https://bonjourana.com/collections/servicio-al-hogar' className='button-w-o'>
+          <a href='https://bonjour-ana.myshopify.com/collections/servicio-al-hogar' className='button-w-o'>
             Servicios
           </a>
           <a href='https://bonjourana.wixsite.com/bonjourana/supermercado' className='button-w-o'>
             Supermercado
           </a>
-          <a href='https://bonjourana.com/account/login' className='button-w-o'>
+          <a href='https://bonjour-ana.myshopify.com/account/login' className='button-w-o'>
             Sign in
           </a>
         </div>

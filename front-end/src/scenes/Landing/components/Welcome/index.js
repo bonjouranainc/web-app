@@ -13,7 +13,7 @@ class Welcome extends Component {
             y <span className='b-txt'>necesidades diarias</span></h1>
           </div>
           <div className='welcome-btns'>
-            <a href='https://bonjourana.com/products/servicio-de-limpieza'
+            <a href='https://bonjour-ana.myshopify.com/products/servicio-de-limpieza'
             className='button-y'>
               Coordinar Servicios
             </a>
