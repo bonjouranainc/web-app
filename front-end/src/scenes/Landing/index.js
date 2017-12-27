@@ -17,8 +17,8 @@ class Landing extends Component {
       <div>
         <Header />
         <Welcome />
-        <SpecialOffer />
         <About />
+        <SpecialOffer />
         <Description />
         <HowItWorks />
         <Testimonials />
