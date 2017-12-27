@@ -151,7 +151,7 @@ button {
 
 /* Solid black button */
 
-.button-b {
+.button-black {
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #fff;
   background-color: #000;
@@ -162,12 +162,12 @@ button {
   transition: background-color .3s;
 }
 
-.button-b:active {
+.button-black:active {
   background-color: #fff;
   color: #000;
 }
 
-.button-b:hover {
+.button-black:hover {
   background-color: #fff;
 }
 
