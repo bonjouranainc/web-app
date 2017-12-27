@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials/index.js';
 import Partnerships from './components/Partnerships/index.js';
 import NeedHelp from './components/NeedHelp/index.js';
 import Footer from '../../components/Footer/index.js';
+import SpecialOffer from '../../components/SpecialOffer/index.js';
 
 class Landing extends Component {
   render() {
@@ -16,6 +17,7 @@ class Landing extends Component {
       <div>
         <Header />
         <Welcome />
+        <SpecialOffer />
         <About />
         <Description />
         <HowItWorks />
