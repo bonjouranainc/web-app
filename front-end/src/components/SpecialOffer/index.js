@@ -11,7 +11,7 @@ class SpecialOffer extends Component {
           <p>Prueba nuestro servicio de limpieza sin importar la cantidad de 
           habitaciones que tenga su hogar.
           </p>
-          <a href='http://bit.ly/BAOfertaDeLimpieza' className='button-y'>
+          <a href='http://bit.ly/BAOfertaDeLimpieza' className='button-b'>
             ¡Pruébalo!
           </a>
         </div>

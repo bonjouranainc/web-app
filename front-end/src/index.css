@@ -149,6 +149,27 @@ button {
   background-color: #fff;
 }
 
+/* Solid black button */
+
+.button-b {
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  color: #fff;
+  background-color: #000;
+  font-size: 1em;
+  text-decoration: none;  
+  border-radius: 5px;
+  margin: 0.5em;
+  transition: background-color .3s;
+}
+
+.button-b:active {
+  background-color: #fff;
+  color: #000;
+}
+
+.button-b:hover {
+  background-color: #fff;
+}
 
 /* Outline yellow button */
 
