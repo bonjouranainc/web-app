@@ -109,7 +109,6 @@ button {
 /* Solid yellow button */
 
 .button-y {
-  display: flex;
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #000;
   background-color: var(--ba-yellow);
@@ -131,7 +130,6 @@ button {
 /* Solid blue button */
 
 .button-b {
-  display: flex;
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #fff;
   background-color: var(--ba-blue);
@@ -155,7 +153,6 @@ button {
 /* Outline yellow button */
 
 .button-y-o {
-  display: flex;
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #000;
   background-color: transparent;
