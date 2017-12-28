@@ -32,18 +32,10 @@
     margin-left: -30em !important;
   }
 
-  .girl {
-    display: none;
-  }
 }
 
 @media only screen and (min-width: 1000px) {
   .about {
-    padding: 1em 0 1em 0 !important;
-  }
-  .about {
-    height: auto;
-    background-color: #fff;
     padding: 5em 0 5em 0; 
   }
 
@@ -55,17 +47,16 @@
   }
 
   .about img {
-    height: 35%; 
+    height: 15vh; 
   }
 
   .girl-cut {
-    display: none;
+    display: none; 
   }
 
   .girl {
     display: inherit;
-    width: 8vw !important;
+    height: 40vh !important; 
     margin-bottom: 0 !important;
   }
 }
-
