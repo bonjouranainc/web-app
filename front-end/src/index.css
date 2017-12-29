@@ -169,6 +169,7 @@ button {
 
 .button-black:hover {
   background-color: #fff;
+  color: #000;
 }
 
 /* Outline yellow button */
