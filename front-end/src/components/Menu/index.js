@@ -17,13 +17,13 @@ class Menu extends Component {
             <h1>Menu</h1>
           </div>
           <div className='menu-btns'>
-            <a href='https://bonjourana.com/collections/servicio-al-hogar'>
+            <a href='https://bonjour-ana.myshopify.com/collections/servicio-al-hogar'>
               Servicios
             </a>
             <a href='https://bonjourana.wixsite.com/bonjourana/supermercado'> 
               Supermercado
             </a>
-            <a href='https://bonjourana.com/account/login'> 
+            <a href='https://bonjour-ana.myshopify.com/account/login'> 
               Sign in
             </a>
           </div>
