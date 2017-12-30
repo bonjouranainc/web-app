@@ -19,7 +19,7 @@ class Description extends Component {
           <a href='https://bonjourjuana.typeform.com/to/xPEoh8' className='button-y'>
             Coordinar cita de bienvenida
           </a>
-          <a href='https://bonjourjuana.typeform.com/to/xPEoh8' className='button-black'>
+          <a href='https://bonjour-ana.myshopify.com/products/especial-de-limpieza' className='button-black'>
             Oferta de limpieza
           </a>
         </div>
