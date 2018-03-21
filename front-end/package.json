@@ -87,5 +87,9 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "description": "Landing Page for bonjour Ana",
+  "main": "index.js",
+  "author": "Leonardo Calderon/Christopher Cruz",
+  "license": "ISC"
 }
