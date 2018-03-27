@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import Navigation from './Navigation';
 
 import './styles.css';
@@ -7,16 +6,16 @@ import './styles.css';
 class Testimonial extends Component {
   render() {
     return (
-      <div className='testimonials wrapper'>
-        <img src={this.props.img} alt=''></img>
-        <p className='b-txt'>{this.props.name}</p>
+      <div className="testimonials wrapper">
+        <img src={this.props.img} alt="" />
+        <p className="b-txt">{this.props.name}</p>
         <p>{this.props.quote}</p>
-        <Navigation 
+        <Navigation
           _leftClick={this.props._leftClick}
           _rightClick={this.props._rightClick}
         />
       </div>
-    );  
+    );
   }
 }
 

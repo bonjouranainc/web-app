@@ -8,14 +8,14 @@ import Footer from '../../components/Footer/index.js';
 
 class TermsAndPrivacy extends Component {
   render() {
-    return(
-      <div> 
+    return (
+      <div>
         <Header />
         <TermsOfUse />
         <PrivacyPolicy />
         <Footer />
       </div>
-    ); 
+    );
   }
 }
 
