@@ -8,6 +8,8 @@
 
 .subscriptions p {
   max-width: 85vw;
+  font-size: 19px;
+  line-height: 140%;
 }
 
 .subscriptions a:hover {
@@ -62,7 +64,7 @@
   .subscriptions {
     margin: 5em 0 0 0;
   }
-  
+
   .sub-images {
     margin-top: 2em;
     display: flex;

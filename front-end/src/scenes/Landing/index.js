@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Header from '../../components/Header/index.js';
 import Welcome from './components/Welcome/index.js';
@@ -10,22 +10,18 @@ import Partnerships from './components/Partnerships/index.js';
 import NeedHelp from './components/NeedHelp/index.js';
 import Footer from '../../components/Footer/index.js';
 
-class Landing extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <Welcome />
-        <About />
-        <Description />
-        <HowItWorks />
-        <Testimonials />
-        <NeedHelp />
-        <Partnerships />
-        <Footer />
-      </div>
-    );
-  }
-}
+const Landing = () => (
+  <div>
+    <Header />
+    <Welcome />
+    <About />
+    <Description />
+    <HowItWorks />
+    <Testimonials />
+    <NeedHelp />
+    <Partnerships />
+    <Footer />
+  </div>
+);
 
 export default Landing;
