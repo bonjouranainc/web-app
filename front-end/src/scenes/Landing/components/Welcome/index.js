@@ -1,4 +1,5 @@
 import React from 'react';
+import logoMain from '../../images/png/BonjourAna_Blanco-01.png';
 
 import './styles.css';
 
@@ -6,7 +7,7 @@ const Welcome = () => (
   <div className="l-welcome wrapper">
     <div className="main">
       <div className="logo">
-        <img src="" alt="" />
+        <img src={logoMain} alt="Bonjour Ana Logo" />
       </div>
       <div className="header-txt">
         <h1>
