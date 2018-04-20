@@ -1,75 +1,75 @@
 .header {
   display: flex;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   right: 0;
   height: 8vh;
-  width: auto;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1em;
-  transition: top .3s, background-color .5s;
-  z-index: 2;
-}
-
-.hide {
-  top: -10vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 0;
 }
 
 .logo img {
   width: 5vh;
-  height: auto;
+  padding-left: 10px;
 }
 
-.header-btns {
-  display: none;
+.header-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: absolute;
+  left: 5%;
+}
+
+.header-left a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.header-right {
+  display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.menu-icon i {
-  color: #fff !important;
+.header-right a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
 }
 
-@media only screen and (min-width: 320px) and (orientation: landscape) {
-  .header {
-    height: 10vh; 
-  }
-
+/* @media only screen and (min-width: 320px) and (orientation: landscape) {
   .logo img {
     width: 8vh;
     padding-top: 0.2em;
   }
 }
 
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width: 768px) {
   .logo img {
     width: 5vh;
   }
 }
 
-@media only screen and (min-width : 1000px) {
-  .header {
-    padding: 0 2.5em; 
-  }  
-
+@media only screen and (min-width: 1000px) {
   .header-btns {
     display: flex;
   }
 
   .menu-icon {
-    display: none; 
-  }
-
-  .logo img {
-    width: 7vh;  
+    display: none;
   }
 }
 
-@media only screen and (min-height : 1300px) {
+@media only screen and (min-height: 1300px) {
   .header {
     height: 5vh;
   }
-}
-
+} */

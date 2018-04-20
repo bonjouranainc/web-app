@@ -1,7 +1,14 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
 }
 
 /* 
@@ -11,15 +18,17 @@ body {
 */
 
 :root {
-  --ba-yellow: #EBD831;
-  --ba-blue: #89ABE3;
-  --g1: #F2F2F2;
-  --g2: #CCCCCC;
+  --ba-yellow: #ebd831;
+  --ba-blue: #89abe3;
+  --g1: #f2f2f2;
+  --g2: #cccccc;
 }
 
 h1 {
-  font-size: 1.6em;
-  font-weight: 400;
+  font-size: 240%;
+  margin-bottom: 20px;
+  word-spacing: 4px;
+  letter-spacing: 1px;
 }
 
 h2 {
@@ -39,7 +48,7 @@ a {
 button {
   border: none;
   background-color: transparent;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 @media only screen and (min-width: 768px) {
@@ -59,7 +68,6 @@ button {
   align-items: center;
   padding: 2em 1em;
 }
-
 
 /* Cols & Rows */
 .col {
@@ -85,7 +93,6 @@ button {
 /*
   Text styles
 */
-
 
 /* Add bold */
 .b-txt {
@@ -113,10 +120,10 @@ button {
   color: #000;
   background-color: var(--ba-yellow);
   font-size: 1em;
-  text-decoration: none;  
+  text-decoration: none;
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 .button-y:active {
@@ -134,10 +141,10 @@ button {
   color: #fff;
   background-color: var(--ba-blue);
   font-size: 1em;
-  text-decoration: none;  
+  text-decoration: none;
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 .button-b:active {
@@ -156,10 +163,10 @@ button {
   color: #fff;
   background-color: #000;
   font-size: 1em;
-  text-decoration: none;  
+  text-decoration: none;
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 .button-black:active {
@@ -179,11 +186,11 @@ button {
   color: #000;
   background-color: transparent;
   font-size: 1em;
-  text-decoration: none;  
+  text-decoration: none;
   border: solid 1px var(--ba-yellow);
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 .button-y-o:active {
@@ -202,11 +209,11 @@ button {
   color: #fff !important;
   background-color: transparent;
   font-size: 1em;
-  text-decoration: none;  
+  text-decoration: none;
   border: solid 1px #fff;
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 .button-w-o:active {
@@ -249,18 +256,18 @@ button {
   padding: 0.5em 1.5em 0.5em 1.5em;
   text-align: center;
   display: block;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 .checkbox-btn label input {
   position: absolute;
   top: -20px;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 .checkbox-btn input:checked + span {
   background-color: var(--ba-yellow);
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 /* Inline pickers ex. Day, Hours */
@@ -280,17 +287,16 @@ button {
   padding: 0.5em 1.5em 0.5em 1.5em;
   text-align: center;
   display: block;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 .inline-picker label input {
   position: absolute;
   top: -20px;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 .inline-picker input:checked + span {
   background-color: var(--ba-yellow);
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
-

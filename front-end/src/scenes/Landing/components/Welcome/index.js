@@ -5,11 +5,13 @@ import './styles.css';
 const Welcome = () => (
   <div className="l-welcome wrapper">
     <div className="main">
+      <div className="logo">
+        <img src="" alt="" />
+      </div>
       <div className="header-txt">
         <h1>
-          Completamos <br />
-          tus <span className="b-txt">tareas del hogar</span> <br />
-          y <span className="b-txt">necesidades diarias</span>
+          Completamos tus tareas del
+          <br /> hogar y necesidades diarias.
         </h1>
       </div>
       <div className="welcome-btns">
@@ -17,7 +19,13 @@ const Welcome = () => (
           href="https://bonjour-ana.myshopify.com/products/servicio-de-limpieza"
           className="button-y"
         >
-          Coordinar Servicios
+          Limpieza
+        </a>
+        <a
+          href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar"
+          className="button-y"
+        >
+          Servicios
         </a>
       </div>
     </div>

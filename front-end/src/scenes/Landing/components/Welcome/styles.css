@@ -1,14 +1,15 @@
-.l-welcome  {
+.l-welcome {
   height: 100vh;
   padding-top: 0;
   padding-bottom: 0;
-  width: auto;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('../../images/jpg/ba-bg-mob.jpg');
-  background-size: 100%;
+  background-image: url('../../images/jpg/partnerships-bg.jpg');
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   color: #fff;
 }
@@ -28,24 +29,24 @@
 @media only screen and (min-width: 1000px) {
   .l-welcome {
     height: 100vh;
-    background-image: url('../../images/jpg/ba-bg.jpg');
+    background-image: url('../../images/jpg/partnerships-bg.jpg');
   }
 }
 
 @media only screen and (min-width: 1000px) and (min-height: 768px) {
-  .l-welcome  {
+  .l-welcome {
     height: 70vh;
   }
 }
 
 @media only screen and (min-width: 1000px) and (min-height: 1000px) {
-  .l-welcome  {
+  .l-welcome {
     height: 40vh;
   }
 }
 
 @media only screen and (min-width: 1300px) {
-  .l-welcome  {
+  .l-welcome {
     height: 70vh;
   }
 }
