@@ -1,29 +1,39 @@
 .howItWorks img {
-  width: 35%;
+  width: 75%;
   height: auto;
   margin-bottom: 1em;
 }
 
+.header {
+  text-align: center;
+}
+
 .howItWorks p {
-  margin: 0 2em 2em 2em;
+  margin-top: 15px;
 }
 
 @media only screen and (min-width: 320px) and (orientation: landscape) {
-  .howItWorks img {
-    width: 20%;
+  h1 {
+    text-align: center;
   }
+
   .group {
     width: 90vw;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 50px;
   }
 
   .group1 {
+    flex-direction: row;
+  }
+
+  .group2 {
     flex-direction: row-reverse;
   }
 
   .group3 {
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 
   .cont {
@@ -36,16 +46,6 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .howItWorks img {
-    max-width: 15%; 
-  }
-
-  .howItWorks p {
-    margin: 0 7em 3em 7em;
-  }
-}
-
 @media only screen and (min-width: 1000px) {
   .howItWorks p {
     margin: 0;
@@ -53,16 +53,20 @@
 
   .group {
     width: 90vw;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-around;
   }
 
   .group1 {
+    flex-direction: row;
+  }
+
+  .group2 {
     flex-direction: row-reverse;
   }
 
   .group3 {
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 
   .cont {
