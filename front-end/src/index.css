@@ -25,15 +25,18 @@ html {
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 240%;
   margin-bottom: 25px;
   word-spacing: 4px;
   letter-spacing: 1px;
 }
 
 h2 {
-  font-size: 1.3em;
+  font-size: 180%;
   font-weight: 400;
+  word-spacing: 2px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 p {
