@@ -1,18 +1,34 @@
-.howItWorks img {
-  width: 75%;
+.howItWorks {
+  width: 100%;
   height: auto;
-  margin-bottom: 1em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-right: 20px;
 }
 
-.header {
-  text-align: center;
+.image {
+  margin-bottom: 1em;
+  width: 50%;
 }
 
 .howItWorks p {
   margin-top: 15px;
+  word-spacing: 3px;
 }
 
-@media only screen and (min-width: 320px) and (orientation: landscape) {
+.group {
+  padding: 10px 20px;
+}
+
+.group h2 {
+  margin-bottom: 20px;
+}
+
+.group3 {
+  padding-top: 20px;
+}
+
+/* @media only screen and (min-width: 320px) and (orientation: landscape) {
   h1 {
     text-align: center;
   }
@@ -77,4 +93,4 @@
     justify-content: center;
     align-items: center;
   }
-}
+} */
