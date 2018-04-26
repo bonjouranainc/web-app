@@ -1,9 +1,7 @@
 .howItWorks {
   width: 100%;
   height: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding-right: 20px;
+  margin: 30px 20px 30px 0;
 }
 
 .howItWorks h3 {
@@ -13,7 +11,7 @@
 .howItWorks p {
   margin-top: 15px;
   word-spacing: 3px;
-  padding: 0 100px;
+  padding: 0 50px;
 }
 
 .headline {
@@ -29,10 +27,7 @@
 .image-smaller {
   width: 30%;
   margin-left: 50px;
-}
-
-.image-bigger {
-  width: 40%;
+  margin-right: 100px;
 }
 
 .group {
@@ -47,8 +42,12 @@
   flex-direction: row-reverse;
 }
 
+.group3 p {
+  padding: 0 100px;
+}
+
 .cont {
-  padding: 0 60px 0 60px;
+  padding: 0 40px 0 40px;
 }
 
 /* @media only screen and (min-width: 320px) and (orientation: landscape) {

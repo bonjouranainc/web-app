@@ -15,7 +15,7 @@ const HowItWorks = () => (
     </div>
     <div className="col">
       <div className="row group group1">
-        <img src={url1} alt="image lady" className="image image-smaller" />
+        <img src={url1} alt="lady" className="image image-smaller" />
         <div className="cont">
           <h3>Escoja sus servicios</h3>
           <p>
@@ -25,7 +25,7 @@ const HowItWorks = () => (
         </div>
       </div>
       <div className="row group group2">
-        <img src={url2} alt="image cleaning" className="image image-bigger" />
+        <img src={url2} alt="cleaning" className="image image-bigger" />
         <div className="cont">
           <h3>Reciba su visita</h3>
           <p>
@@ -35,7 +35,7 @@ const HowItWorks = () => (
         </div>
       </div>
       <div className="row group group3">
-        <img src={url3} alt="image chilling" className="image image-bigger" />
+        <img src={url3} alt="chilling" className="image image-bigger" />
         <div className="cont">
           <h3>
             Voila! <br /> Todas sus tareas completadas
