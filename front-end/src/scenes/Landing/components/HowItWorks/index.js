@@ -9,10 +9,12 @@ import './styles.css';
 const HowItWorks = () => (
   <div className="howItWorks wrapper">
     <div className="headline">
-      <h2>¿Cómo funciona?</h2>
+      <h2>
+        <strong>¿Cómo funciona?</strong>
+      </h2>
     </div>
-    <div className="row">
-      <div className="col group group1">
+    <div className="col">
+      <div className="row group group1">
         <img src={url1} alt="image lady" className="image image-smaller" />
         <div className="cont">
           <h3>Escoja sus servicios</h3>
@@ -22,7 +24,7 @@ const HowItWorks = () => (
           </p>
         </div>
       </div>
-      <div className="col group group2">
+      <div className="row group group2">
         <img src={url2} alt="image cleaning" className="image image-bigger" />
         <div className="cont">
           <h3>Reciba su visita</h3>
@@ -32,7 +34,7 @@ const HowItWorks = () => (
           </p>
         </div>
       </div>
-      <div className="col group group3">
+      <div className="row group group3">
         <img src={url3} alt="image chilling" className="image image-bigger" />
         <div className="cont">
           <h3>

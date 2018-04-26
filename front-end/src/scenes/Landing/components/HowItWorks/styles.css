@@ -6,8 +6,19 @@
   padding-right: 20px;
 }
 
+.howItWorks h3 {
+  font-size: 200%;
+}
+
+.howItWorks p {
+  margin-top: 15px;
+  word-spacing: 3px;
+  padding: 0 100px;
+}
+
 .headline {
   font-size: 200%;
+  margin-bottom: 50px;
 }
 
 .image {
@@ -15,22 +26,29 @@
   width: 50%;
 }
 
-.howItWorks p {
-  margin-top: 15px;
-  word-spacing: 3px;
-  padding: 0 25px;
+.image-smaller {
+  width: 30%;
+  margin-left: 50px;
+}
+
+.image-bigger {
+  width: 40%;
 }
 
 .group {
-  padding: 10px 20px;
+  padding: 10px 20px 30px 20px;
 }
 
 .group h2 {
   margin-bottom: 20px;
 }
 
-.group3 {
-  padding-top: 50px;
+.group2 {
+  flex-direction: row-reverse;
+}
+
+.cont {
+  padding: 0 60px 0 60px;
 }
 
 /* @media only screen and (min-width: 320px) and (orientation: landscape) {
