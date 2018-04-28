@@ -21,11 +21,11 @@
 
 .image {
   margin-bottom: 1em;
-  width: 50%;
+  height: 500px;
 }
 
 .image-smaller {
-  width: 30%;
+  height: 400px;
   margin-left: 50px;
   margin-right: 100px;
 }
