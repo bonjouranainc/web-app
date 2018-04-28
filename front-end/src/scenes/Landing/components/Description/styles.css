@@ -1,27 +1,54 @@
 .description {
-  height: 100vh;
-  margin-top: 30px;
+  height: 80vh;
+  position: relative;
+  margin-top: 15px;
   padding-top: 0;
   padding-bottom: 0;
-  width: auto;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url('../../images/jpg/description-bg-mob.jpg');
-  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../../images/jpg/description-bg.jpg');
+  background-position: top;
+  background-size: cover;
   background-repeat: no-repeat;
+  /* background-attachment: fixed; */
   color: #fff;
 }
 
-.description h2 {
+.desc-box {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  transform: translate(-25%, -15%);
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.heading-primary-sub {
+  margin-top: 40px;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+  text-justify: auto;
+  text-align: justify;
+}
+
+/* .description h2 {
   text-align: left;
 }
 
 .description div {
   margin: 2em 1em;
-}
+} */
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .description {
     height: 38vh;
     align-items: flex-start;
@@ -62,4 +89,4 @@
   .description {
     height: 58vh;
   }
-}
+} */
