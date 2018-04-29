@@ -1,9 +1,8 @@
 import React from 'react';
 
-import facebook from './images/facebook-icon.svg';
-import twitter from './images/twitter-icon.svg';
-import instagram from './images/instagram-icon.svg';
-import medium from './images/Monogram.svg';
+import facebook from '../../images/svg/facebook-icon.svg';
+import twitter from '../../images/svg/twitter-icon.svg';
+import instagram from '../../images/svg/instagram-icon.svg';
 
 import './styles.css';
 
@@ -16,13 +15,6 @@ const FooterTop = () => (
         rel="noopener noreferrer"
       >
         <img src={facebook} alt="" />
-      </a>
-      <a
-        href="https://medium.com/@bonjouranainc"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={medium} alt="" />
       </a>
       <a
         href="http://instagram.com/bonjouranainc"

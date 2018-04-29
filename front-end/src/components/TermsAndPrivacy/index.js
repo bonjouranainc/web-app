@@ -4,7 +4,7 @@ import TermsOfUse from './components/TermsOfUse/index.js';
 import PrivacyPolicy from './components/PrivacyPolicy/index.js';
 
 import NavBar from '../../components/NavBar/index';
-import Footer from '../../components/Footer/index';
+import Footer from '../../components/Footer/index.js';
 
 const TermsAndPrivacy = () => (
   <div>

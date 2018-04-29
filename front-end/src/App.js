@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './routes/index';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>Working</h1>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <Router>
+    <Routes />
+  </Router>
+);
 
 export default App;
