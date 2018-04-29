@@ -1,10 +1,10 @@
 import React from 'react';
 
-import TermsOfUse from './components/TermsOfUse/index.js';
-import PrivacyPolicy from './components/PrivacyPolicy/index.js';
+import TermsOfUse from './TermsOfUse/index';
+import PrivacyPolicy from './PrivacyPolicy/index';
 
-import NavBar from '../../components/NavBar/index';
-import Footer from '../../components/Footer/index.js';
+import NavBar from '../NavBar/index';
+import Footer from '../Footer/index';
 
 const TermsAndPrivacy = () => (
   <div>

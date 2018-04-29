@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import LandingPage from '../components/index';
 
 //import About from '../scenes/About/index';
-import TermsAndPrivacy from '../scenes/TermsAndPrivacy/index.js';
+import TermsAndPrivacy from '../components/TermsAndPrivacy/index';
 
 class Routes extends Component {
   render() {
