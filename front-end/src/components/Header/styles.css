@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url('../../images/jpg/partnerships-bg.jpg');
   background-size: cover;
   background-position: center;
@@ -27,7 +27,7 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 1000px) {
+/* @media only screen and (min-width: 1000px) {
   .l-welcome {
     height: 100vh;
     width: 100%;
@@ -52,4 +52,4 @@
   .l-welcome {
     height: 70vh;
   }
-}
+} */
