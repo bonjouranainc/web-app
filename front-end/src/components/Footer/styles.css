@@ -1,8 +1,42 @@
 /* Footer Top */
+.footer-top {
+  width: 100%;
+  background-color: rgb(236, 234, 234);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.social-container {
+  width: 25%;
+  margin: 90px 0 0 100px;
+}
+
+.social-container:first-child img {
+  height: 35px;
+}
+
+.social-container img {
+  margin-right: 40px;
+}
+
+.links-container {
+  width: 25%;
+  margin: 90px 0 0 0;
+}
+
+.links-container ul {
+  list-style: none;
+}
+
+.links-container li a:link {
+  text-decoration: none;
+}
+
 .footerTop {
-  height: 10vh;
+  height: auto;
   background-color: #fff;
-  display: flex; 
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 0.5em;
@@ -47,7 +81,7 @@
 }
 
 .locations {
-  display: none;  
+  display: none;
 }
 
 .locations p {
@@ -57,12 +91,11 @@
   margin: 0.5em;
 }
 
-
 /* Footer Bottom */
 .footerBottom {
   height: 10vh;
   background-color: var(--g2);
-  display: flex; 
+  display: flex;
   justify-content: flex-end;
   align-items: center;
   flex-direction: row;
@@ -83,9 +116,9 @@
   text-decoration: underline;
 }
 
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width: 768px) {
   .locations {
-    display: flex;  
+    display: flex;
     flex-direction: column;
     justify-content: center;
   }
@@ -111,7 +144,7 @@
   }
 }
 
-@media only screen and (min-width : 1100px) {
+@media only screen and (min-width: 1100px) {
   .footerTop img {
     height: 5vh;
   }
