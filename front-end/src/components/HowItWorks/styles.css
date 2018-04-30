@@ -24,12 +24,6 @@
   height: 500px;
 }
 
-.image-smaller {
-  height: 400px;
-  margin-left: 50px;
-  margin-right: 100px;
-}
-
 .group {
   padding: 10px 20px 30px 20px;
 }
@@ -38,12 +32,22 @@
   margin-bottom: 20px;
 }
 
+.group1 img {
+  width: 500px;
+  height: 280px;
+  margin-left: 150px;
+}
+
 .group2 {
   flex-direction: row-reverse;
 }
 
 .group3 p {
   padding: 0 100px;
+}
+
+.group3 img {
+  margin-left: 100px;
 }
 
 .cont {

@@ -33,10 +33,13 @@ const FooterTop = () => (
     </div>
     <div className="info">
       <div className="more s-txt">
-        <a href="mailto:hi@bonjourana.com">Unete a nosotros</a>
+        <a href="#">Sobre BA</a>
         <a href="https://bonjour-ana.myshopify.com/pages/preguntas-frecuentes">
-          FAQ
+          Preguntas Frecuentes
         </a>
+        <a href="#">Partnerships</a>
+        <a href="#">Ayuda</a>
+        <a href="mailto:hi@bonjourana.com">Contactanos</a>
       </div>
       <div className="locations s-txt">
         <p className="b-txt">Locations</p>
