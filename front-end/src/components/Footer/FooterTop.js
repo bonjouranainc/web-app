@@ -48,6 +48,40 @@ const FooterTop = () => (
         </li>
       </ul>
     </div>
+
+    <div className="locations-container">
+      <p className="b-txt">Pueblos</p>
+      <ul>
+        <li>San Juan</li>
+        <li>Carolina</li>
+        <li>Guaynabo</li>
+        <li>Canovanas</li>
+        <li>Caguas</li>
+        <li>Bayamon</li>
+        <li>Trujillo Alto</li>
+        <li>Toa Baja</li>
+        <li>Toa Alta</li>
+        <li>Dorado</li>
+        <li>Cataño</li>
+        <li>Rio Grande</li>
+      </ul>
+    </div>
+
+    <div className="services-container">
+      <p className="b-txt">Servicios</p>
+      <ul>
+        <li>Limpieza</li>
+        <li>Laundry</li>
+        <li>Limpieza de Ventanas</li>
+        <li>Patio</li>
+        <li>Aires Acondicionados</li>
+        <li>Pintura</li>
+        <li>Plomeria</li>
+        <li>Handyman</li>
+        <li>Zapatero</li>
+        <li>Recogido del hogar</li>
+      </ul>
+    </div>
   </div>
 
   // <div className="footerTop">
