@@ -9,9 +9,7 @@ import './styles.css';
 const HowItWorks = () => (
   <div className="howItWorks wrapper">
     <div className="headline">
-      <h2>
-        <strong>¿Cómo funciona?</strong>
-      </h2>
+      <h2>¿Cómo funciona?</h2>
     </div>
     <div className="col">
       <div className="row group group1">

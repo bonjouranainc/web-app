@@ -13,20 +13,25 @@ const FooterTop = () => (
         href="http://facebook.com/bonjouranainc"
         target="_blank"
         rel="noopener noreferrer"
-      />
-      <img src={facebook} alt="" />
+      >
+        <img src={facebook} alt="" />
+      </a>
+
       <a
         href="http://twitter.com/bonjouranainc"
         target="_blank"
         rel="noopener noreferrer"
-      />
-      <img src={twitter} alt="" />
+      >
+        <img src={twitter} alt="" />
+      </a>
+
       <a
         href="http://instagram.com/bonjouranainc"
         target="_blank"
         rel="noopener noreferrer"
-      />
-      <img src={instagram} alt="" />
+      >
+        <img src={instagram} alt="" />
+      </a>
     </div>
 
     <div className="links-container">
