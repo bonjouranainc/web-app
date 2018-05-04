@@ -1,18 +1,19 @@
 .howItWorks {
   width: 100%;
   height: auto;
-  background-color: rgb(243, 239, 229);
+  background-color: rgb(245, 242, 235);
 }
 
 .howItWorks h3 {
   font-size: 200%;
-  color: rgb(216, 181, 66);
+  color: rgb(236, 203, 94);
 }
 
 .howItWorks p {
   margin-top: 15px;
   word-spacing: 3px;
-  padding: 0 50px;
+  padding: 0 200px;
+  text-align: justify;
 }
 
 .headline {
@@ -31,11 +32,11 @@
 
 .headline h2 {
   margin-bottom: 20px;
-  color: rgb(216, 181, 66);
+  color: rgb(236, 203, 94);
 }
 
 .group1 img {
-  width: 450px;
+  width: 480px;
   height: 280px;
   margin-left: 150px;
 }

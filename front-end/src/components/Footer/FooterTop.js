@@ -35,7 +35,7 @@ const FooterTop = () => (
     </div>
 
     <div className="links-container">
-      <ul className="s-txt">
+      <ul>
         <li>
           <a href="#">Sobre BA</a>
         </li>
@@ -56,7 +56,7 @@ const FooterTop = () => (
 
     <div className="locations-container">
       <p className="b-txt">Pueblos</p>
-      <ul className="s-txt">
+      <ul>
         <li>San Juan</li>
         <li>Carolina</li>
         <li>Guaynabo</li>
@@ -74,7 +74,7 @@ const FooterTop = () => (
 
     <div className="services-container">
       <p className="b-txt">Servicios</p>
-      <ul className="s-txt">
+      <ul>
         <li>Limpieza</li>
         <li>Laundry</li>
         <li>Limpieza de Ventanas</li>
