@@ -9,7 +9,7 @@ const FooterBottom = () => (
     <a href="/terms" className="s-txt">
       Terms & Privacy
     </a>
-    <p className="s-txt">@{year.getFullYear()} Bonjour Ana Inc.</p>
+    <p className="s-txt">&copy;{year.getFullYear()} Bonjour Ana Inc.</p>
   </div>
 );
 

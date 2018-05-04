@@ -40,7 +40,7 @@ const HowItWorks = () => (
           </h3>
           <p>
             Llega a un hogar limpio y fresco, con las compras del supermercado
-            realizada, el dry-cleaning recogido y todas sus tareas completadas.
+            realizada, el dry-cleaning recogido y todas sus tareas completadas
           </p>
         </div>
       </div>
