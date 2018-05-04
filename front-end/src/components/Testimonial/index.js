@@ -3,7 +3,7 @@ import picture from '../../images/jpg/tamara-matos.jpg';
 
 import './index.css';
 
-const person1 = {
+const person = {
   name: 'Lily M.',
   quote: 'Muy contenta con el servicio.\n Mi casa quedo inmaculada!'
 };
@@ -16,8 +16,8 @@ const Testimonial = () => (
           <img src={picture} alt="Picture of lady" />
         </div>
         <div className="card--text">
-          <h5>{person1.name}</h5>
-          <p>{person1.quote}</p>
+          <h5>{person.name}</h5>
+          <p>{person.quote}</p>
           <div className="card--stars">
             <i className="fas fa-star" />
             <i className="fas fa-star" />
@@ -34,8 +34,8 @@ const Testimonial = () => (
           <img src={picture} alt="Picture of lady" />
         </div>
         <div className="card--text">
-          <h5>{person1.name}</h5>
-          <p>{person1.quote}</p>
+          <h5>{person.name}</h5>
+          <p>{person.quote}</p>
           <div className="card--stars">
             <i className="fas fa-star" />
             <i className="fas fa-star" />
@@ -52,8 +52,8 @@ const Testimonial = () => (
           <img src={picture} alt="Picture of lady" />
         </div>
         <div className="card--text">
-          <h5>{person1.name}</h5>
-          <p>{person1.quote}</p>
+          <h5>{person.name}</h5>
+          <p>{person.quote}</p>
           <div className="card--stars">
             <i className="fas fa-star" />
             <i className="fas fa-star" />
