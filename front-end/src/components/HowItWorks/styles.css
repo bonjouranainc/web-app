@@ -5,7 +5,8 @@
 }
 
 .howItWorks h3 {
-  font-size: 200%;
+  font-weight: 100;
+  font-size: 28px;
   color: rgb(236, 203, 94);
 }
 
@@ -13,12 +14,18 @@
   margin-top: 15px;
   word-spacing: 3px;
   padding: 0 200px;
-  text-align: justify;
+  font-weight: 100;
 }
 
 .headline {
-  font-size: 200%;
   margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.headline h2 {
+  color: rgb(236, 203, 94);
+  font-weight: 900;
+  font-size: 48px;
 }
 
 .image {
@@ -30,9 +37,8 @@
   padding: 10px 50px 30px 20px;
 }
 
-.headline h2 {
-  margin-bottom: 20px;
-  color: rgb(236, 203, 94);
+.group1 p {
+  text-align: left;
 }
 
 .group1 img {
@@ -48,14 +54,11 @@
 
 .group3 p {
   padding: 0 100px;
+  text-align: left;
 }
 
 .group3 img {
   margin-left: 100px;
-}
-
-.cont {
-  padding: 0 40px 0 40px;
 }
 
 /* @media only screen and (min-width: 320px) and (orientation: landscape) {
