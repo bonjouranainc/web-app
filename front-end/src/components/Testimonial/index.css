@@ -10,6 +10,7 @@
   border: 1px solid #fff;
   background-color: rgb(255, 254, 251);
   margin: 80px 10px 80px 10px;
+  box-shadow: 0 10px 10px grey;
 }
 
 .card--img img {
