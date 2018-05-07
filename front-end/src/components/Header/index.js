@@ -1,10 +1,15 @@
 import React from 'react';
 
+import logo from '../../images/png/BonjourAna_Blanco-01.png';
+
 import './styles.css';
 
 const Header = () => (
   <div className="l-welcome wrapper">
     <div className="main">
+      <div className="header-logo">
+        <img src={logo} alt="Company logo" />
+      </div>
       <div className="header-txt">
         <h1>
           Completamos tus tareas del
