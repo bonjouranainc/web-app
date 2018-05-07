@@ -8,6 +8,10 @@
   padding-bottom: 50px;
 }
 
+.footer-top li {
+  font-size: 16px;
+}
+
 .social-container {
   width: 25%;
   margin: 200px 0 0 150px;
@@ -79,8 +83,13 @@ a:visited {
   bottom: 0;
 }
 
+.footerBottom a {
+  font-size: 14px;
+}
+
 .footerBottom p {
   margin: 0.5em 1em 0.5em 0.5em;
+  font-size: 14px;
 }
 
 .footerBottom a {
