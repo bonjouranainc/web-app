@@ -1,7 +1,7 @@
 import React from 'react';
 import url from '../../images/svg/handshake.svg';
 
-import './index.css';
+import './styles.css';
 
 const Partnerships = () => (
   <div className="container">
