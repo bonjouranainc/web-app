@@ -2,6 +2,8 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  background-color: rgb(235, 227, 209);
+  padding: 40px 0;
 }
 
 .partnerbox {
@@ -9,7 +11,7 @@
   border-right: 1px solid #000;
 }
 .partnerbox__text {
-  margin: 400px 50px;
+  margin: 200px 50px 100px 50px;
 }
 
 .partnerbox__text__heading {
@@ -38,7 +40,7 @@
 }
 
 .welcomingbox__text {
-  margin: 400px 50px;
+  margin: 200px 50px 100px 50px;
 }
 
 .welcomingbox__text__heading {
@@ -57,38 +59,7 @@
   font-size: 26px;
   margin-bottom: 50px;
 }
-
-/* .partnerships {
-  height: 100vh;
-  justify-content: space-around;
-  padding-top: 0;
-  padding-bottom: 0;
-  background-image: url('../../images/jpg/partnerships-bg-mob.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  color: #fff;
-}
-
-.partnerships img {
-  width: 70%;
-  height: auto;
-}
-
-@media only screen and (min-width: 768px) {
-  .partnerships {
-    height: 32vh;
-    background-image: url('../../images/jpg/partnerships-bg.jpg');
-  }
-
-  .partnerships img {
-    width: 50%; 
-  }
-
-  .partnerships p {
-    margin: 0 7em 2em 7em;
-  }
-}
-
+/* 
 @media only screen and (min-width : 1000px) {
   .partnerships {
     height: 78vh;
