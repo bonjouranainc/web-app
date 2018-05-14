@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import LandingPage from '../components/index';
 
-//import About from '../scenes/About/index';
+import About from '../components/About/index';
 import TermsAndPrivacy from '../components/TermsAndPrivacy/index';
 
 class Routes extends Component {
@@ -13,7 +13,7 @@ class Routes extends Component {
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route path="/terms" component={TermsAndPrivacy} />
-          {/* <Route path="/about" component={About} /> */}
+          <Route path="/about" component={About} />
         </Switch>
       </Router>
     );

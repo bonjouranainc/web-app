@@ -1,59 +1,23 @@
 .about {
-  height: auto;
-  background-color: #fff;
-  padding: 0;
+  width: 100%;
+  background-color: rgb(245, 242, 235);
 }
 
-.about img {
-  width: 20%;
-  height: auto;
-  margin-bottom: 1em;
+.about__header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('../../images/jpg/P3160818.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
-.girl-cut {
-  width: 40% !important;
-  margin: 0 !important;
-  margin-top: -3em !important;
-  margin-left: -15em !important;
+.about__quote {
+  text-align: center;
+  margin: 200px 0;
 }
 
-.girl {
-  display: none;
-}
-
-@media only screen and (min-width: 768px) {
-  .about img {
-    width: 25%; 
-  }
-
-  .girl-cut {
-    width: 50% !important;
-    margin-top: -10em !important;
-    margin-left: -30em !important;
-  }
-
-}
-
-@media only screen and (min-width: 1000px) {
-
-  .content {
-    width: 100vw;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around; 
-  }
-
-  .about img {
-    height: 15vh; 
-  }
-
-  .girl-cut {
-    display: none; 
-  }
-
-  .girl {
-    display: inherit;
-    height: 40vh !important; 
-    margin-bottom: 0 !important;
-  }
+.about__quote p {
+  font-family: cursive;
+  font-weight: 400;
+  font-size: 28px;
 }

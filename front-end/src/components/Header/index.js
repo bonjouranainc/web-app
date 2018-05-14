@@ -5,7 +5,7 @@ import logo from '../../images/png/BonjourAna_Blanco-01.png';
 import './styles.css';
 
 const Header = () => (
-  <div className="l-welcome wrapper">
+  <div className="l-welcome">
     <div className="main">
       <div className="header-logo">
         <img src={logo} alt="Company logo" />
