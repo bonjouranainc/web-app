@@ -5,7 +5,7 @@ import Header from './Header/index';
 import Description from './Description/index.js';
 import HowItWorks from './HowItWorks/index.js';
 import Testimonial from './Testimonial/index';
-// import Partnerships from './Partnerships/index.js';
+import Partnerships from './Partnerships/index.js';
 // import NeedHelp from './NeedHelp/index.js';
 import Footer from './Footer/index';
 
@@ -16,8 +16,8 @@ const LandingPage = () => (
     <HowItWorks />
     <Description />
     <Testimonial />
-    {/* <NeedHelp />
-    <Partnerships /> */}
+    {/* <NeedHelp /> */}
+    <Partnerships />
     <Footer />
   </div>
 );

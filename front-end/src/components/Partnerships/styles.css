@@ -1,4 +1,32 @@
-.partnerships {
+.container {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.container__box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 0 70px;
+}
+
+.partner-box {
+  width: 50%;
+  margin-top: 300px;
+}
+
+.partner-box__heading--primary {
+  font-size: 42px;
+  text-align: left;
+}
+
+.welcoming-box {
+  width: 50%;
+  margin: 300px 0;
+}
+
+/* .partnerships {
   height: 100vh;
   justify-content: space-around;
   padding-top: 0;
@@ -52,4 +80,4 @@
     height: 33vh;
   }
 }
-
+ */
