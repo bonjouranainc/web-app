@@ -5,34 +5,39 @@ import './styles.css';
 
 const Partnerships = () => (
   <div className="container">
-    <div className="container__box">
-      <div className="partner-box">
-        <div className="partner-box__heading">
-          <div className="partner-box__heading--primary">
-            <h2>Partnerships</h2>
-          </div>
-          <div className="partner-box__heading--secundary">
-            <p>
-              Eres realtor, dueño de propiedades vacacionales y/o desarrollador
-              y estas interesado en nuestros servicios?
-            </p>
-          </div>
-          <div className="partner-box__heading--btn">
-            <a href="#">Partnerships</a>
-          </div>
+    <div className="partnerbox">
+      <div className="partnerbox__text">
+        <div className="partnerbox__text__heading">
+          <h3>Partnerships</h3>
+        </div>
+        <div className="partnerbox__text__subheading">
+          <p>
+            ¿Eres realtor, dueño de propiedades vacacionales y/o desarrollador y
+            estas interesado en nuestros servicios?
+          </p>
+        </div>
+        <div className="partnerbox__text__btn">
+          <a href="#" className="button-y">
+            Partnerships
+          </a>
+        </div>
+        <div className="partnerbox__text__img">
+          <img src={url} alt="handshake" />
         </div>
       </div>
-      <div className="welcoming-box">
-        <div className="welcoming-box__heading">
-          <div className="welcoming-box__heading--primary">
-            <h2>Citas de Bienvenida</h2>
-          </div>
-          <div className="welcoming-box__heading--secundary">
-            <p>Quieres conocernos antes de ordenar nuestros servicios?</p>
-          </div>
-          <div className="welcoming-box__heading--btn">
-            <a href="#">Coordinar visita</a>
-          </div>
+    </div>
+    <div className="welcomingbox">
+      <div className="welcomingbox__text">
+        <div className="welcomingbox__text__heading">
+          <h3>Citas de Bienvenida</h3>
+        </div>
+        <div className="welcomingbox__text__subheading">
+          <p>¿Quieres conocernos antes de ordenar nuestros servicios?</p>
+        </div>
+        <div className="welcomingbox__text__btn">
+          <a href="#" className="button-y">
+            Coordinar Visitas
+          </a>
         </div>
       </div>
     </div>

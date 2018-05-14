@@ -1,29 +1,61 @@
 .container {
   width: 100%;
-  padding: 50px 0;
-}
-
-.container__box {
-  width: 100%;
-  height: auto;
   display: flex;
   flex-direction: row;
-  padding: 0 70px;
 }
 
-.partner-box {
+.partnerbox {
   width: 50%;
-  margin-top: 300px;
+  border-right: 1px solid #000;
+}
+.partnerbox__text {
+  margin: 400px 50px;
 }
 
-.partner-box__heading--primary {
-  font-size: 42px;
-  text-align: left;
+.partnerbox__text__heading {
+  font-size: 44px;
+  margin-bottom: 40px;
 }
 
-.welcoming-box {
+.partnerbox__text__subheading {
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.partnerbox__text__btn {
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+
+.partnerbox__text__img img {
+  width: 300px;
+}
+
+.welcomingbox {
   width: 50%;
-  margin: 300px 0;
+}
+
+.welcomingbox__text {
+  margin: 400px 50px;
+}
+
+.welcomingbox__text__heading {
+  font-size: 44px;
+  margin-bottom: 40px;
+}
+
+.welcomingbox__text__subheading {
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 80px;
+}
+
+.welcomingbox__text__btn {
+  font-size: 26px;
+  margin-bottom: 50px;
 }
 
 /* .partnerships {
