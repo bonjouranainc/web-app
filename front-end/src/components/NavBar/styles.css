@@ -25,12 +25,11 @@
   left: 5%;
 }
 
-.header-left a,
-.header-right a:first-of-type {
+.header-left a {
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
-  padding: 20px;
+  font-size: 22px;
+  padding: 15px;
 }
 
 .header-right {
@@ -42,8 +41,8 @@
 .header-right a {
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
-  padding: 20px;
+  font-size: 22px;
+  padding: 15px;
 }
 
 /* @media only screen and (min-width: 320px) and (orientation: landscape) {
