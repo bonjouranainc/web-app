@@ -25,7 +25,8 @@
   left: 5%;
 }
 
-.header-left a {
+.header-left a,
+.header-right a:first-of-type {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
