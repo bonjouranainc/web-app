@@ -1,56 +1,66 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html {
   font-family: 'Lato', Arial, sans-serif;
   font-weight: 300;
   font-size: 20px;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+}
 
 /* 
   Global variables
     ba = Bonjour Ana
     g = Gray
 */
+
 :root {
   --ba-yellow: #ebd831;
   --ba-blue: #89abe3;
   --g1: #f2f2f2;
-  --g2: #cccccc; }
+  --g2: #cccccc;
+}
 
 h1 {
   font-size: 240%;
   margin-bottom: 25px;
   word-spacing: 4px;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+}
 
 h2 {
   font-size: 180%;
   font-weight: 400;
   word-spacing: 2px;
   text-align: center;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+}
 
 p {
   font-size: 1em;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 a {
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 button {
   border: none;
   background-color: transparent;
-  transition: background-color 0.3s; }
+  transition: background-color 0.3s;
+}
 
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2em 1em; }
+  padding: 2em 1em;
+}
 
 /* Cols & Rows */
 .col {
@@ -60,7 +70,8 @@ button {
   align-items: center;
   width: auto;
   height: auto;
-  text-align: center; }
+  text-align: center;
+}
 
 .row {
   display: flex;
@@ -69,21 +80,25 @@ button {
   align-items: center;
   width: 100vw;
   height: auto;
-  text-align: center; }
+  text-align: center;
+}
 
 /*
   Text styles
 */
+
 /* Add bold */
 .b-txt {
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 /* Small text */
 .s-txt {
   font-size: 0.8em;
-  color: #fff !important; }
-
+  color: #fff !important;
+}
 /* Buttons */
+
 /*
   Button styles 
     y = yellow
@@ -91,7 +106,9 @@ button {
     w = white
     o = outline
 */
+
 /* Solid yellow button */
+
 .button-y {
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #000;
@@ -100,13 +117,19 @@ button {
   text-decoration: none;
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color 0.3s; }
-  .button-y:active {
-    background-color: transparent; }
-  .button-y:hover {
-    background-color: #fff; }
+  transition: background-color 0.3s;
+
+  &:active {
+    background-color: transparent;
+  }
+
+  &:hover {
+    background-color: #fff;
+  }
+}
 
 /* Solid blue button */
+
 .button-b {
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #fff;
@@ -115,14 +138,20 @@ button {
   text-decoration: none;
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color 0.3s; }
-  .button-b:active {
-    background-color: transparent; }
-  .button-b:hover {
+  transition: background-color 0.3s;
+
+  &:active {
+    background-color: transparent;
+  }
+
+  &:hover {
     color: #000;
-    background-color: #fff; }
+    background-color: #fff;
+  }
+}
 
 /* Solid black button */
+
 .button-black {
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #fff;
@@ -131,15 +160,21 @@ button {
   text-decoration: none;
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color 0.3s; }
-  .button-black:active {
+  transition: background-color 0.3s;
+
+  &:active {
     background-color: #fff;
-    color: #000; }
-  .button-black:hover {
+    color: #000;
+  }
+
+  &:hover {
     background-color: #fff;
-    color: #000; }
+    color: #000;
+  }
+}
 
 /* Outline yellow button */
+
 .button-y-o {
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #000;
@@ -149,13 +184,19 @@ button {
   border: solid 1px var(--ba-yellow);
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color 0.3s; }
-  .button-y-o:active {
-    background-color: var(--ba-yellow); }
-  .button-y-o:hover {
-    border-color: #000; }
+  transition: background-color 0.3s;
+
+  &:active {
+    background-color: var(--ba-yellow);
+  }
+
+  &:hover {
+    border-color: #000;
+  }
+}
 
 /* Outline white button */
+
 .button-w-o {
   display: flex;
   padding: 0.5em 1.5em 0.5em 1.5em;
@@ -166,10 +207,15 @@ button {
   border: solid 1px #fff;
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color 0.3s; }
-  .button-w-o:active {
+  transition: background-color 0.3s;
+
+  &:active {
     border: solid 1px var(--ba-yellow);
-    background-color: var(--ba-yellow); }
-  .button-w-o:hover {
+    background-color: var(--ba-yellow);
+  }
+
+  &:hover {
     color: #000 !important;
-    background-color: #fff; }
+    background-color: #fff;
+  }
+}

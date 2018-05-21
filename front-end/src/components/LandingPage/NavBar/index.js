@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/svg/ba-logo-w.svg';
+import logo from '../../../images/svg/ba-logo-w.svg';
 import { Link } from 'react-router-dom';
 
 import './styles.css';
@@ -21,7 +21,7 @@ const NavBar = () => (
       <Link to="About" className="s-txt">
         Nosotros
       </Link>
-      <Link to="Terms" className="s-txt">
+      <Link to="How" className="s-txt">
         &iquest;Como funciona?
       </Link>
     </div>

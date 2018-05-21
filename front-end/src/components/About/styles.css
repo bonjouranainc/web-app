@@ -1,23 +1,15 @@
 .about {
   width: 100%;
-  background-color: rgb(245, 242, 235);
-}
-
-.about__header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url('../../images/jpg/P3160818.JPG');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-.about__quote {
-  text-align: center;
-  margin: 200px 0;
-}
-
-.about__quote p {
-  font-family: cursive;
-  font-weight: 400;
-  font-size: 28px;
-}
+  background-color: #f5f2eb; }
+  .about__header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/jpg/P3160818.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; }
+  .about__quote {
+    text-align: center;
+    margin: 200px 0; }
+    .about__quote p {
+      font-family: cursive;
+      font-weight: 400;
+      font-size: 28px; }

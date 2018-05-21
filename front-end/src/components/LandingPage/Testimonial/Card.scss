@@ -12,29 +12,29 @@
   margin-bottom: 50px;
   text-align: left;
   padding: 0 50px 0 50px;
-}
 
-.card--text h5 {
-  margin-bottom: 30px;
-  font-weight: 900;
-  letter-spacing: 1px;
-}
+  & h5 {
+    margin-bottom: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
 
-.card--text p {
-  font-size: 16px;
-  font-weight: 100;
-  letter-spacing: 1px;
-  line-height: 20px;
-  text-align: justify;
+  & p {
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: justify;
+  }
 }
 
 .card--stars {
   text-align: left;
   color: rgb(240, 215, 73);
   margin: 10px 0 10px 0;
-}
 
-.card--stars img {
-  width: 70px;
-  margin-top: 20px;
+  & img {
+    width: 70px;
+    margin-top: 20px;
+  }
 }

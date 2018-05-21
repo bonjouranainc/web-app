@@ -26,30 +26,3 @@
   display: flex;
   align-items: center;
 }
-
-@media only screen and (min-width: 1000px) {
-  .l-welcome {
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('../../images/jpg/partnerships-bg.jpg');
-  }
-}
-
-@media only screen and (min-width: 1000px) and (min-height: 768px) {
-  .l-welcome {
-    height: 70vh;
-  }
-}
-
-@media only screen and (min-width: 1000px) and (min-height: 1000px) {
-  .l-welcome {
-    height: 40vh;
-  }
-}
-
-@media only screen and (min-width: 1300px) {
-  .l-welcome {
-    height: 70vh;
-  }
-}

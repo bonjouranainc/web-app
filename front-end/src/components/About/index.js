@@ -9,7 +9,7 @@ const About = () => (
       <NavBar />
     </div>
     <div className="about__quote">
-      <p>Some bullshit</p>
+      <p>Some quote from BA</p>
     </div>
     <div className="about__footer">
       <Footer />

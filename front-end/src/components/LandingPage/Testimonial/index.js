@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import picture from '../../images/jpg/tamara-matos.jpg';
+import picture from '../../../images/jpg/tamara-matos.jpg';
 
 import './index.css';
 

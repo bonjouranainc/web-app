@@ -1,0 +1,23 @@
+.about {
+  width: 100%;
+  background-color: rgb(245, 242, 235);
+
+  &__header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+      url('../../images/jpg/P3160818.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  &__quote {
+    text-align: center;
+    margin: 200px 0;
+
+    & p {
+      font-family: cursive;
+      font-weight: 400;
+      font-size: 28px;
+    }
+  }
+}

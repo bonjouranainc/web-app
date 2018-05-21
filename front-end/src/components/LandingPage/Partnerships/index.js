@@ -1,5 +1,5 @@
 import React from 'react';
-import url from '../../images/svg/handshake.svg';
+import url from '../../../images/svg/handshake.svg';
 
 import './styles.css';
 
