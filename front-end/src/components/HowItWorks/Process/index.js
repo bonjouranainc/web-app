@@ -1,26 +1,26 @@
 import React from 'react';
-
-import './style.css';
+import logo from '../../../images/png/BA_Blanco-01.png';
 
 const Process = () => (
-  <div className="container">
-    <div className="heading">
-      <div className="heading__primary">
-        <h2>Cómo funciona?</h2>
-      </div>
-      <div className="heading__secondary">
-        <p>
-          Bonjour Ana es tu asistente personal para el hogar y necesidades<br />
-          diarias. Te proveemos y coordinamos una variedad de servicios <br />
-          enfocados en el hogar para que no tengas que gastar tiempo, energía y{' '}
-          <br />
-          coordinación y dedicarle tiempo a lo que realmente importa
-        </p>
-      </div>
+  <nav className="navbar is-warning">
+    <div className="navbar-brand">
+      <a href="/" className="navbar-item">
+        <figure className="image is-16x16">
+          <img src={logo} alt="shit" />
+        </figure>
+      </a>
+      <a
+        className="navbar-hamburger"
+        role="button"
+        arial-label="menu"
+        aria-expanded="false"
+      >
+        <span aria-hidden="true" />
+        <span aria-hidden="true" />
+        <span aria-hidden="true" />
+      </a>
     </div>
-
-    <div className="process-box" />
-  </div>
+  </nav>
 );
 
 export default Process;

@@ -1,3 +1,5 @@
+@import 'bulma/sass/utilities/initial-variables';
+@import 'bulma/sass/utilities/derived-variables';
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,10 @@ html {
   font-size: 20px;
   text-rendering: optimizeLegibility;
 }
+
+$black-ter: rgba(0, 0, 0, 0.5);
+
+$dark: $black-ter;
 
 /* 
   Global variables
