@@ -3,8 +3,8 @@ import React from 'react';
 import TermsOfUse from './TermsOfUse/index';
 import PrivacyPolicy from './PrivacyPolicy/index';
 
-import NavBar from '../NavBar/index';
-import Footer from '../Footer/index';
+import NavBar from '../LandingPage/NavBar/index';
+import Footer from '../LandingPage/Footer/index';
 
 const TermsAndPrivacy = () => (
   <div>
