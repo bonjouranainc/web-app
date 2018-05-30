@@ -9,16 +9,14 @@ const Description = () => (
         <span className="heading-primary-main">
           Enfócate en lo que <br />realmente importa.
         </span>
-        <span className="heading-primary-sub">
+        <span className="">
           Bonjour Ana es tu <br />asistente personal para el hogar y <br />necesidades
           diarias.
         </span>
       </h2>
 
-      <div className="btn-desc">
-        <a href="#" className="button-y">
-          Oferta de Limpieza
-        </a>
+      <div className="button is-warning">
+        <a href="#">Oferta de Limpieza</a>
       </div>
     </div>
 

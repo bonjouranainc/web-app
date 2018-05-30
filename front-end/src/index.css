@@ -9,7 +9,10 @@ html {
   font-size: 20px;
   text-rendering: optimizeLegibility; }
 
-/* 
+body {
+  line-height: 1.5; }
+
+/*
   Global variables
     ba = Bonjour Ana
     g = Gray
@@ -21,7 +24,7 @@ html {
   --g2: #cccccc; }
 
 h1 {
-  font-size: 240%;
+  font-size: 340%;
   margin-bottom: 25px;
   word-spacing: 4px;
   letter-spacing: 1px; }
@@ -85,7 +88,7 @@ button {
 
 /* Buttons */
 /*
-  Button styles 
+  Button styles
     y = yellow
     b = blue
     w = white

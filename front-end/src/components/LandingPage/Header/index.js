@@ -11,7 +11,7 @@ const Header = () => (
         <img src={logo} alt="Company logo" />
       </div>
       <div className="header-txt">
-        <h1>
+        <h1 className="title is-1">
           Completamos tus tareas del
           <br /> hogar y necesidades diarias.
         </h1>
