@@ -1,46 +1,36 @@
 import React from 'react';
+import { Menu, Image } from 'semantic-ui-react';
 import logo from '../../../images/svg/ba-logo-w.svg';
 import { Link } from 'react-router-dom';
 
 import './styles.css';
 
 const NavBar = () => (
-  <div className="header">
-    <div className="logo">
-      <Link to="/">
-        <img src={logo} alt="Bonjour Ana Logo" />
-      </Link>
-    </div>
-    <div className="header-left">
-      <a
-        className="s-txt"
-        href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar"
-      >
+  <Menu secondary className="header">
+    <Menu.Item>
+      <Image src={logo} size="tiny" inline />
+    </Menu.Item>
+    <Menu.Item>
+      <a href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar">
         Servicios
       </a>
-      <Link to="About" className="s-txt">
-        Nosotros
-      </Link>
-      <Link to="How" className="s-txt">
-        &iquest;Cómo funciona?
-      </Link>
-    </div>
+    </Menu.Item>
+    <Menu.Item>
+      <Link to="About">Nosotros</Link>
+    </Menu.Item>
+    <Menu.Item>
+      <Link to="How">&iquest;Cómo funciona?</Link>
+    </Menu.Item>
 
-    <div className="header-right">
-      <a
-        className="s-txt"
-        href="https://bonjour-ana.myshopify.com/account/login"
-      >
-        Login
-      </a>
-      <a
-        className="s-txt"
-        href="https://bonjour-ana.myshopify.com/account/login"
-      >
-        Sign Up
-      </a>
-    </div>
-  </div>
+    <Menu.Menu position="right">
+      <Menu.Item>
+        <a href="https://bonjour-ana.myshopify.com/account/login">Login</a>
+      </Menu.Item>
+      <Menu.Item>
+        <a href="https://bonjour-ana.myshopify.com/account/login">Sign up</a>
+      </Menu.Item>
+    </Menu.Menu>
+  </Menu>
 );
 
 export default NavBar;

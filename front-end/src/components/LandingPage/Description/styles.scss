@@ -20,27 +20,31 @@
   top: 25%;
   left: 15%;
   transform: translate(-25%, -15%);
-}
 
-.heading-primary-main {
-  display: block;
-  font-size: 32px;
-  font-weight: 600;
-  text-align: left;
-}
+  .heading-primary__main {
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+  }
 
-.heading-primary-sub {
-  margin-top: 40px;
-  display: block;
-  font-size: 30px;
-  font-weight: 100;
-  text-justify: auto;
-  text-align: justify;
-}
+  .heading-primary-sub {
+    margin-top: 40px;
+    display: block;
+    font-size: 30px;
+    font-weight: 100;
+    text-justify: auto;
+    text-align: justify;
+  }
 
-.btn-desc {
-  margin-top: 150px;
-  display: inline-block;
+  &-button {
+    margin-top: 20px !important;
+    background: #ebd831 !important;
+
+    &:hover {
+      background-color: #fff !important;
+    }
+  }
 }
 
 /* .description h2 {

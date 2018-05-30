@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'semantic-ui-react';
 
 import './styles.css';
 
@@ -6,28 +7,19 @@ const Description = () => (
   <div className="description">
     <div className="desc-box">
       <h2 className="heading-primary">
-        <span className="heading-primary-main">
+        <span className="heading-primary__main">
           Enfócate en lo que <br />realmente importa.
         </span>
-        <span className="">
+        <span className="heading-primary-sub">
           Bonjour Ana es tu <br />asistente personal para el hogar y <br />necesidades
           diarias.
         </span>
       </h2>
 
-      <div className="button is-warning">
-        <a href="#">Oferta de Limpieza</a>
-      </div>
+      <Button className="desc-box-button">
+        <a href="">Oferta de Limpieza</a>
+      </Button>
     </div>
-
-    {/* <div className="col">
-      <a
-        href="https://bonjour-ana.myshopify.com/products/especial-de-limpieza"
-        className="button-y"
-      >
-        Oferta de limpieza
-      </a>
-    </div> */}
   </div>
 );
 
