@@ -15,7 +15,7 @@ const HowItWorks = () => (
 
     <Grid>
       <Grid.Row>
-        <Grid.Column mobile={16} tablet={8} computer={8} padded>
+        <Grid.Column mobile={16} tablet={8} computer={8} padded="true">
           <Image src={url1} size="medium" floated="right" />
         </Grid.Column>
         <Grid.Column mobile={16} tablet={8} computer={8}>

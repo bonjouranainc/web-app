@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, Image } from 'semantic-ui-react';
+import { Menu, Image, Sidebar, Responsive } from 'semantic-ui-react';
 import logo from '../../../images/svg/ba-logo-w.svg';
 import { Link } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ import './styles.css';
 const NavBar = () => (
   <Menu secondary className="header">
     <Menu.Item>
-      <Image src={logo} size="tiny" inline />
+      <Image src={logo} size="tiny" href="/" />
     </Menu.Item>
     <Menu.Item>
       <a href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar">
