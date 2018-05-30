@@ -122,17 +122,15 @@ button {
   color: #000;
   background-color: var(--ba-yellow);
   font-size: 1em;
-  text-decoration: none;
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color 0.3s;
-
-  &:active {
-    background-color: transparent;
-  }
 
   &:hover {
     background-color: #fff;
+  }
+
+  a {
+    text-decoration: none;
   }
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Button } from 'semantic-ui-react';
 import logo from '../../../images/png/BonjourAna_Blanco-01.png';
 
 import './styles.css';
@@ -11,24 +11,23 @@ const Header = () => (
         <img src={logo} alt="Company logo" />
       </div>
       <div className="header-txt">
-        <h1 className="title is-1">
+        <h1 className="title">
           Completamos tus tareas del
           <br /> hogar y necesidades diarias.
         </h1>
       </div>
       <div className="welcome-btns">
-        <a
-          href="https://bonjour-ana.myshopify.com/products/servicio-de-limpieza"
-          className="button-y"
-        >
-          Limpieza
-        </a>
-        <a
-          href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar"
-          className="button-y"
-        >
-          Servicios
-        </a>
+        <Button className="header-btn">
+          <a href="https://bonjour-ana.myshopify.com/products/servicio-de-limpieza">
+            Limpieza
+          </a>
+        </Button>
+
+        <Button className="header-btn">
+          <a href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar">
+            Servicios
+          </a>
+        </Button>
       </div>
     </div>
   </div>

@@ -100,14 +100,12 @@ button {
   color: #000;
   background-color: var(--ba-yellow);
   font-size: 1em;
-  text-decoration: none;
   border-radius: 5px;
-  margin: 0.5em;
-  transition: background-color 0.3s; }
-  .button-y:active {
-    background-color: transparent; }
+  margin: 0.5em; }
   .button-y:hover {
     background-color: #fff; }
+  .button-y a {
+    text-decoration: none; }
 
 /* Solid blue button */
 .button-b {
