@@ -1,13 +1,7 @@
 import React from 'react';
-import './Card.css';
+import { Rating } from 'semantic-ui-react';
 
-const arrayOfStars = [
-  'fas fa-star',
-  'fas fa-star',
-  'fas fa-star',
-  'fas fa-star',
-  'fas fa-star'
-];
+import './Card.css';
 
 const Card = props => (
   <div>
@@ -18,7 +12,7 @@ const Card = props => (
       <h5>{props.name}</h5>
       <p>{props.quote}</p>
       <div className="card--stars">
-        {arrayOfStars.map(star => <i className={star} />)}
+        <Rating icon="star" defaultRating={5} maxRating={5} disabled />
       </div>
       <p>Servicios contratados:</p>
       <p>Some icons go here</p>
