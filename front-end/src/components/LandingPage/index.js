@@ -6,17 +6,27 @@ import Description from './Description/index.js';
 import HowItWorks from './HowItWorks/index.js';
 import Testimonial from './Testimonial/index';
 import Partnerships from './Partnerships/index.js';
-// import NeedHelp from './NeedHelp/index.js';
 import Footer from './Footer/index';
+
+// Navbar items for responsivness
+const leftItems = [
+  { as: 'a', content: 'Servicios', key: 'servicios' },
+  { as: 'a', content: 'Nosotros', key: 'nosotros' },
+  { as: 'a', content: 'Cómo funciona?', key: 'comoFunciona' }
+];
+
+const rightItems = [
+  { as: 'a', content: 'Login', key: 'login' },
+  { as: 'a', content: 'Sign Up', key: 'signup' }
+];
 
 const LandingPage = () => (
   <div>
-    <NavBar />
+    <NavBar leftItems={leftItems} rightItems={rightItems} />
     <Header />
     <HowItWorks />
     <Description />
     <Testimonial />
-    {/* <NeedHelp /> */}
     <Partnerships />
     <Footer />
   </div>
