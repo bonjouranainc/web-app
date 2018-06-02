@@ -12,7 +12,7 @@ import Footer from './Footer/index';
 const leftItems = [
   { as: 'a', content: 'Servicios', key: 'servicios' },
   { as: 'a', content: 'Nosotros', key: 'nosotros' },
-  { as: 'a', content: 'Cómo funciona?', key: 'comoFunciona' }
+  { as: 'a', content: '¿Cómo funciona?', key: 'comoFunciona' }
 ];
 
 const rightItems = [

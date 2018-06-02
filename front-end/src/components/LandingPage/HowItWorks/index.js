@@ -21,7 +21,7 @@ const HowItWorks = () => (
         <Grid.Column mobile={16} tablet={8} computer={8}>
           <Container textAlign="justified">
             <h3>Escoja sus servicios</h3>
-            <p>
+            <p className="odd-text">
               Seleccione entre una variedad de servicios para el hogar y
               seleccione el día y hora que desea recibir el servicio
             </p>
@@ -31,9 +31,9 @@ const HowItWorks = () => (
 
       <Grid.Row>
         <Grid.Column mobile={16} tablet={8} computer={8}>
-          <Container textAlign="justified">
+          <Container textAlign="right">
             <h3>Reciba su visita</h3>
-            <p>
+            <p className="even-text">
               Un personal entrenado y confiable le visitará cada semana u
               ocasión, que le ofrecera un servicio de calidad
             </p>
@@ -50,10 +50,8 @@ const HowItWorks = () => (
         </Grid.Column>
         <Grid.Column mobile={16} tablet={8} computer={8}>
           <Container textAlign="justified">
-            <h3>
-              Voila! <br /> Todas sus tareas completadas
-            </h3>
-            <p>
+            <h3>Voila! Todas sus tareas completadas</h3>
+            <p className="odd-text">
               Llega a un hogar limpio y fresco, con las compras del supermercado
               realizada, el dry-cleaning recogido y todas sus tareas completadas
             </p>
@@ -61,41 +59,6 @@ const HowItWorks = () => (
         </Grid.Column>
       </Grid.Row>
     </Grid>
-
-    {/* <div className="col">
-      <div className="row group group1">
-        <Image src={url1} alt="lady" size="tiny" />
-        <div className="cont">
-          <h3>Escoja sus servicios</h3>
-          <p>
-            Seleccione entre una variedad de servicios para el hogar y
-            seleccione el día y hora que desea recibir el servicio
-          </p>
-        </div>
-      </div>
-      <div className="row group group2">
-        <Image src={url2} alt="cleaning" />
-        <div className="cont">
-          <h3>Reciba su visita</h3>
-          <p>
-            Un personal entrenado y confiable le visitará cada semana u ocasión,
-            que le ofrecera un servicio de calidad
-          </p>
-        </div>
-      </div>
-      <div className="row group group3">
-        <Image src={url3} alt="chilling" />
-        <div className="cont">
-          <h3>
-            Voila! <br /> Todas sus tareas completadas
-          </h3>
-          <p>
-            Llega a un hogar limpio y fresco, con las compras del supermercado
-            realizada, el dry-cleaning recogido y todas sus tareas completadas
-          </p>
-        </div>
-      </div>
-    </div> */}
   </div>
 );
 

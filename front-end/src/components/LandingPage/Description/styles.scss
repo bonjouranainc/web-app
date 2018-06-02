@@ -12,7 +12,7 @@
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #fff !important;
 }
 
 .desc-box {
@@ -53,14 +53,24 @@
 
 .description div {
   margin: 2em 1em;
-} */
+// } */
 
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .description {
-    height: 38vh;
-    align-items: flex-start;
-    background-image: url('../../images/jpg/description-bg.jpg');
+    padding-left: 50rem;
   }
+}
+
+@media only screen and (min-width: 425px) {
+  .description {
+    heading-primary {
+      margin: 0 auto;
+      stext-align: center;
+    }
+  }
+}
+
+/*
 
   .description div {
     align-items: flex-start;
