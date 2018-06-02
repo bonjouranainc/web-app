@@ -13,97 +13,28 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff !important;
-}
 
-.desc-box {
-  position: absolute;
-  top: 25%;
-  left: 15%;
-  transform: translate(-25%, -15%);
+  .desc-box {
+    margin-left: 4rem;
 
-  .heading-primary__main {
-    display: block;
-    font-size: 32px;
-    font-weight: 600;
-    text-align: left;
-  }
+    .heading-primary {
+      font-size: 38px;
+      font-weight: 600;
+    }
 
-  .heading-primary-sub {
-    margin-top: 40px;
-    display: block;
-    font-size: 30px;
-    font-weight: 100;
-    text-justify: auto;
-    text-align: justify;
-  }
+    .heading-sub {
+      margin-top: 4rem;
+      font-size: 1rem;
+      font-weight: 100;
+      margin-bottom: 2rem;
+    }
 
-  &-button {
-    margin-top: 20px !important;
-    background: #ebd831 !important;
+    &-button {
+      background: #ebd831 !important;
 
-    &:hover {
-      background-color: #fff !important;
+      &:hover {
+        background-color: #fff !important;
+      }
     }
   }
 }
-
-/* .description h2 {
-  text-align: left;
-}
-
-.description div {
-  margin: 2em 1em;
-// } */
-
-@media only screen and (min-width: 768px) {
-  .description {
-    padding-left: 50rem;
-  }
-}
-
-@media only screen and (min-width: 425px) {
-  .description {
-    heading-primary {
-      margin: 0 auto;
-      stext-align: center;
-    }
-  }
-}
-
-/*
-
-  .description div {
-    align-items: flex-start;
-    max-width: 40vw;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .description {
-    height: 75vh;
-  }
-
-  .description div {
-    margin: 3em;
-    align-items: flex-start;
-    max-width: 25vw;
-  }
-}
-
-@media only screen and (min-width: 1000px) and (min-height: 768px) {
-  .description {
-    height: 68vh;
-  }
-}
-
-@media only screen and (min-width: 1000px) and (min-height: 1000px) {
-  .description {
-    height: 38vh;
-  }
-}
-
-@media only screen and (min-width: 1300px) {
-  .description {
-    height: 58vh;
-  }
-} */
