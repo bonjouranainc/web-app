@@ -13,37 +13,43 @@
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
-}
 
-h1 {
-  color: #fff !important;
-}
+  h1 {
+    color: #fff !important;
+  }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-.header-logo img {
-  width: 200px;
-}
+    .header-logo img {
+      width: 150px;
+    }
 
-.header-text {
-  text-align: center;
-}
+    .header-text {
+      text-align: center;
+    }
 
-.welcome-btns {
-  display: flex;
-  align-items: center;
-}
+    .welcome-btns {
+      display: flex;
+      align-items: center;
 
-.header-btn {
-  background: #ebd831 !important;
-  margin: 0.5rem !important;
+      .header-btn {
+        background: #ebd831 !important;
+        margin: 0.5rem !important;
+        padding: 15px !important;
 
-  &:hover {
-    background-color: #fff !important;
+        a {
+          color: rgba(0, 0, 0, 0.7) !important;
+          font-size: 18px;
+        }
+
+        &:hover {
+          background-color: #fff !important;
+        }
+      }
+    }
   }
 }

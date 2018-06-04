@@ -1,4 +1,7 @@
-.description {
+//Variable
+$text-color-dark: rgba(0, 0, 0, 0.7);
+
+.desc {
   height: 90vh;
   position: relative;
   padding-top: 0;
@@ -31,6 +34,10 @@
 
     &-button {
       background: #ebd831 !important;
+
+      a {
+        color: $text-color-dark;
+      }
 
       &:hover {
         background-color: #fff !important;

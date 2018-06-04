@@ -19,13 +19,13 @@ const Header = () => (
       <div className="welcome-btns">
         <Button className="header-btn">
           <a href="https://bonjour-ana.myshopify.com/products/servicio-de-limpieza">
-            Limpieza
+            Ana Básico
           </a>
         </Button>
 
         <Button className="header-btn">
           <a href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar">
-            Servicios
+            Otros Servicios
           </a>
         </Button>
       </div>

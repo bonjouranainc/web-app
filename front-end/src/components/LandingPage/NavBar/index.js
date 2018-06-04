@@ -25,7 +25,7 @@ export default class NavBar extends Component {
     const { visible } = this.state;
 
     return (
-      <div className="header">
+      <div className="navbar">
         <Responsive {...Responsive.onlyMobile}>
           <NavBarMobile
             leftItems={leftItems}

@@ -9,11 +9,7 @@ import './styles.css';
 
 const HowItWorks = () => (
   <div className="howItWorks">
-    <div className="headline">
-      <h2>¿Cómo funciona?</h2>
-    </div>
-
-    <Grid>
+    <Grid className="howItWorks__grid">
       <Grid.Row>
         <Grid.Column mobile={16} tablet={8} computer={8} padded="true">
           <Image src={url1} size="medium" floated="right" />
