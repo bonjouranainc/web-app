@@ -1,3 +1,5 @@
+@import '../../../styles/_variables.scss';
+
 .l-welcome {
   height: 100vh;
   padding-top: 0;
@@ -7,15 +9,18 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(
+      $background-color-images,
+      $background-color-images
+    ),
     url('../../../images/jpg/partnerships-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff;
+  color: $text-color-light;
 
   h1 {
-    color: #fff !important;
+    color: $text-color-light !important;
   }
 
   .main {
@@ -37,17 +42,17 @@
       align-items: center;
 
       .header-btn {
-        background: #ebd831 !important;
+        background: $button-color !important;
         margin: 0.5rem !important;
         padding: 15px !important;
 
         a {
-          color: rgba(0, 0, 0, 0.7) !important;
+          color: $text-color-dark;
           font-size: 18px;
         }
 
         &:hover {
-          background-color: #fff !important;
+          background-color: $text-color-light !important;
         }
       }
     }

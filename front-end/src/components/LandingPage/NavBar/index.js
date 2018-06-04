@@ -21,17 +21,14 @@ export default class NavBar extends Component {
   };
 
   render() {
-    const { leftItems, rightItems } = this.props;
     const { visible } = this.state;
 
     return (
       <div className="navbar">
         <Responsive {...Responsive.onlyMobile}>
           <NavBarMobile
-            leftItems={leftItems}
             onPusherClick={this.handlePusher}
             onToggle={this.handleToggle}
-            rightItems={rightItems}
             visible={visible}
           />
         </Responsive>

@@ -3,23 +3,26 @@ import { Menu, Icon, Sidebar, Image } from 'semantic-ui-react';
 import logo from '../../../images/svg/ba-logo-w.svg';
 import { Link } from 'react-router-dom';
 
-const NavBarMobile = ({
-  leftItems,
-  onPusherClick,
-  onToggle,
-  rightItems,
-  visible
-}) => (
+const NavBarMobile = ({ onPusherClick, onToggle, visible }) => (
   <Sidebar.Pushable>
     <Sidebar
       as={Menu}
       animation="overlay"
       width="thin"
-      items={leftItems}
       vertical
       inverted
       visible={visible}
-    />
+    >
+      <Menu.Item name="servicio">
+        <a href="">Servicios</a>
+      </Menu.Item>
+      <Menu.Item name="nosotros">
+        <Link to="/about">Nosotros</Link>
+      </Menu.Item>
+      <Menu.Item name="como funciona">
+        <Link to="/how">&iquest;Cómo funciona?</Link>
+      </Menu.Item>
+    </Sidebar>
     <Sidebar.Pusher
       dimmed={visible}
       onClick={onPusherClick}
