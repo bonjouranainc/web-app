@@ -1,6 +1,4 @@
-//Variable
-$text-color-dark: rgba(0, 0, 0, 0.7);
-
+@import '../../../styles/_variables.scss';
 .desc {
   height: 90vh;
   position: relative;
@@ -10,12 +8,15 @@ $text-color-dark: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(
+      $background-color-images,
+      $background-color-images
+    ),
     url('../../../images/jpg/description-bg.jpg');
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff !important;
+  color: $text-color-light !important;
 
   .desc-box {
     margin-left: 4rem;
@@ -33,14 +34,14 @@ $text-color-dark: rgba(0, 0, 0, 0.7);
     }
 
     &-button {
-      background: #ebd831 !important;
+      background: $button-color !important;
 
       a {
         color: $text-color-dark;
       }
 
       &:hover {
-        background-color: #fff !important;
+        background-color: $text-color-light !important;
       }
     }
   }

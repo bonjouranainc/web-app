@@ -18,7 +18,12 @@ export default class Cards extends Component {
                   Muy contenta con el servicio. Mi casa quedo inmaculada!
                 </Card.Description>
                 <Card.Content>
-                  <Rating icon="star" defaultRating={5} maxRating={5} />
+                  <Rating
+                    icon="star"
+                    defaultRating={5}
+                    maxRating={5}
+                    disabled
+                  />
                 </Card.Content>
               </Card.Content>
               <Card.Content extra>Servicios contratados:</Card.Content>
@@ -34,7 +39,12 @@ export default class Cards extends Component {
                   Muy contenta con el servicio. Mi casa quedo inmaculada!
                 </Card.Description>
                 <Card.Content>
-                  <Rating icon="star" defaultRating={5} maxRating={5} />
+                  <Rating
+                    icon="star"
+                    defaultRating={5}
+                    maxRating={5}
+                    disabled
+                  />
                 </Card.Content>
               </Card.Content>
               <Card.Content extra>Servicios contratados:</Card.Content>
@@ -50,7 +60,12 @@ export default class Cards extends Component {
                   Muy contenta con el servicio. Mi casa quedo inmaculada!
                 </Card.Description>
                 <Card.Content>
-                  <Rating icon="star" defaultRating={5} maxRating={5} />
+                  <Rating
+                    icon="star"
+                    defaultRating={5}
+                    maxRating={5}
+                    disabled
+                  />
                 </Card.Content>
               </Card.Content>
               <Card.Content extra>Servicios contratados:</Card.Content>
