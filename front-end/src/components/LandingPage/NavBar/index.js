@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Responsive } from 'semantic-ui-react';
 import NavBarMobile from './NavBarMobile';
 import NavBarDesktop from './NavBarDesktop';
+import NavBarTablet from './NavBarTablet';
 
 import './styles.css';
 
@@ -33,7 +34,15 @@ export default class NavBar extends Component {
           />
         </Responsive>
 
-        <Responsive minWidth={Responsive.onlyTablet.minWidth}>
+        <Responsive {...Responsive.onlyTablet}>
+          <NavBarTablet
+            onPusherClick={this.handlePusher}
+            onToggle={this.handleToggle}
+            visible={visible}
+          />
+        </Responsive>
+
+        <Responsive minWidth={Responsive.onlyComputer.minWidth}>
           <NavBarDesktop />
         </Responsive>
       </div>

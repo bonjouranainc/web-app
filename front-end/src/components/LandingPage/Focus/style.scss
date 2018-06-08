@@ -1,0 +1,16 @@
+@import '../../../styles/_variables.scss';
+
+.focus {
+  height: 100%;
+
+  &__image {
+    background-image: linear-gradient(
+        $background-color-images,
+        $background-color-images
+      ),
+      url('../../../images/jpg/IMG_0247.JPG');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

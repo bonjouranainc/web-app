@@ -3,7 +3,7 @@ import { Menu, Icon, Sidebar, Image } from 'semantic-ui-react';
 import logo from '../../../images/svg/ba-logo-w.svg';
 import { Link } from 'react-router-dom';
 
-const NavBarMobile = ({ onPusherClick, onToggle, visible }) => (
+const NavBarTablet = ({ onPusherClick, onToggle, visible }) => (
   <Sidebar.Pushable>
     <Sidebar
       as={Menu}
@@ -42,11 +42,11 @@ const NavBarMobile = ({ onPusherClick, onToggle, visible }) => (
           </Link>
         </Menu.Item>
         <Menu.Item position="right" onClick={onToggle}>
-          <Icon name="sidebar" />
+          <Icon size="large" name="sidebar" />
         </Menu.Item>
       </Menu>
     </Sidebar.Pusher>
   </Sidebar.Pushable>
 );
 
-export default NavBarMobile;
+export default NavBarTablet;

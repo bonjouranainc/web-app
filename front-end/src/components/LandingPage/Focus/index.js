@@ -1,11 +1,18 @@
 import React from 'react';
 import { Container, Grid, Button } from 'semantic-ui-react';
 
+import './style.css';
+
+const style = {
+  backgroundColor: 'white',
+  textAlign: 'left'
+};
+
 const Focus = () => (
-  <div>
+  <div className="focus">
     <Grid>
-      <Grid.Column>
-        <Container text>
+      <Grid.Column textAlign="left" computer={8}>
+        <Container text style={style}>
           <h2>Enfócate en lo que realmente importa.</h2>
           <p>
             Bonjour Ana es tu asistente personal para el hogar y necesidades
@@ -16,6 +23,7 @@ const Focus = () => (
           </Button>
         </Container>
       </Grid.Column>
+      <Grid.Column className="focus__image" computer={8} />
     </Grid>
   </div>
 );

@@ -16,15 +16,15 @@ const NavBarDesktop = () => (
       </a>
     </Menu.Item>
     <Menu.Item>
-      <Link to="About">Nosotros</Link>
+      <Link to="/about">Nosotros</Link>
     </Menu.Item>
     <Menu.Item>
-      <Link to="How">&iquest;Cómo funciona?</Link>
+      <Link to="/how">&iquest;Cómo funciona?</Link>
     </Menu.Item>
 
     <Menu.Menu position="right">
       <Menu.Item>
-        <a href="https://bonjour-ana.myshopify.com/account/login">Login</a>
+        <a href="https://bonjour-ana.myshopify.com/account/login">Log In</a>
       </Menu.Item>
       <Menu.Item>
         <a href="https://bonjour-ana.myshopify.com/account/login">Sign up</a>

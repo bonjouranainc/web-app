@@ -13,13 +13,14 @@
       $background-color-images,
       $background-color-images
     ),
-    url('../../../images/jpg/partnerships-bg.jpg');
+    url('../../../images/jpg/IMG_0229.JPG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: $text-color-light;
 
   h1 {
+    font-family: 'Playfair Display', serif;
     color: $text-color-light !important;
   }
 
