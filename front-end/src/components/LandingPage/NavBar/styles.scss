@@ -1,19 +1,24 @@
 @import '../../../styles/_variables.scss';
 
 .navbar {
-  position: fixed;
+  position: absolute;
   height: 8vh;
   width: 100%;
   background-color: $background-color-images !important;
 
   a {
-    color: #fff !important;
     transition: all 0.2s;
 
     &:hover {
       background-color: #fff;
       color: $text-color-dark !important;
       border-radius: 5%;
+    }
+  }
+
+  .link__desktop {
+    a {
+      color: $text-color-light;
     }
   }
 }

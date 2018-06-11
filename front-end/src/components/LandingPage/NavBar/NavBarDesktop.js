@@ -3,8 +3,10 @@ import { Menu, Image } from 'semantic-ui-react';
 import logo from '../../../images/svg/ba-logo-w.svg';
 import { Link } from 'react-router-dom';
 
+import './styles.css';
+
 const NavBarDesktop = () => (
-  <Menu secondary>
+  <Menu secondary className="link__desktop">
     <Menu.Item>
       <Link to="/">
         <Image src={logo} size="mini" />
