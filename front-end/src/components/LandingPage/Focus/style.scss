@@ -1,16 +1,53 @@
 @import '../../../styles/_variables.scss';
+@import '../../../styles/_media.scss';
 
 .focus {
   height: 100%;
 
-  &__image {
-    background-image: linear-gradient(
-        $background-color-images,
-        $background-color-images
-      ),
-      url('../../../images/jpg/IMG_0247.JPG');
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+  &-column {
+    padding: 150px 0 85px 80px !important;
+  }
+
+  &-header {
+    color: $text-color-dark;
+    font-size: 38px;
+    margin-bottom: 40px;
+  }
+
+  &-text {
+    color: $text-color-dark;
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 40px;
+  }
+
+  &-btn {
+    background-color: $button-color !important;
+
+    a {
+      color: $text-color-dark;
+    }
+  }
+
+  focus-image {
+    height: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .focus {
+    height: 100%;
+
+    &-column {
+      margin: 0 auto !important;
+    }
+
+    &-header {
+      padding-right: 30px;
+    }
+
+    &-text {
+      padding-right: 30px;
+    }
   }
 }

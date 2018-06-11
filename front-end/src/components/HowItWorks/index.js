@@ -5,7 +5,9 @@ import Footer from '../LandingPage/Footer';
 
 const WorkPage = () => (
   <div>
+    <NavBar />
     <Process />
+    <Footer />
   </div>
 );
 

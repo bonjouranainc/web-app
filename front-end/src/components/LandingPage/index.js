@@ -2,7 +2,6 @@ import React from 'react';
 
 import NavBar from './NavBar/index';
 import Header from './Header/index';
-import Desc from './Desc/index.js';
 import Focus from './Focus/index';
 import HowItWorks from './HowItWorks/index.js';
 import Cards from './Cards';
