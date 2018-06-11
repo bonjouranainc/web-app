@@ -22,4 +22,14 @@ $text-color-dark: rgba(0, 0, 0, 0.6);
     font-size: 18px;
     font-weight: 100;
   }
+
+  @media only screen and (((min-width: 768px) and (max-width: 1440px))) {
+    .even-text {
+      padding: 0 80px 0 0;
+    }
+
+    .odd-text {
+      padding: 0 0 0 100px;
+    }
+  }
 }

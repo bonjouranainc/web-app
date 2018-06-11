@@ -23,56 +23,57 @@ export default class HowItWorks extends Component {
     return (
       <div className="howItWorks">
         <Responsive
-          as={Grid}
           fireOnMount
           onUpdate={this.handleUpdate}
           className="howItWorks__grid"
         >
-          <Grid.Row>
-            <Grid.Column mobile={16} tablet={8} computer={8} padded="true">
-              <Image src={url1} size="medium" floated="right" />
-            </Grid.Column>
-            <Grid.Column mobile={16} tablet={8} computer={8}>
-              <Container textAlign={textAlign}>
-                <h3>Escoja sus servicios</h3>
-                <p>
-                  Seleccione entre una variedad de servicios para el hogar y
-                  seleccione el día y hora que desea recibir el servicio
-                </p>
-              </Container>
-            </Grid.Column>
-          </Grid.Row>
+          <Grid>
+            <Grid.Row>
+              <Grid.Column mobile={16} tablet={8} computer={8} padded="true">
+                <Image src={url1} size="medium" floated="right" />
+              </Grid.Column>
+              <Grid.Column mobile={16} tablet={8} computer={8}>
+                <Container textAlign={textAlign}>
+                  <h3>Escoja sus servicios</h3>
+                  <p className="even-text">
+                    Seleccione entre una variedad de servicios para el hogar y
+                    seleccione el día y hora que desea recibir el servicio
+                  </p>
+                </Container>
+              </Grid.Column>
+            </Grid.Row>
 
-          <Grid.Row reversed="mobile">
-            <Grid.Column mobile={16} tablet={8} computer={8}>
-              <Container textAlign={textAlignMiddle}>
-                <h3>Reciba su visita</h3>
-                <p>
-                  Un personal entrenado y confiable le visitará cada semana u
-                  ocasión, que le ofrecera un servicio de calidad
-                </p>
-              </Container>
-            </Grid.Column>
-            <Grid.Column mobile={16} tablet={8} computer={8}>
-              <Image src={url2} size="large" />
-            </Grid.Column>
-          </Grid.Row>
+            <Grid.Row reversed="computer tablet">
+              <Grid.Column mobile={16} tablet={8} computer={8}>
+                <Image src={url2} size="large" />
+              </Grid.Column>
+              <Grid.Column mobile={16} tablet={8} computer={8}>
+                <Container textAlign={textAlignMiddle}>
+                  <h3>Reciba su visita</h3>
+                  <p className="odd-text">
+                    Un personal entrenado y confiable le visitará cada semana u
+                    ocasión, que le ofrecera un servicio de calidad
+                  </p>
+                </Container>
+              </Grid.Column>
+            </Grid.Row>
 
-          <Grid.Row>
-            <Grid.Column mobile={16} tablet={8} computer={8}>
-              <Image src={url3} size="large" floated="right" />
-            </Grid.Column>
-            <Grid.Column mobile={16} tablet={8} computer={8}>
-              <Container textAlign={textAlign}>
-                <h3>Voila! Todas sus tareas completadas</h3>
-                <p>
-                  Llega a un hogar limpio y fresco, con las compras del
-                  supermercado realizada, el dry-cleaning recogido y todas sus
-                  tareas completadas
-                </p>
-              </Container>
-            </Grid.Column>
-          </Grid.Row>
+            <Grid.Row>
+              <Grid.Column mobile={16} tablet={8} computer={8}>
+                <Image src={url3} size="large" floated="right" />
+              </Grid.Column>
+              <Grid.Column mobile={16} tablet={8} computer={8}>
+                <Container textAlign={textAlign}>
+                  <h3>Voila! Todas sus tareas completadas</h3>
+                  <p className="even-text">
+                    Llega a un hogar limpio y fresco, con las compras del
+                    supermercado realizada, el dry-cleaning recogido y todas sus
+                    tareas completadas
+                  </p>
+                </Container>
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
         </Responsive>
       </div>
     );
