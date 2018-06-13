@@ -15,7 +15,7 @@ const LandingPage = () => (
     <Header />
     <HowItWorks />
     <Focus />
-    {/* <Services /> */}
+    <Services />
     <Cards />
     <Partnerships />
     <Footer />
