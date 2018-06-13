@@ -1,63 +1,18 @@
-.container {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  background-color: #f5f4ed;
-  padding: 40px 0;
-  color: rgb(105, 104, 104);
-}
+@import '../../../styles/_variables.scss';
 
-.partnerbox {
-  width: 50%;
-  border-right: 1px solid #000;
+.partnerships {
+  background-color: #f4f4f4;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin: 0 auto;
 
-  &__text {
-    margin: 200px 50px 100px 50px;
-
-    &__heading {
-      font-size: 44px;
-      margin-bottom: 40px;
-    }
-
-    &__subheading {
-      font-size: 28px;
-      letter-spacing: 1px;
-      line-height: 1.2;
-      margin-bottom: 50px;
-    }
-
-    &__btn {
-      font-size: 26px;
-      margin-bottom: 50px;
-    }
-
-    &__img img {
-      width: 300px;
-    }
+  &-grid {
+    text-align: center;
   }
-}
 
-.welcomingbox {
-  width: 50%;
-
-  &__text {
-    margin: 200px 50px 100px 50px;
-
-    &__heading {
-      font-size: 44px;
-      margin-bottom: 40px;
-    }
-
-    &__subheading {
-      font-size: 28px;
-      letter-spacing: 1px;
-      line-height: 1.2;
-      margin-bottom: 80px;
-    }
-
-    &__btn {
-      font-size: 26px;
-      margin-bottom: 50px;
-    }
+  &-btn {
+    background-color: $button-color !important;
+    color: $text-color-dark;
+    font-size: 16px !important;
   }
 }
