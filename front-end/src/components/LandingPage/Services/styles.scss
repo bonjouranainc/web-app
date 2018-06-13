@@ -4,13 +4,14 @@
   background-color: $background-color;
   padding-top: 80px;
   padding-left: 60px;
+  padding-right: 60px;
 
   h2 {
     font-size: 42px;
     font-weight: 700;
     color: $text-color-dark;
     text-align: left;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
   }
 
   &-grid {
@@ -22,6 +23,7 @@
     margin: 0 auto;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 40px;
 
     .service-btn {
       background-color: $button-color !important;

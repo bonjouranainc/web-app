@@ -53,7 +53,7 @@ const Services = () => (
         <Card raised>
           <Image src={icon5} />
           <Card.Content>
-            <Card.Meta>Electrisista</Card.Meta>
+            <Card.Meta>Electricista</Card.Meta>
           </Card.Content>
         </Card>
       </Grid.Column>
@@ -61,7 +61,7 @@ const Services = () => (
         <Card raised>
           <Image src={icon6} />
           <Card.Content>
-            <Card.Meta>Laundry en el hogar</Card.Meta>
+            <Card.Meta>Laundry</Card.Meta>
           </Card.Content>
         </Card>
       </Grid.Column>
