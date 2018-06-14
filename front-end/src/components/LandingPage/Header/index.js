@@ -11,19 +11,19 @@ const Header = () => (
         <img src={logo} alt="Company logo" />
       </div>
       <div className="header-txt">
-        <h1 className="title">
+        <h1 className="header-title">
           Completamos tus tareas del
           <br /> hogar y necesidades diarias.
         </h1>
       </div>
       <div className="welcome-btns">
-        <Button className="header-btn">
+        <Button className="button-y">
           <a href="https://bonjour-ana.myshopify.com/products/servicio-de-limpieza">
             Ana Básico
           </a>
         </Button>
 
-        <Button className="header-btn">
+        <Button className="button-y">
           <a href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar">
             Otros Servicios
           </a>

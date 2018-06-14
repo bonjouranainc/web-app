@@ -1,0 +1,41 @@
+$page-font: 'Lato', Arial, sans-serif;
+$heading-font: 'Playfair Display', serif;
+
+h1 {
+  font-size: 340%;
+  margin-bottom: 25px;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 180%;
+  font-weight: 400;
+  word-spacing: 2px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+a {
+  font-size: 1em;
+}
+
+/*
+  Text styles
+*/
+
+/* Add bold */
+.b-txt {
+  font-weight: 900;
+}
+
+/* Small text */
+.s-txt {
+  font-size: 0.8em;
+  color: #fff !important;
+}

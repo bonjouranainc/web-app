@@ -1,5 +1,5 @@
 // Variables
-$text-color-dark: rgba(0, 0, 0, 0.6);
+@import '../../../styles/_variables.scss';
 
 .howItWorks {
   width: 100%;
@@ -35,7 +35,7 @@ $text-color-dark: rgba(0, 0, 0, 0.6);
 
   @media (min-width: 768px) and (max-width: 1024px) {
     .even-text {
-      padding: 0 50px 0 0;
+      padding: 0 40px 0 0;
     }
 
     .odd-text {
@@ -44,11 +44,18 @@ $text-color-dark: rgba(0, 0, 0, 0.6);
   }
 
   @media (min-width: 320px) and (max-width: 480px) {
+    .howItWorks {
+      margin: 0 auto;
+      text-align: center;
+    }
+
     .even-text {
+      margin: 0 auto;
       padding: 0;
     }
 
     .odd-text {
+      margin: 0 auto;
       padding: 0;
     }
   }

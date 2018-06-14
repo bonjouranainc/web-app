@@ -1,77 +1,13 @@
+@import '../../../styles/_variables.scss';
+
 /* Footer Top */
 .footer-top {
-  width: 100%;
-  background-color: rgb(236, 234, 234);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-bottom: 50px;
-}
+  background-color: $background-footer-top;
 
-.footer-top li {
-  font-size: 16px;
+  &__grid {
+    padding: 3rem 4rem 2rem 4rem !important;
+  }
 }
-
-.social-container {
-  width: 25%;
-  margin: 200px 0 0 150px;
-}
-
-.social-container:first-child img {
-  height: 35px;
-}
-
-.social-container img {
-  margin-right: 40px;
-}
-
-.links-container {
-  width: 25%;
-  margin: 90px 0 0 200px;
-}
-
-.links-container ul {
-  list-style-type: none;
-}
-
-.links-container li a:link,
-a:visited {
-  text-decoration: none;
-  color: #000;
-  line-height: 2;
-}
-
-.locations-container {
-  width: 25%;
-  margin: 90px 0 0 0;
-}
-
-.locations-container p {
-  margin-bottom: 10px;
-  color: #000;
-}
-
-.locations-container ul {
-  list-style-type: none;
-  line-height: 2;
-}
-
-.services-container {
-  width: 25%;
-  margin: 90px 0 0 0;
-}
-
-.services-container p {
-  margin-bottom: 10px;
-  color: #000;
-}
-
-.services-container ul {
-  list-style-type: none;
-  line-height: 2;
-  color: #000;
-}
-
 /* Footer Bottom */
 .footerBottom {
   height: 10vh;
