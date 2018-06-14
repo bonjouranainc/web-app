@@ -12,8 +12,7 @@ const Header = () => (
       </div>
       <div className="header-txt">
         <h1 className="header-title">
-          Completamos tus tareas del
-          <br /> hogar y necesidades diarias.
+          Completamos tus tareas del hogar y necesidades diarias.
         </h1>
       </div>
       <div className="welcome-btns">

@@ -1,6 +1,29 @@
-@import '../../../styles/_variables.scss';
+@import '../../../styles/_colors.scss';
 
 .card-container {
   padding-top: 40px;
   background-color: $background-color;
+
+  &-image {
+    width: 100%;
+  }
+}
+
+.carousel-control {
+  opacity: 0.1;
+  color: #000;
+}
+
+.ui.small.image {
+  width: 100%;
+}
+
+.ui.card > .content,
+.ui.cards > .card > .content {
+  border: none;
+}
+
+.ui.card > .extra,
+.ui.cards > .card > .extra {
+  border-top: none;
 }

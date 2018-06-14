@@ -7,12 +7,10 @@ const Partnerships = () => (
   <div className="partnerships">
     <Grid columns={2} divided>
       <Grid.Column className="partnerships-grid">
-        <Button className="partnerships-btn">Quieres ser un Ana Helper</Button>
+        <Button className="button-y">Quieres ser un Ana Helper</Button>
       </Grid.Column>
       <Grid.Column className="partnerships-grid">
-        <Button className="partnerships-btn">
-          Coordina Una Cita de Bienvenida
-        </Button>
+        <Button className="button-y">Coordina Una Cita de Bienvenida</Button>
       </Grid.Column>
     </Grid>
   </div>

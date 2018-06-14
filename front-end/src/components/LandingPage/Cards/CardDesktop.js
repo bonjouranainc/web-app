@@ -13,7 +13,7 @@ export default class CardDesktop extends Component {
   render() {
     return (
       <Grid centered>
-        <Grid.Column computer={5} tablet={8} mobile={16}>
+        <Grid.Column computer={5}>
           <SingleCard
             picture={picture}
             name={person.name}
@@ -21,7 +21,7 @@ export default class CardDesktop extends Component {
           />
         </Grid.Column>
 
-        <Grid.Column computer={5} tablet={8} mobile={16}>
+        <Grid.Column computer={5}>
           <SingleCard
             picture={picture}
             name={person.name}
@@ -29,7 +29,7 @@ export default class CardDesktop extends Component {
           />
         </Grid.Column>
 
-        <Grid.Column computer={5} tablet={16} mobile={16}>
+        <Grid.Column computer={5}>
           <SingleCard
             picture={picture}
             name={person.name}

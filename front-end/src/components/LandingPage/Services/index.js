@@ -1,5 +1,6 @@
 import React from 'react';
-import { Card, Grid, Button, Image } from 'semantic-ui-react';
+import Service from './Service';
+import { Grid, Button } from 'semantic-ui-react';
 
 import icon1 from '../../../images/png/HandyMan.png';
 import icon2 from '../../../images/png/Terraza.png';
@@ -13,86 +14,53 @@ import icon9 from '../../../images/png/Pintura.png';
 
 import './styles.css';
 
+const services = {
+  handyMan: 'Handyman',
+  terraza: 'Terraza',
+  ventanas: 'Ventanas',
+  marquesina: 'Marquesina',
+  electricista: 'Electricista',
+  laundry: 'Laundry',
+  plomeria: 'Plomería',
+  recogido: 'Recogido',
+  pintura: 'Pintura'
+};
+
 const Services = () => (
   <div className="service">
     <h2>Otros Servicios</h2>
     <Grid className="service-grid" centered>
       <Grid.Column mobile={5} tablet={5} computer={2}>
-        <Card raised>
-          <Image src={icon1} />
-          <Card.Content>
-            <Card.Meta>HandyMan</Card.Meta>
-          </Card.Content>
-        </Card>
+        <Service icon={icon1} services={services.handyMan} />
       </Grid.Column>
       <Grid.Column mobile={5} tablet={5} computer={2}>
-        <Card raised>
-          <Image src={icon2} />
-          <Card.Content>
-            <Card.Meta>Terraza</Card.Meta>
-          </Card.Content>
-        </Card>
+        <Service icon={icon2} services={services.terraza} />
       </Grid.Column>
       <Grid.Column mobile={5} tablet={5} computer={2}>
-        <Card raised>
-          <Image src={icon3} />
-          <Card.Content>
-            <Card.Meta>Ventanas</Card.Meta>
-          </Card.Content>
-        </Card>
+        <Service icon={icon3} services={services.ventanas} />
       </Grid.Column>
       <Grid.Column mobile={5} tablet={5} computer={2}>
-        <Card raised>
-          <Image src={icon4} />
-          <Card.Content>
-            <Card.Meta>Marquesina</Card.Meta>
-          </Card.Content>
-        </Card>
+        <Service icon={icon4} services={services.marquesina} />
       </Grid.Column>
       <Grid.Column mobile={5} tablet={5} computer={2}>
-        <Card raised>
-          <Image src={icon5} />
-          <Card.Content>
-            <Card.Meta>Electricista</Card.Meta>
-          </Card.Content>
-        </Card>
+        <Service icon={icon5} services={services.electricista} />
       </Grid.Column>
       <Grid.Column mobile={5} tablet={5} computer={2}>
-        <Card raised>
-          <Image src={icon6} />
-          <Card.Content>
-            <Card.Meta>Laundry</Card.Meta>
-          </Card.Content>
-        </Card>
+        <Service icon={icon6} services={services.laundry} />
       </Grid.Column>
       <Grid.Column mobile={5} tablet={5} computer={2}>
-        <Card raised>
-          <Image src={icon7} />
-          <Card.Content>
-            <Card.Meta>Plomeria</Card.Meta>
-          </Card.Content>
-        </Card>
+        <Service icon={icon7} services={services.plomeria} />
       </Grid.Column>
       <Grid.Column mobile={5} tablet={5} computer={2}>
-        <Card raised>
-          <Image src={icon8} />
-          <Card.Content>
-            <Card.Meta>Recogido</Card.Meta>
-          </Card.Content>
-        </Card>
+        <Service icon={icon8} services={services.recogido} />
       </Grid.Column>
       <Grid.Column mobile={5} tablet={5} computer={2}>
-        <Card raised>
-          <Image src={icon9} />
-          <Card.Content>
-            <Card.Meta>Pintura</Card.Meta>
-          </Card.Content>
-        </Card>
+        <Service icon={icon9} services={services.pintura} />
       </Grid.Column>
     </Grid>
 
     <div className="service-button">
-      <Button className="service-btn">Ver mas</Button>
+      <Button className="button-y">Ver mas</Button>
     </div>
   </div>
 );

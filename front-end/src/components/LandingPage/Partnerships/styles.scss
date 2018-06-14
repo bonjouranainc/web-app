@@ -1,4 +1,4 @@
-@import '../../../styles/_variables.scss';
+@import '../../../styles/_colors.scss';
 
 .partnerships {
   background-color: #f4f4f4;
@@ -8,11 +8,5 @@
 
   &-grid {
     text-align: center;
-  }
-
-  &-btn {
-    background-color: $button-color !important;
-    color: $text-color-dark;
-    font-size: 16px !important;
   }
 }

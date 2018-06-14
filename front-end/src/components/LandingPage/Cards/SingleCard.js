@@ -3,7 +3,13 @@ import { Card, Image, Rating } from 'semantic-ui-react';
 
 const SingleCard = props => (
   <Card centered raised>
-    <Image centered src={props.picture} size="small" rounded />
+    <Image
+      className="card-image"
+      centered
+      src={props.picture}
+      size="small"
+      rounded
+    />
     <Card.Content>
       <Card.Header>{props.name}</Card.Header>
       <Card.Description>{props.quote}</Card.Description>

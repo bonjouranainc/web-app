@@ -45,3 +45,15 @@
     }
   }
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-logo {
+    padding-top: 30px;
+  }
+
+  .header-txt {
+    h1 {
+      font-size: 32px;
+    }
+  }
+}

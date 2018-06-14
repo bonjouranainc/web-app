@@ -1,4 +1,4 @@
-@import '../../../styles/_variables.scss';
+@import '../../../styles/_colors.scss';
 
 .service {
   background-color: $background-color;
@@ -24,11 +24,6 @@
     text-align: center;
     padding-top: 50px;
     padding-bottom: 40px;
-
-    .service-btn {
-      background-color: $button-color !important;
-      color: $text-color-dark !important;
-    }
   }
 }
 

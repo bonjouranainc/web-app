@@ -28,9 +28,14 @@ export default class HowItWorks extends Component {
           className="howItWorks__grid"
         >
           <Grid>
-            <Grid.Row>
+            <Grid.Row className="howItWorks__row">
               <Grid.Column mobile={16} tablet={8} computer={8} padded="true">
-                <Image src={url1} size="medium" floated="right" />
+                <Image
+                  className="howItWorks__image"
+                  src={url1}
+                  size="medium"
+                  floated="right"
+                />
               </Grid.Column>
               <Grid.Column mobile={16} tablet={8} computer={8}>
                 <Container textAlign={textAlign}>
@@ -43,9 +48,9 @@ export default class HowItWorks extends Component {
               </Grid.Column>
             </Grid.Row>
 
-            <Grid.Row reversed="computer tablet">
+            <Grid.Row className="howItWorks__row" reversed="computer tablet">
               <Grid.Column mobile={16} tablet={8} computer={8}>
-                <Image src={url2} size="large" />
+                <Image className="howItWorks__image" src={url2} size="large" />
               </Grid.Column>
               <Grid.Column mobile={16} tablet={8} computer={8}>
                 <Container
@@ -61,9 +66,14 @@ export default class HowItWorks extends Component {
               </Grid.Column>
             </Grid.Row>
 
-            <Grid.Row>
+            <Grid.Row className="howItWorks__row">
               <Grid.Column mobile={16} tablet={8} computer={8}>
-                <Image src={url3} size="large" floated="right" />
+                <Image
+                  className="howItWorks__image"
+                  src={url3}
+                  size="large"
+                  floated="right"
+                />
               </Grid.Column>
               <Grid.Column mobile={16} tablet={8} computer={8}>
                 <Container className="howItWorks__text" textAlign={textAlign}>
