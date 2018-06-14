@@ -1,4 +1,4 @@
-@import '../../../styles/_variables.scss';
+@import '../../../styles/_colors.scss';
 
 .navbar {
   position: absolute;
@@ -19,6 +19,7 @@
   .link__desktop {
     a {
       color: $text-color-light;
+      text-decoration: none;
     }
   }
 }

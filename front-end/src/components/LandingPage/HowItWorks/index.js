@@ -48,7 +48,10 @@ export default class HowItWorks extends Component {
                 <Image src={url2} size="large" />
               </Grid.Column>
               <Grid.Column mobile={16} tablet={8} computer={8}>
-                <Container textAlign={textAlignMiddle}>
+                <Container
+                  className="howItWorks__text"
+                  textAlign={textAlignMiddle}
+                >
                   <h3>Reciba su visita</h3>
                   <p className="odd-text">
                     Un personal entrenado y confiable le visitará cada semana u
@@ -63,7 +66,7 @@ export default class HowItWorks extends Component {
                 <Image src={url3} size="large" floated="right" />
               </Grid.Column>
               <Grid.Column mobile={16} tablet={8} computer={8}>
-                <Container textAlign={textAlign}>
+                <Container className="howItWorks__text" textAlign={textAlign}>
                   <h3>Voila! Todas sus tareas completadas</h3>
                   <p className="even-text">
                     Llega a un hogar limpio y fresco, con las compras del

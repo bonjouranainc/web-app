@@ -25,6 +25,13 @@ h2 {
   text-align: center;
   letter-spacing: 1px; }
 
+h3 {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 150%;
+  font-weight: 700;
+  word-spacing: 2px;
+  letter-spacing: 1px; }
+
 p {
   font-size: 1em;
   font-weight: 400; }
@@ -73,7 +80,7 @@ a {
 button {
   border: none;
   background-color: transparent;
-  transition: background-color 0.3s; }
+  transition: background-color 0.2s; }
 
 /* Solid yellow button */
 .button-y {
@@ -82,7 +89,8 @@ button {
   background-color: #ebd831 !important;
   font-size: 1em !important;
   border-radius: 5px !important;
-  margin: 0.5em !important; }
+  margin: 0.5em !important;
+  transition: all 0.2s; }
   .button-y:hover {
     background-color: #fff !important; }
   .button-y a {

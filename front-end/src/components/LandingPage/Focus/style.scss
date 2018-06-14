@@ -1,11 +1,10 @@
-@import '../../../styles/_variables.scss';
-@import '../../../styles/_media.scss';
+@import '../../../styles/_colors.scss';
 
 .focus {
   height: 100%;
 
   &-column {
-    padding: 150px 0 85px 80px !important;
+    padding: 150px 0 60px 80px !important;
   }
 
   &-header {
@@ -19,21 +18,31 @@
     font-size: 32px;
     font-weight: 100;
     margin-bottom: 40px;
-  }
-
-  &-btn {
-    background-color: $button-color !important;
-
-    a {
-      color: $text-color-dark;
-    }
+    padding-right: 40px;
   }
 
   &-image {
+    height: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .focus {
     height: 100%;
-    background-image: url('../../../images/jpg/IMG_0247.JPG');
-    background-size: cover;
-    background-position: center;
+
+    &-column {
+      padding: 80px 90px 30px 60px !important;
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .focus {
+    height: 100%;
+
+    &-column {
+      padding: 40px 60px 0 0;
+    }
   }
 }
 
@@ -51,13 +60,6 @@
 
     &-text {
       padding-right: 30px;
-    }
-
-    &-image {
-      height: 100%;
-      background-image: url('../../../images/jpg/IMG_0247.JPG');
-      background-size: cover;
-      background-position: center;
     }
   }
 }

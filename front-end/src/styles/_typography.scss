@@ -1,3 +1,5 @@
+@import './_colors.scss';
+
 $page-font: 'Lato', Arial, sans-serif;
 $heading-font: 'Playfair Display', serif;
 
@@ -13,6 +15,14 @@ h2 {
   font-weight: 400;
   word-spacing: 2px;
   text-align: center;
+  letter-spacing: 1px;
+}
+
+h3 {
+  color: $text-color-dark;
+  font-size: 150%;
+  font-weight: 700;
+  word-spacing: 2px;
   letter-spacing: 1px;
 }
 
