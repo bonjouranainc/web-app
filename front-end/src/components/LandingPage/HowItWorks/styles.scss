@@ -2,80 +2,140 @@
 @import '../../../styles/_colors.scss';
 
 .howItWorks {
+  background-color: $background-color;
   width: 100%;
-  background-color: #f5f4ed;
 
-  &__grid {
-    padding-top: 6rem !important;
-    padding-bottom: 4rem !important;
-  }
+  .group {
+    width: 100%;
+    padding: 2.5rem 1rem;
 
-  &__row {
-    padding-top: -10px;
-  }
-
-  h3 {
-    font-weight: 600;
-    font-size: 28px;
-  }
-
-  p {
-    letter-spacing: 1px;
-    font-size: 18px;
-    font-weight: 100;
-  }
-
-  &__text {
-    margin-top: 100px;
-  }
-
-  .even-text {
-    padding: 0 200px 0 0;
-  }
-
-  .odd-text {
-    padding: 0 0 0 300px;
-  }
-
-  // Responsive media queries for text
-
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .howItWorks {
-      &__text {
-        margin-top: 60px;
-      }
-    }
-    .even-text {
-      padding: 0 40px 0 0;
-    }
-
-    .odd-text {
-      padding: 0 0 0 80px;
-    }
-  }
-
-  @media (min-width: 320px) and (max-width: 480px) {
-    .howItWorks {
+    &-image {
       margin: 0 auto;
       text-align: center;
 
-      &__text {
-        margin-top: 0;
-      }
-
-      &__image {
-        padding-left: 25px;
+      img {
+        width: 100%;
       }
     }
 
-    .even-text {
-      margin: 0 auto;
-      padding: 0;
-    }
+    &-text {
+      text-align: center;
 
-    .odd-text {
-      margin: 0 auto;
-      padding: 0;
+      h3 {
+        font-size: 23px;
+        font-weight: 700;
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: 100;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .groups {
+      width: 100%;
+      padding-top: 4rem;
+
+      .group {
+        display: flex;
+        flex-direction: row;
+
+        &-reverse {
+          flex-direction: row-reverse;
+        }
+
+        &-image {
+          width: 50%;
+
+          .first-image {
+            width: 80%;
+          }
+
+          img {
+            width: 100%;
+          }
+        }
+
+        &-text {
+          width: 50%;
+          margin-top: 4rem;
+
+          &-1 {
+            margin-top: 1rem;
+          }
+
+          h3 {
+            font-size: 28px;
+          }
+
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1224px) {
+    .groups {
+      width: 100%;
+      padding-top: 4rem;
+
+      .group {
+        display: flex;
+        flex-direction: row;
+
+        &-reverse {
+          flex-direction: row-reverse;
+        }
+
+        &-image {
+          width: 50%;
+          text-align: right;
+
+          .first-image {
+            width: 50%;
+          }
+
+          img {
+            width: 80%;
+          }
+        }
+
+        #group-image2 {
+          text-align: left;
+        }
+
+        &-text {
+          width: 50%;
+          margin-top: 5rem;
+          padding: 0 4rem;
+
+          &-1 {
+            margin-top: 1rem;
+          }
+
+          &-even {
+            text-align: left;
+            padding: 0 18rem 0 1.5rem;
+          }
+
+          &-odd {
+            text-align: right;
+            padding: 0 1.5rem 0 15rem;
+          }
+
+          h3 {
+            font-size: 32px;
+          }
+
+          p {
+            font-size: 22px;
+          }
+        }
+      }
     }
   }
 }
