@@ -1,18 +1,10 @@
-@import '../../../styles/_colors.scss';
+@import '../../../styles/_variables.scss';
 
 .service {
   background-color: $background-color;
   padding-top: 80px;
   padding-left: 60px;
   padding-right: 60px;
-
-  h2 {
-    font-size: 42px;
-    font-weight: 700;
-    color: $text-color-dark;
-    text-align: left;
-    margin-bottom: 30px;
-  }
 
   &-grid {
     margin: 0 auto !important;
@@ -30,10 +22,5 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .service {
     padding-left: 0;
-
-    h2 {
-      text-align: center;
-      margin-bottom: 50px;
-    }
   }
 }

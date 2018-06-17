@@ -1,8 +1,8 @@
-@import '../../../styles/_colors.scss';
+@import '../../../styles/_variables.scss';
 
 .navbar {
   position: absolute;
-  height: 8vh;
+  height: 7vh;
   width: 100%;
   background-color: $background-color-images !important;
 
@@ -24,14 +24,9 @@
   }
 }
 
-@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
-  .navbar {
-    height: 15vh;
-  }
-}
-
 @media (min-width: 320px) and (max-width: 480px) {
   .navbar {
     height: 12vh;
+    position: fixed;
   }
 }

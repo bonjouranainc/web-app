@@ -26,22 +26,23 @@ const NavBarTablet = ({ onPusherClick, onToggle, visible }) => (
       style={navBarColor}
     >
       <Menu.Item name="servicio">
-        <a style={linkColors} href="">
+        <a className="link-text" style={linkColors} href="">
           Servicios
         </a>
       </Menu.Item>
       <Menu.Item name="nosotros">
-        <Link style={linkColors} to="/about">
+        <Link className="link-text" style={linkColors} to="/about">
           Nosotros
         </Link>
       </Menu.Item>
       <Menu.Item name="como funciona">
-        <Link style={linkColors} to="/how">
+        <Link className="link-text" style={linkColors} to="/how">
           &iquest;Cómo funciona?
         </Link>
       </Menu.Item>
       <Menu.Item>
         <a
+          className="link-text"
           style={linkColors}
           href="https://bonjour-ana.myshopify.com/account/login"
         >
@@ -50,6 +51,7 @@ const NavBarTablet = ({ onPusherClick, onToggle, visible }) => (
       </Menu.Item>
       <Menu.Item>
         <a
+          className="link-text"
           style={linkColors}
           href="https://bonjour-ana.myshopify.com/account/login"
         >

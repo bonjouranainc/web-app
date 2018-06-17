@@ -1,39 +1,41 @@
-@import './_colors.scss';
+@import 'styles/variables';
 
-$page-font: 'Lato', Arial, sans-serif;
-$heading-font: 'Playfair Display', serif;
-
-h1 {
-  font-size: 340%;
-  margin-bottom: 25px;
-  word-spacing: 4px;
-  letter-spacing: 1px;
-}
-
-h2 {
-  font-size: 180%;
-  font-weight: 400;
-  word-spacing: 2px;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-h3 {
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 300;
+  // font-size: 20px;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
   color: $text-color-dark;
-  font-size: 150%;
+}
+
+.header-title {
+  color: $text-color-light;
+  font-size: 2.5rem;
+  font-family: $heading-font;
+  letter-spacing: 1px;
+}
+
+.header-subtitle {
+  font-size: 3.5rem;
   font-weight: 700;
-  word-spacing: 2px;
+}
+
+.header-tertiary-Title {
+  color: $text-color-dark;
+  font-size: 2.3rem;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 
-p {
-  font-size: 1em;
-  font-weight: 400;
+.paragraph {
+  font-size: 1.2em;
+  font-weight: 100;
   color: $text-color-dark;
 }
 
-a {
-  font-size: 1em;
+.link-text {
+  font-size: 1.7em;
   text-decoration: none;
 }
 

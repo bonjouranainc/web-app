@@ -1,5 +1,5 @@
 // Variables
-@import '../../../styles/_colors.scss';
+@import 'styles/variables';
 
 .howItWorks {
   background-color: $background-color;
@@ -20,20 +20,10 @@
 
     &-text {
       text-align: center;
-
-      h3 {
-        font-size: 23px;
-        font-weight: 700;
-      }
-
-      p {
-        font-size: 16px;
-        font-weight: 100;
-      }
     }
   }
 
-  @media only screen and (min-width: 768px) {
+  @media (min-width: 600px) {
     .groups {
       width: 100%;
       padding-top: 4rem;
@@ -65,20 +55,12 @@
           &-1 {
             margin-top: 1rem;
           }
-
-          h3 {
-            font-size: 28px;
-          }
-
-          p {
-            font-size: 20px;
-          }
         }
       }
     }
   }
 
-  @media only screen and (min-width: 1224px) {
+  @media (min-width: 1200px) {
     .groups {
       width: 100%;
       padding-top: 4rem;
@@ -125,14 +107,6 @@
           &-odd {
             text-align: right;
             padding: 0 3.5rem 0 13rem;
-          }
-
-          h3 {
-            font-size: 32px;
-          }
-
-          p {
-            font-size: 22px;
           }
         }
       }

@@ -1,4 +1,4 @@
-@import '../../../styles/_colors.scss';
+@import '../../../styles/_variables.scss';
 @import '../../../styles/_typography.scss';
 
 .l-welcome {
@@ -26,34 +26,22 @@
     justify-content: center;
     align-items: center;
 
-    .header-logo img {
-      width: 150px;
+    .header-logo {
+      margin-top: 1.5em;
+      width: 35%;
+
+      img {
+        width: 100%;
+      }
     }
 
     .header-txt {
       text-align: center;
-
-      h1 {
-        font-family: $heading-font;
-        padding-bottom: 20px;
-      }
     }
 
     .welcome-btns {
       display: flex;
       align-items: center;
-    }
-  }
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .header-logo {
-    padding-top: 30px;
-  }
-
-  .header-txt {
-    h1 {
-      font-size: 32px;
     }
   }
 }
