@@ -1,0 +1,47 @@
+@import 'styles/variables';
+
+/* Footer Top */
+.footer-top {
+  background-color: $background-footer-top;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em;
+
+  li {
+    list-style-type: none;
+  }
+
+  &__social {
+    display: flex;
+    width: auto;
+    padding-top: 5rem;
+
+    img {
+      height: 4vh;
+      margin: 1em;
+    }
+  }
+
+  &__links {
+    padding-top: 2rem;
+
+    a:hover {
+      color: $text-color-dark;
+      text-decoration: underline;
+    }
+  }
+
+  &__locations {
+    padding-top: 2rem;
+  }
+
+  &__services {
+    padding-top: 2rem;
+  }
+
+  @media (max-width: 320px) {
+    & {
+      display: none;
+    }
+  }
+}

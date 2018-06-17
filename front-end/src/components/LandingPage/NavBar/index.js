@@ -7,9 +7,16 @@ import NavBarTablet from './NavBarTablet';
 import './styles.css';
 
 export default class NavBar extends Component {
-  state = {
-    visible: false
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      visible: false,
+      headerColor: false
+    };
+
+    this.changeHeaderColor = this.changeHeaderColor.bind(this);
+  }
 
   handlePusher = () => {
     const { visible } = this.state;
@@ -21,8 +28,13 @@ export default class NavBar extends Component {
     this.setState({ visible: !this.state.visible });
   };
 
+  componentDidMount() {
+    window.addEventListener('scroll', this.changeHeaderColor);
+  }
+
   render() {
     const { visible } = this.state;
+    let changeColor = this.state.changeColor ? '#ebd831' : 'rgba(0, 0, 0, 0.6)';
 
     return (
       <div className="navbar">
@@ -31,6 +43,7 @@ export default class NavBar extends Component {
             onPusherClick={this.handlePusher}
             onToggle={this.handleToggle}
             visible={visible}
+            style={{ backgroundColor: changeColor }}
           />
         </Responsive>
 
@@ -47,5 +60,11 @@ export default class NavBar extends Component {
         </Responsive>
       </div>
     );
+  }
+
+  changeHeaderColor() {
+    window.scrollY > 500
+      ? this.setState({ headerColor: true })
+      : this.setState({ headerColor: false });
   }
 }

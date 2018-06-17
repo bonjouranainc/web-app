@@ -1,12 +1,21 @@
-@import '../../../styles/_colors.scss';
+@import './styles/variables';
 
 .partnerships {
-  background-color: #f4f4f4;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  background-color: $background-color;
+  padding: 15rem 0 15rem 0;
   margin: 0 auto;
 
   &-grid {
     text-align: center;
+  }
+
+  .button-y {
+    font-size: 1.2rem !important;
+  }
+
+  @media (min-width: 600px) {
+    .button-y {
+      font-size: 1.6rem !important;
+    }
   }
 }

@@ -40,8 +40,9 @@ body {
   color: rgba(0, 0, 0, 0.6); }
 
 .link-text {
-  font-size: 1.7em;
-  text-decoration: none; }
+  font-size: 1em;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6); }
 
 .wrapper {
   display: flex;

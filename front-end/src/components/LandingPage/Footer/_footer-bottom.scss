@@ -1,0 +1,25 @@
+@import 'styles/variables';
+
+.footer-bottom {
+  height: 10vh;
+  background-color: $background-footer-bottom;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  bottom: 0;
+
+  a {
+    margin: 0.5rem;
+
+    &:hover {
+      text-decoration: underline;
+      color: $text-color-dark;
+    }
+  }
+
+  p {
+    margin: 0.5em 1em 0.5em 0.5em;
+    font-size: 1.4rem;
+  }
+}

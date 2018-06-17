@@ -8,7 +8,7 @@ import './styles.css';
 const NavBarDesktop = () => (
   <Menu secondary className="link__desktop">
     <Menu.Item>
-      <Link className="link-text" to="/">
+      <Link to="/">
         <Image src={logo} size="mini" />
       </Link>
     </Menu.Item>

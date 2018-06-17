@@ -71,7 +71,7 @@ const NavBarTablet = ({ onPusherClick, onToggle, visible }) => (
           </Link>
         </Menu.Item>
         <Menu.Item position="right" onClick={onToggle}>
-          <Icon size="large" name="sidebar" style={{ color: '#fff' }} />
+          <Icon size="big" name="sidebar" style={{ color: '#fff' }} />
         </Menu.Item>
       </Menu>
     </Sidebar.Pusher>

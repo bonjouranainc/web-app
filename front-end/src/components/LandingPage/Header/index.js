@@ -5,17 +5,17 @@ import logo from '../../../images/png/BonjourAna_Blanco-01.png';
 import './styles.css';
 
 const Header = () => (
-  <div className="l-welcome">
-    <div className="main">
-      <div className="header-logo">
+  <div className="hero">
+    <div className="hero__main">
+      <div className="hero__logo">
         <img src={logo} alt="Company logo" />
       </div>
-      <div className="header-txt">
+      <div className="hero-txt">
         <h1 className="header-title">
           Completamos tus tareas del hogar y necesidades diarias.
         </h1>
       </div>
-      <div className="welcome-btns">
+      <div className="hero__btns">
         <Button className="button-y">
           <a href="https://bonjour-ana.myshopify.com/products/servicio-de-limpieza">
             Ana Básico

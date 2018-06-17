@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import SingleCard from './SingleCard';
 import { Carousel } from 'react-bootstrap';
 
-import picture from '../../../images/jpg/mayra-candelaria.jpg';
+import picture from '../../../images/jpg/tamara-matos.jpg';
 
 const person = {
   name: 'Lily M.',

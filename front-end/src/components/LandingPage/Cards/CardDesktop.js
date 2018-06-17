@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Grid } from 'semantic-ui-react';
 import SingleCard from './SingleCard';
 
-import picture from '../../../images/jpg/mayra-candelaria.jpg';
+import picture from '../../../images/jpg/tamara-matos.jpg';
 
 const person = {
   name: 'Lily M.',

@@ -1,7 +1,6 @@
-@import '../../../styles/_variables.scss';
-@import '../../../styles/_typography.scss';
+@import 'styles/variables';
 
-.l-welcome {
+.hero {
   height: 100vh;
   padding-top: 0;
   padding-bottom: 0;
@@ -20,28 +19,62 @@
   background-repeat: no-repeat;
   color: $text-color-light;
 
-  .main {
+  &__main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
 
-    .header-logo {
-      margin-top: 1.5em;
-      width: 35%;
+  &__logo {
+    margin-top: 1.5em;
+    width: 35%;
 
-      img {
-        width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+
+  &-txt {
+    text-align: center;
+  }
+
+  &-btns {
+    display: flex;
+    align-items: center;
+  }
+
+  @media (min-width: 600px) {
+    &__logo {
+      width: 25%;
+    }
+
+    &-txt {
+      padding: 0 10rem 1rem 10rem;
+    }
+
+    .header-title {
+      font-size: 4rem;
+    }
+  }
+
+  @media (min-width: 900px) {
+    &__logo {
+      width: 20%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    &__logo {
+      width: 10%;
+    }
+
+    &-txt {
+      padding: 0 35rem 2rem 35rem;
+
+      .header-title {
+        font-size: 4.8rem;
       }
-    }
-
-    .header-txt {
-      text-align: center;
-    }
-
-    .welcome-btns {
-      display: flex;
-      align-items: center;
     }
   }
 }

@@ -1,4 +1,4 @@
-@import '../../../styles/_variables.scss';
+@import 'styles/variables';
 
 .navbar {
   position: absolute;
@@ -6,26 +6,18 @@
   width: 100%;
   background-color: $background-color-images !important;
 
-  a {
-    transition: all 0.2s;
+  .link-text {
+    font-size: 1.8rem;
+    color: #fff;
 
-    &:hover {
-      background-color: #fff;
-      color: $text-color-dark !important;
-      border-radius: 5%;
-    }
-  }
-
-  .link__desktop {
     a {
-      color: $text-color-light;
-      text-decoration: none;
-    }
-  }
-}
+      transition: all 0.2s;
 
-@media (min-width: 320px) and (max-width: 480px) {
-  .navbar {
-    height: 12vh;
+      &:hover {
+        background-color: #fff;
+        color: $text-color-dark !important;
+        border-radius: 5%;
+      }
+    }
   }
 }

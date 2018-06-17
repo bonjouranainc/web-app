@@ -69,7 +69,7 @@ const NavBarMobile = ({ onPusherClick, onToggle, visible }) => (
           </Link>
         </Menu.Item>
         <Menu.Item position="right" onClick={onToggle}>
-          <Icon name="sidebar" style={{ color: '#fff' }} />
+          <Icon size="large" name="sidebar" style={{ color: '#fff' }} />
         </Menu.Item>
       </Menu>
     </Sidebar.Pusher>
