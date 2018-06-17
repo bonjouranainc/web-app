@@ -4,6 +4,7 @@
 .howItWorks {
   background-color: $background-color;
   width: 100%;
+  padding: 1.5rem 0;
 
   .group {
     width: 100%;
@@ -12,6 +13,10 @@
     &-image {
       margin: 0 auto;
       text-align: center;
+
+      .first-image {
+        width: 80%;
+      }
 
       img {
         width: 100%;
@@ -50,7 +55,7 @@
 
         &-text {
           width: 50%;
-          margin-top: 4rem;
+          margin-top: 7rem;
 
           &-1 {
             margin-top: 1rem;

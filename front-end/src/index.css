@@ -43,18 +43,6 @@ body {
   font-size: 1.7em;
   text-decoration: none; }
 
-/*
-  Text styles
-*/
-/* Add bold */
-.b-txt {
-  font-weight: 900; }
-
-/* Small text */
-.s-txt {
-  font-size: 0.8em;
-  color: #fff !important; }
-
 .wrapper {
   display: flex;
   flex-direction: column;

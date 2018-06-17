@@ -1,12 +1,15 @@
-@import '../../../styles/_variables.scss';
+@import './styles/variables';
 
 .service {
   background-color: $background-color;
-  padding-top: 80px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 8rem 6rem 0 6rem;
+
+  .header-subtitle {
+    font-size: 2.8rem;
+  }
 
   &-grid {
+    padding-top: 2rem !important;
     margin: 0 auto !important;
     width: 100% !important;
   }
@@ -14,13 +17,23 @@
   &-button {
     margin: 0 auto;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding: 5rem 0 4rem 0;
   }
-}
 
-@media (min-width: 320px) and (max-width: 480px) {
-  .service {
-    padding-left: 0;
+  .ui.card .meta {
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: 600px) {
+    .header-subtitle {
+      font-size: 3.8rem;
+      padding-left: 1rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .header-subtitle {
+      font-size: 4.2rem;
+    }
   }
 }
