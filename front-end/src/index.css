@@ -83,7 +83,7 @@ button {
   font-size: 1em !important;
   border-radius: 5px !important;
   margin: 0.5em !important;
-  transition: all 0.2s; }
+  transition: all 0.3s !important; }
   .button-y:hover {
     background-color: #fff27d !important; }
   .button-y a {

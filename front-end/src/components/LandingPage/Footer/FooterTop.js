@@ -59,7 +59,7 @@ const FooterTop = () => (
             Contáctanos
           </a>
         </li>
-        <li>Tel: 787-000-0000</li>
+        <li>Tel: 787-523-5870</li>
       </ul>
     </div>
 
