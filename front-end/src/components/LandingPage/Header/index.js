@@ -10,7 +10,7 @@ const Header = () => (
       <div className="hero__logo">
         <img src={logo} alt="Company logo" />
       </div>
-      <div className="hero-txt">
+      <div className="hero__txt">
         <h1 className="header-title">
           Completamos tus tareas del hogar y necesidades diarias.
         </h1>

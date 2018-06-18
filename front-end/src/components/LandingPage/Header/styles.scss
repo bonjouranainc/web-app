@@ -35,8 +35,9 @@
     }
   }
 
-  &-txt {
+  &__txt {
     text-align: center;
+    padding-bottom: 1rem;
   }
 
   &-btns {
@@ -49,7 +50,7 @@
       width: 25%;
     }
 
-    &-txt {
+    &__txt {
       padding: 0 10rem 1rem 10rem;
     }
 
@@ -69,7 +70,7 @@
       width: 10%;
     }
 
-    &-txt {
+    &__txt {
       padding: 0 35rem 2rem 35rem;
 
       .header-title {
