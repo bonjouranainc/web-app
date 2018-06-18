@@ -5,8 +5,8 @@ import './styles.css';
 
 const Service = props => (
   <Card raised>
-    <Image className="service-image" src={props.icon} />
-    <Card.Content style={{ backgroundColor: '#f4f4f4' }}>
+    <Image className="service__image" src={props.icon} />
+    <Card.Content>
       <Card.Meta textAlign="center">{props.services}</Card.Meta>
     </Card.Content>
   </Card>

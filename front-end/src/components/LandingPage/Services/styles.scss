@@ -1,4 +1,4 @@
-@import './styles/variables';
+@import 'styles/variables';
 
 .service {
   background-color: $background-color;
@@ -8,7 +8,7 @@
     font-size: 2.8rem;
   }
 
-  &-grid {
+  &__grid {
     padding-top: 2rem !important;
     margin: 0 auto !important;
     width: 100% !important;
@@ -24,10 +24,30 @@
     font-size: 1.2rem;
   }
 
+  .ui.image {
+    background: transparent;
+    width: 75%;
+    margin: 0 auto;
+  }
+
   @media (min-width: 600px) {
     .header-subtitle {
       font-size: 3.8rem;
       padding-left: 1rem;
+    }
+
+    .ui.card .meta {
+      font-size: 1.7rem;
+    }
+
+    .ui.image {
+      width: 45%;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .ui.image {
+      width: 50%;
     }
   }
 
