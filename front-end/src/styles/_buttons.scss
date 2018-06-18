@@ -17,7 +17,7 @@ button {
   transition: all 0.2s;
 
   &:hover {
-    background-color: #fff !important;
+    background-color: $button-color-light !important;
   }
 
   a {
