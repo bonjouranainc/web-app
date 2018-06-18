@@ -52,8 +52,15 @@
   }
 
   @media (min-width: 1200px) {
+    // &__grid {
+    //   padding-left: 5rem !important;
+    // }
     .header-subtitle {
       font-size: 4.2rem;
     }
+
+    // .ui.raised.card {
+    //   width: 75%;
+    // }
   }
 }

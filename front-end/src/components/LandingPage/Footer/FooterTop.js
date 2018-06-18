@@ -56,14 +56,15 @@ const FooterTop = () => (
         </li>
         <li>
           <a className="link-text" href="">
-            Contactanos
+            Contáctanos
           </a>
         </li>
+        <li>Tel: 787-000-0000</li>
       </ul>
     </div>
 
     <div className="footer-top__locations">
-      <p>
+      <p className="paragraph">
         <strong>Pueblos</strong>
       </p>
       <ul>
@@ -83,7 +84,7 @@ const FooterTop = () => (
     </div>
 
     <div className="footer-top__services">
-      <p>
+      <p className="paragraph">
         <strong>Servicios</strong>
       </p>
       <ul>
