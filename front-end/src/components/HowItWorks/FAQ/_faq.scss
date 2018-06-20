@@ -1,0 +1,24 @@
+@import 'styles/variables';
+
+.faq {
+  background-color: $background-color;
+  width: 100%;
+  padding: 3rem 1.5rem;
+
+  .heading-tertiary-Title {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 3.5rem;
+  }
+
+  &__title {
+    font-size: 1.4rem;
+    color: $text-color-dark;
+    display: inline;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+}
