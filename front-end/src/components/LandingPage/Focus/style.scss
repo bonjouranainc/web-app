@@ -4,7 +4,11 @@
   height: 100%;
 
   &-column {
-    padding: 4.5rem;
+    padding: 3.5rem;
+
+    .header-subtitle {
+      font-size: 2rem;
+    }
   }
 
   &-image {
@@ -19,7 +23,11 @@
 
 @media (min-width: 600px) {
   .focus-column {
-    padding: 8.5rem 23rem 8.5rem 8rem;
+    padding: 10rem 23rem 10rem 8rem;
+
+    .header-subtitle {
+      font-size: 4rem;
+    }
 
     .paragraph {
       font-size: 2.3rem;
@@ -46,7 +54,7 @@
 
     &-column {
       width: 50%;
-      padding: 10rem 25rem 1rem 6.5rem;
+      padding: 15rem 25rem 1rem 6.5rem;
 
       .header-subtitle {
         font-size: 4rem;
@@ -54,6 +62,10 @@
 
       .paragraph {
         font-size: 3.2rem;
+      }
+
+      .button-y {
+        font-size: 2.1rem !important;
       }
     }
 

@@ -3,7 +3,7 @@ import { Button } from 'semantic-ui-react';
 
 import './style.css';
 
-import picture from '../../../images/jpg/IMG_0247.JPG';
+import picture from '../../../images/jpg/IMG_0247 2.44.11 PM.JPG';
 
 const Focus = () => (
   <div className=".focus">
