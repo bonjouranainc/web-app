@@ -52,6 +52,7 @@
     }
   }
 
+  // MEDIA QUERY FOR TABLETS
   @media (min-width: 600px) {
     &__heading {
       text-align: left;
@@ -88,6 +89,55 @@
 
       &--header {
         padding-left: 4rem;
+      }
+    }
+  }
+
+  // MEDIA QUERY FOR LAPTOPS
+  @media (min-width: 1200px) {
+    & {
+      padding-left: 10rem;
+    }
+    &__heading {
+      &--title {
+        font-size: 5rem;
+      }
+
+      &--text {
+        font-size: 2rem;
+        padding-right: 45rem;
+      }
+    }
+
+    &__content:nth-child(odd) {
+      padding-left: 6rem;
+    }
+
+    &__img {
+      width: 50%;
+      text-align: left;
+
+      img {
+        width: 45%;
+      }
+    }
+
+    &__content:last-child &__img {
+      img {
+        width: 70%;
+      }
+    }
+
+    &__text {
+      width: 50%;
+      padding-right: 20rem;
+
+      &--header {
+        font-size: 2.6rem;
+      }
+
+      &--description {
+        font-size: 2rem;
       }
     }
   }

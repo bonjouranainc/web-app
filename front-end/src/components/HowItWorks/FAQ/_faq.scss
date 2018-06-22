@@ -3,7 +3,7 @@
 .faq {
   background-color: $background-color;
   width: 100%;
-  padding: 3rem 1.5rem;
+  padding: 10rem 2.5rem;
 
   .heading-tertiary-Title {
     font-size: 2rem;
@@ -18,7 +18,48 @@
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 100;
+  }
+
+  // MEDIA QUERY FOR TABLET
+
+  @media (min-width: 600px) {
+    & {
+      padding: 20rem 8rem 10rem 8rem;
+    }
+
+    .heading-tertiary-Title {
+      font-size: 2.7rem;
+    }
+
+    &__title {
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
+
+  // MEDIA QUERY FOR LAPTOP
+
+  @media (min-width: 1200px) {
+    & {
+      padding-top: 10rem;
+      padding-left: 20rem;
+    }
+
+    .heading-tertiary-Title {
+      font-size: 3.3rem;
+    }
+
+    &__title {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.8rem;
+    }
   }
 }
