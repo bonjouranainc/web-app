@@ -1,15 +1,30 @@
 .about {
-  width: 100%;
-  background-color: #f5f2eb; }
-  .about__header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/jpg/P3160818.JPG");
-    background-size: cover;
-    background-position: center;
-    height: 100vh; }
-  .about__quote {
-    text-align: center;
-    margin: 200px 0; }
-    .about__quote p {
-      font-family: cursive;
-      font-weight: 400;
-      font-size: 28px; }
+  padding: 10rem 0;
+  background-color: #f5f4ed; }
+  .about__heading {
+    padding-left: 15rem;
+    padding-bottom: 8rem; }
+    .about__heading--header {
+      font-family: "Playfair Display", serif;
+      font-size: 3.8rem;
+      color: #ebd831; }
+    .about__heading--text {
+      font-size: 1.6rem;
+      padding-right: 95rem; }
+  .about__photo-grid {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 15rem; }
+    .about__photo-grid--img {
+      width: 25%;
+      padding-right: 2rem; }
+      .about__photo-grid--img img {
+        width: 100%;
+        height: 100%; }
+    .about__photo-grid--desc {
+      padding-top: 2rem; }
+      .about__photo-grid--desc h4 {
+        font-size: 1.8rem; }
+      .about__photo-grid--desc p {
+        font-size: 1.5rem; }

@@ -1,19 +1,15 @@
 import React from 'react';
-import NavBar from '../../components/LandingPage/NavBar/index';
-import Footer from '../../components/LandingPage/Footer/index';
+import NavBar from '../LandingPage/NavBar/index';
+import AboutMain from './AboutMain';
+import Footer from '../LandingPage/Footer/index';
+
 import './styles.css';
 
 const About = () => (
-  <div className="about">
-    <div className="about__header">
-      <NavBar />
-    </div>
-    <div className="about__quote">
-      <p>Some quote from BA</p>
-    </div>
-    <div className="about__footer">
-      <Footer />
-    </div>
+  <div>
+    <NavBar />
+    <AboutMain />
+    <Footer />
   </div>
 );
 
