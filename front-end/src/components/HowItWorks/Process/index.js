@@ -1,7 +1,8 @@
 import React from 'react';
 
 import url1 from '../../../images/png/Escoga los servicios.png';
-import url3 from '../../../images/png/Voila-07.png';
+import url2 from '../../../images/png/Reciba su visita-01.png';
+import url3 from '../../../images/png/Voila.png';
 
 const Process = () => (
   <div className="process">
@@ -21,7 +22,7 @@ const Process = () => (
           <img src={url1} alt="" />
         </div>
         <div className="process__text">
-          <h3 className="process__text--header">1 Escoja sus servicios</h3>
+          <h3 className="process__text--header">1. Escoja sus servicios</h3>
           <p className="process__text--description">
             Seleccione entre una variedad de servicios para el hogar y escoja el
             día y hora que desea recibir el servicio.
@@ -31,10 +32,10 @@ const Process = () => (
 
       <div className="process__content">
         <div className="process__img">
-          <img src={url1} alt="" />
+          <img src={url2} alt="" />
         </div>
         <div className="process__text">
-          <h3 className="process__text--header">2 Reciba su visita</h3>
+          <h3 className="process__text--header">2. Reciba su visita</h3>
           <p className="process__text--description">
             Un personal entrenado y confiable le visitará cada semana u ocasión
             para brindarle el servicio.
@@ -48,7 +49,7 @@ const Process = () => (
         </div>
         <div className="process__text">
           <h3 className="process__text--header">
-            3 Voila! Todas sus tareas completadas
+            3. Voila! Todas sus tareas completadas
           </h3>
           <p className="process__text--description">
             Llega a un hogar limpio y fresco, con las compras del supermercado

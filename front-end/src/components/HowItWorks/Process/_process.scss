@@ -35,6 +35,20 @@
     }
   }
 
+  &__content:first-child &__img {
+    img {
+      padding-bottom: 2rem;
+    }
+  }
+
+  &__content:last-child &__img {
+    img {
+      width: 70%;
+      padding-top: 3rem;
+      padding-bottom: 4rem;
+    }
+  }
+
   &__text {
     margin-top: 1.5rem;
     padding-bottom: 3.5rem;
@@ -42,6 +56,9 @@
     &--header {
       font-size: 2rem;
       color: $button-color;
+      text-align: left;
+      padding-left: 5rem;
+      font-weight: 500;
     }
 
     &--description {
@@ -79,11 +96,22 @@
 
     &__content:last-child &__img {
       img {
-        width: 90%;
+        width: 140%;
+        padding-top: 3rem;
+        padding-right: 22rem;
       }
     }
 
+    &__content:last-child &__text {
+      padding-right: 1rem;
+    }
+
+    &__img {
+      width: 50%;
+    }
+
     &__text {
+      width: 50%;
       text-align: left;
       padding-top: 4rem;
 
@@ -122,15 +150,27 @@
       }
     }
 
+    &__content:nth-child(even) &__img {
+      img {
+        width: 65%;
+        padding-left: 10rem;
+      }
+    }
+
     &__content:last-child &__img {
       img {
-        width: 70%;
+        width: 90%;
+        padding-top: 4rem;
       }
+    }
+
+    &__content:last-child &__text {
+      padding-right: 20rem;
     }
 
     &__text {
       width: 50%;
-      padding-right: 20rem;
+      padding-right: 22rem;
 
       &--header {
         font-size: 2.6rem;
