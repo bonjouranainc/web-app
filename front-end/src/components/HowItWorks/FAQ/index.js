@@ -47,7 +47,9 @@ export default class FAQ extends Component {
             index={1}
             onClick={this.handleClick}
           >
-            ¿Cómo comienzo con los servicios de Bonjour! Ana?
+            <h4 className="faq__title">
+              ¿Cómo comienzo con los servicios de Bonjour! Ana?
+            </h4>
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 1}>
@@ -67,7 +69,7 @@ export default class FAQ extends Component {
             index={2}
             onClick={this.handleClick}
           >
-            ¿Cómo me cobrarán?
+            <h4 className="faq__title">¿Cómo me cobrarán?</h4>
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 2}>
@@ -93,7 +95,10 @@ export default class FAQ extends Component {
             index={3}
             onClick={this.handleClick}
           >
-            ¿Bonjour Ana trabaja en mi vecindario?
+            <h4 className="faq__title">
+              ¿Bonjour Ana trabaja en mi vecindario?
+            </h4>
+
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 3}>
@@ -111,7 +116,8 @@ export default class FAQ extends Component {
             index={4}
             onClick={this.handleClick}
           >
-            ¿Cómo me comunico con mi personal?
+            <h4 className="faq__title">¿Cómo me comunico con mi personal?</h4>
+
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 4}>
@@ -131,7 +137,7 @@ export default class FAQ extends Component {
             index={5}
             onClick={this.handleClick}
           >
-            ¿Qué cubre la subscripción?
+            <h4 className="faq__title">¿Qué cubre la subscripción?</h4>
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 5}>
@@ -151,7 +157,7 @@ export default class FAQ extends Component {
             index={6}
             onClick={this.handleClick}
           >
-            ¿Hay un límite en los pedidos?
+            <h4 className="faq__title">¿Hay un límite en los pedidos?</h4>
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 6}>
@@ -169,7 +175,7 @@ export default class FAQ extends Component {
             index={7}
             onClick={this.handleClick}
           >
-            ¿Cuál es su política de cancelación?
+            <h4 className="faq__title">¿Cuál es su política de cancelación?</h4>
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 7}>
@@ -190,7 +196,7 @@ export default class FAQ extends Component {
             index={8}
             onClick={this.handleClick}
           >
-            ¿Cuán frecuente me visitará Ana?
+            <h4 className="faq__title">¿Cuán frecuente me visitará Ana?</h4>
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 8}>
@@ -209,7 +215,9 @@ export default class FAQ extends Component {
             index={9}
             onClick={this.handleClick}
           >
-            ¿Puedo solicitar algún servicio de mi comercio preferido?
+            <h4 className="faq__title">
+              ¿Puedo solicitar algún servicio de mi comercio preferido?
+            </h4>
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 9}>
@@ -226,7 +234,7 @@ export default class FAQ extends Component {
             index={10}
             onClick={this.handleClick}
           >
-            ¿Cómo eligen a sus vendedores?
+            <h4 className="faq__title">¿Cómo eligen a sus vendedores?</h4>
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 10}>
@@ -244,7 +252,7 @@ export default class FAQ extends Component {
             index={11}
             onClick={this.handleClick}
           >
-            ¿Cuáles son sus precios?
+            <h4 className="faq__title">¿Cuáles son sus precios?</h4>
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 11}>

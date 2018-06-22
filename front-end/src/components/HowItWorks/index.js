@@ -6,10 +6,6 @@ import Footer from '../LandingPage/Footer';
 
 import './style.css';
 
-const colorNav = {
-  backgroundColor: 'yellow'
-};
-
 const WorkPage = () => (
   <div>
     <NavBar />

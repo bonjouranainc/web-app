@@ -1,7 +1,6 @@
 import React from 'react';
 
 import url1 from '../../../images/png/Escoga los servicios.png';
-import url2 from '../../../images/png/Recibe tu Visita-07.png';
 import url3 from '../../../images/png/Voila-07.png';
 
 const Process = () => (
@@ -17,13 +16,13 @@ const Process = () => (
     </div>
 
     <div className="process__body">
-      <div className="process__content process__content--even">
-        <div className="process__content--image">
+      <div className="process__content">
+        <div className="process__img">
           <img src={url1} alt="" />
         </div>
-        <div className="process__content--text">
-          <h3 className="header-tertiary-Title">1 Escoja su servicio</h3>
-          <p className="paragraph paragraph--even">
+        <div className="process__text">
+          <h3 className="process__text--header">1 Escoja sus servicios</h3>
+          <p className="process__text--description">
             Seleccione entre una variedad de servicios para el hogar y escoja el
             día y hora que desea recibir el servicio.
           </p>
@@ -31,27 +30,27 @@ const Process = () => (
       </div>
 
       <div className="process__content">
-        <div className="process__content--image">
-          <img src={url2} alt="" />
+        <div className="process__img">
+          <img src={url1} alt="" />
         </div>
-        <div className="process__content--text">
-          <h3 className="header-tertiary-Title">2 Reciba su visita</h3>
-          <p className="paragraph paragraph--odd">
+        <div className="process__text">
+          <h3 className="process__text--header">2 Reciba su visita</h3>
+          <p className="process__text--description">
             Un personal entrenado y confiable le visitará cada semana u ocasión
             para brindarle el servicio.
           </p>
         </div>
       </div>
 
-      <div className="process__content process__content--even">
-        <div className="process__content--image">
+      <div className="process__content">
+        <div className="process__img">
           <img src={url3} alt="" />
         </div>
-        <div className="process__content--text">
-          <h3 className="header-tertiary-Title">
+        <div className="process__text">
+          <h3 className="process__text--header">
             3 Voila! Todas sus tareas completadas
           </h3>
-          <p className="paragraph paragraph--even">
+          <p className="process__text--description">
             Llega a un hogar limpio y fresco, con las compras del supermercado
             realizada, el dry-cleaning recogido y todas sus tareas completadas.
           </p>

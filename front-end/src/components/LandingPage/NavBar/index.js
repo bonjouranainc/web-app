@@ -11,11 +11,9 @@ export default class NavBar extends Component {
     super(props);
 
     this.state = {
-      visible: false,
-      headerColor: false
+      visible: false
     };
 
-    this.changeHeaderColor = this.changeHeaderColor.bind(this);
   }
 
   handlePusher = () => {
@@ -28,13 +26,8 @@ export default class NavBar extends Component {
     this.setState({ visible: !this.state.visible });
   };
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.changeHeaderColor);
-  }
-
   render() {
     const { visible } = this.state;
-    let changeColor = this.state.changeColor ? '#ebd831' : 'rgba(0, 0, 0, 0.6)';
 
     return (
       <div className="navbar">
@@ -43,7 +36,6 @@ export default class NavBar extends Component {
             onPusherClick={this.handlePusher}
             onToggle={this.handleToggle}
             visible={visible}
-            style={{ backgroundColor: changeColor }}
           />
         </Responsive>
 
@@ -60,11 +52,5 @@ export default class NavBar extends Component {
         </Responsive>
       </div>
     );
-  }
-
-  changeHeaderColor() {
-    window.scrollY > 500
-      ? this.setState({ headerColor: true })
-      : this.setState({ headerColor: false });
   }
 }
