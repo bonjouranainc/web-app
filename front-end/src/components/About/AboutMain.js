@@ -1,9 +1,10 @@
 import React from 'react';
+import AboutGrid from './AboutGrid';
 import pic1 from '../../images/jpg/IMG_0055.JPG';
-import pic2 from '../../images/jpg/IMG_0065.JPG';
-import pic3 from '../../images/jpg/IMG_0074.JPG';
-import pic4 from '../../images/jpg/IMG_0096.JPG';
-import pic5 from '../../images/jpg/IMG_0097.JPG';
+import pic4 from '../../images/jpg/IMG_0065.JPG';
+import pic2 from '../../images/jpg/IMG_0074.JPG';
+import pic5 from '../../images/jpg/IMG_0096.JPG';
+import pic3 from '../../images/jpg/IMG_0097.JPG';
 
 const AboutMain = () => (
   <section className="about">
@@ -14,47 +15,35 @@ const AboutMain = () => (
         diversidad de profesionales listos para ayudarte.
       </p>
     </div>
-
     <div className="about__photo-grid">
-      <div className="about__photo-grid--img">
-        <img src={pic1} alt="ana helper" />
-        <div className="about__photo-grid--desc">
-          <h4>Valerie Santiago</h4>
-          <p>Profesional de limpieza</p>
-        </div>
-      </div>
+      <AboutGrid
+        picture={pic1}
+        name={'Valerie Santiago'}
+        profession={'Profesional de limpieza'}
+      />
 
-      <div className="about__photo-grid--img">
-        <img src={pic2} alt="ana helper" />
-        <div className="about__photo-grid--desc">
-          <h4>Valerie Santiago</h4>
-          <p>Profesional de limpieza</p>
-        </div>
-      </div>
+      <AboutGrid
+        picture={pic2}
+        name={'Edgardo Lopez'}
+        profession={'Profesional de limpieza'}
+      />
 
-      <div className="about__photo-grid--img">
-        <img src={pic3} alt="ana helper" />
-        <div className="about__photo-grid--desc">
-          <h4>Valerie Santiago</h4>
-          <p>Profesional de limpieza</p>
-        </div>
-      </div>
+      <AboutGrid
+        picture={pic3}
+        name={'Lee Sandra Meléndez'}
+        profession={'Profesional de limpieza'}
+      />
 
-      <div className="about__photo-grid--img">
-        <img src={pic4} alt="ana helper" />
-        <div className="about__photo-grid--desc">
-          <h4>Valerie Santiago</h4>
-          <p>Profesional de limpieza</p>
-        </div>
-      </div>
-
-      <div className="about__photo-grid--img">
-        <img src={pic5} alt="ana helper" />
-        <div className="about__photo-grid--desc">
-          <h4>Valerie Santiago</h4>
-          <p>Profesional de limpieza</p>
-        </div>
-      </div>
+      <AboutGrid
+        picture={pic4}
+        name={'Juan Negrón'}
+        profession={'Profesional de limpieza'}
+      />
+      <AboutGrid
+        picture={pic5}
+        name={'Alejandra Meléndez'}
+        profession={'Profesional de limpieza'}
+      />
     </div>
   </section>
 );
