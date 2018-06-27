@@ -1,24 +1,31 @@
 import React from 'react';
-import { Card, Image, Rating } from 'semantic-ui-react';
+import { Rating } from 'semantic-ui-react';
 
 const SingleCard = props => (
-  <Card centered raised>
-    <Image
-      className="card-image"
-      centered
-      src={props.picture}
-      size="small"
-      rounded
-    />
-    <Card.Content>
-      <Card.Header>{props.name}</Card.Header>
-      <Card.Description>{props.quote}</Card.Description>
-      <Card.Content>
-        <Rating icon="star" defaultRating={5} maxRating={5} disabled />
-      </Card.Content>
-    </Card.Content>
-    <Card.Content extra>Servicios contratados:</Card.Content>
-  </Card>
+  <div className="card-container">
+    <div className="card-container__card">
+      <div className="card-container__img-box">
+        <img
+          src={props.picture}
+          alt="testimonial person"
+          className="card-container__img"
+        />
+      </div>
+      <div className="card-container__text">
+        <h4 className="card-container__text--name">{props.name}</h4>
+        <p className="card-container__text--quote">{props.quote}</p>
+      </div>
+
+      <div className="card-container__rating">
+        <Rating
+          className="card-container__rating--stars"
+          icon="star"
+          maxRating={5}
+          defaultRating={5}
+        />
+      </div>
+    </div>
+  </div>
 );
 
 export default SingleCard;

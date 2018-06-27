@@ -6,7 +6,7 @@ import CardResponsive from './CardResponsive';
 import './style.css';
 
 const Cards = () => (
-  <div className="card-container">
+  <section className="card">
     <Responsive {...Responsive.onlyMobile}>
       <CardResponsive />
     </Responsive>
@@ -18,7 +18,7 @@ const Cards = () => (
     <Responsive minWidth={Responsive.onlyComputer.minWidth}>
       <CardDesktop />
     </Responsive>
-  </div>
+  </section>
 );
 
 export default Cards;

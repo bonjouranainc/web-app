@@ -1,29 +1,60 @@
 @import 'styles/variables';
 
-.card-container {
-  padding-top: 40px;
-  background-color: $background-color;
-
-  &-image {
-    width: 100%;
-  }
-}
-
 .carousel-control {
   opacity: 0.1;
   color: #000;
 }
 
-.ui.small.image {
-  width: 100%;
-}
+.card {
+  padding-top: 6rem;
+  background-color: $background-color;
 
-.ui.card > .content,
-.ui.cards > .card > .content {
-  border: none;
-}
+  &-container {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    background-color: $background-footer-top;
+    border: 1px solid $color-dark;
+    border-radius: 3px;
 
-.ui.card > .extra,
-.ui.cards > .card > .extra {
-  border-top: none;
+    &__card {
+      width: 100%;
+      padding-bottom: 2rem;
+    }
+
+    &__img-box {
+      padding-top: 4rem;
+      padding-bottom: 2rem;
+      width: 40%;
+      margin: 0 auto;
+    }
+
+    &__img {
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    &__text {
+      text-align: left;
+      padding: 0 5rem;
+
+      &--name {
+        font-size: 1.8rem;
+      }
+
+      &--quote {
+        font-size: 1.3rem;
+      }
+    }
+
+    &__rating {
+      text-align: left;
+      padding: 1rem 5rem 0 5rem;
+
+      &--stars {
+        font-size: 1.5rem !important;
+      }
+    }
+  }
 }
