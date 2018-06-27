@@ -13,7 +13,6 @@ export default class NavBar extends Component {
     this.state = {
       visible: false
     };
-
   }
 
   handlePusher = () => {

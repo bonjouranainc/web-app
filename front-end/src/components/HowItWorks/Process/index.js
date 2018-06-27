@@ -22,7 +22,7 @@ const Process = () => (
           <img src={url1} alt="" />
         </div>
         <div className="process__text">
-          <h3 className="process__text--header">1. Escoja sus servicios</h3>
+          <h3 className="process__text--header"><span>1.</span> Escoja sus servicios</h3>
           <p className="process__text--description">
             Seleccione entre una variedad de servicios para el hogar y escoja el
             día y hora que desea recibir el servicio.
@@ -35,7 +35,7 @@ const Process = () => (
           <img src={url2} alt="" />
         </div>
         <div className="process__text">
-          <h3 className="process__text--header">2. Reciba su visita</h3>
+          <h3 className="process__text--header"><span>2.</span> Reciba su visita</h3>
           <p className="process__text--description">
             Un personal entrenado y confiable le visitará cada semana u ocasión
             para brindarle el servicio.
@@ -49,7 +49,7 @@ const Process = () => (
         </div>
         <div className="process__text">
           <h3 className="process__text--header">
-            3. Voila! Todas sus tareas completadas
+            <span>3.</span> Voila! Todas sus tareas completadas
           </h3>
           <p className="process__text--description">
             Llega a un hogar limpio y fresco, con las compras del supermercado

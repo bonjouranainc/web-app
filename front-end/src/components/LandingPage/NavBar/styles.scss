@@ -4,21 +4,20 @@
   position: absolute;
   height: 7vh;
   width: 100%;
-  background-color: $background-color-images !important;
+  background-color: $button-color !important;
   border-radius: 0 !important;
 
   .link-text {
     font-size: 1.8rem;
     color: #fff;
+    text-decoration: none;
+    transition: all 0.2s;
+    padding: 1rem 1.5rem;
 
-    a {
-      transition: all 0.2s;
-
-      &:hover {
-        background-color: #fff;
-        color: $text-color-dark !important;
-        border-radius: 5%;
-      }
+    &:hover {
+      background-color: #fff;
+      color: $button-color;
+      border-radius: 3px;
     }
   }
 }

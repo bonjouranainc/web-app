@@ -10,7 +10,6 @@ import icon5 from '../../../images/png/Electrisista.png';
 import icon6 from '../../../images/png/Laundry en el Hogar.png';
 import icon7 from '../../../images/png/Plomeria.png';
 import icon8 from '../../../images/png/Recogido.png';
-import icon9 from '../../../images/png/Pintura.png';
 
 import './styles.css';
 
@@ -30,32 +29,29 @@ const Services = () => (
   <div className="service">
     <h2 className="header-subtitle">Otros Servicios</h2>
     <Grid className="service__grid" centered>
-      <Grid.Column mobile={8} tablet={5} computer={3}>
+      <Grid.Column mobile={8} tablet={5} computer={2}>
         <Service icon={icon1} services={services.handyMan} />
       </Grid.Column>
-      <Grid.Column mobile={8} tablet={5} computer={3}>
+      <Grid.Column mobile={8} tablet={5} computer={2}>
         <Service icon={icon2} services={services.terraza} />
       </Grid.Column>
-      <Grid.Column mobile={8} tablet={5} computer={3}>
+      <Grid.Column mobile={8} tablet={5} computer={2}>
         <Service icon={icon3} services={services.ventanas} />
       </Grid.Column>
-      <Grid.Column mobile={8} tablet={5} computer={3}>
+      <Grid.Column mobile={8} tablet={5} computer={2}>
         <Service icon={icon4} services={services.marquesina} />
       </Grid.Column>
-      <Grid.Column mobile={8} tablet={5} computer={3}>
+      <Grid.Column mobile={8} tablet={5} computer={2}>
         <Service icon={icon5} services={services.electricista} />
       </Grid.Column>
-      <Grid.Column mobile={8} tablet={5} computer={3}>
+      <Grid.Column mobile={8} tablet={5} computer={2}>
         <Service icon={icon6} services={services.laundry} />
       </Grid.Column>
-      <Grid.Column mobile={8} tablet={5} computer={3}>
+      <Grid.Column mobile={8} tablet={5} computer={2}>
         <Service icon={icon7} services={services.plomeria} />
       </Grid.Column>
-      <Grid.Column mobile={8} tablet={5} computer={3}>
+      <Grid.Column mobile={8} tablet={5} computer={2}>
         <Service icon={icon8} services={services.recogido} />
-      </Grid.Column>
-      <Grid.Column mobile={8} tablet={5} computer={3}>
-        <Service icon={icon9} services={services.pintura} />
       </Grid.Column>
     </Grid>
 
