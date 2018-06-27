@@ -3,8 +3,6 @@ import { Menu, Icon, Sidebar, Image } from 'semantic-ui-react';
 import logo from '../../../images/svg/ba-logo-w.svg';
 import { Link } from 'react-router-dom';
 
-import './styles.css';
-
 const navBarColor = {
   backgroundColor: '#f5f4ed'
 };
@@ -18,7 +16,7 @@ const NavBarTablet = ({ onPusherClick, onToggle, visible }) => (
     <Sidebar
       as={Menu}
       animation="overlay"
-      width="thin"
+      width="wide"
       vertical
       inverted
       direction="right"

@@ -9,20 +9,20 @@ button {
 /* Solid yellow button */
 .button-y {
   padding: 0.5em 1.5em 0.5em 1.5em !important;
-  color: $text-color-dark !important;
-  background-color: $button-color !important;
+  color: $color-dark !important;
+  background-color: $color-primary !important;
   font-size: 1em !important;
   border-radius: 5px !important;
   margin: 0.5em !important;
   transition: all 0.3s !important;
 
   &:hover {
-    background-color: $button-color-light !important;
+    background-color: $color-light !important;
   }
 
   a {
     text-decoration: none;
-    color: $text-color-dark !important;
+    color: $color-dark !important;
   }
 }
 
@@ -30,8 +30,8 @@ button {
 
 .button-b {
   padding: 0.5em 1.5em 0.5em 1.5em;
-  color: #fff;
-  background-color: $button-color-blue;
+  color: $color-light;
+  background-color: $color-blue;
   font-size: 1em;
   text-decoration: none;
   border-radius: 5px;
@@ -43,8 +43,8 @@ button {
   }
 
   &:hover {
-    color: #000;
-    background-color: #fff;
+    color: $color-dark;
+    background-color: $color-light;
   }
 }
 
@@ -79,13 +79,13 @@ button {
   background-color: transparent;
   font-size: 1em;
   text-decoration: none;
-  border: solid 1px $button-color;
+  border: solid 1px $color-primary;
   border-radius: 5px;
   margin: 0.5em;
   transition: background-color 0.3s;
 
   &:active {
-    background-color: $button-color;
+    background-color: $color-primary;
   }
 
   &:hover {
@@ -102,18 +102,18 @@ button {
   background-color: transparent;
   font-size: 1em;
   text-decoration: none;
-  border: solid 1px #fff;
+  border: solid 1px $color-light;
   border-radius: 5px;
   margin: 0.5em;
   transition: background-color 0.3s;
 
   &:active {
-    border: solid 1px $button-color;
-    background-color: $button-color;
+    border: solid 1px $color-primary;
+    background-color: $color-primary;
   }
 
   &:hover {
     color: #000 !important;
-    background-color: #fff;
+    background-color: $color-light;
   }
 }

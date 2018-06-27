@@ -21,7 +21,8 @@
       padding-right: 2rem; }
       .about__photo-grid--img img {
         width: 100%;
-        height: 90%; }
+        height: 90%;
+        border-radius: 3px; }
     .about__photo-grid--desc {
       padding-top: 2rem; }
       .about__photo-grid--desc h4 {

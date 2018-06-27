@@ -1,10 +1,10 @@
 import React from 'react';
 import AboutGrid from './AboutGrid';
-import pic1 from '../../images/jpg/IMG_0055.JPG';
-import pic4 from '../../images/jpg/IMG_0065.JPG';
-import pic2 from '../../images/jpg/IMG_0074.JPG';
-import pic5 from '../../images/jpg/IMG_0096.JPG';
-import pic3 from '../../images/jpg/IMG_0097.JPG';
+import pic1 from '../../images/jpg/1.jpg';
+import pic4 from '../../images/jpg/2.jpg';
+import pic2 from '../../images/jpg/3.jpg';
+import pic5 from '../../images/jpg/5.jpg';
+import pic3 from '../../images/jpg/4.jpg';
 
 const AboutMain = () => (
   <section className="about">

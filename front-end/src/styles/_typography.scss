@@ -6,11 +6,11 @@ body {
   // font-size: 20px;
   text-rendering: optimizeLegibility;
   line-height: 1.5;
-  color: $text-color-dark;
+  color: $color-dark;
 }
 
 .header-title {
-  color: $text-color-light;
+  color: $color-light;
   font-size: 2rem;
   font-family: $heading-font;
   letter-spacing: 1px;
@@ -34,5 +34,5 @@ body {
 .link-text {
   font-size: 1em;
   text-decoration: none;
-  color: $text-color-dark;
+  color: $color-dark;
 }
