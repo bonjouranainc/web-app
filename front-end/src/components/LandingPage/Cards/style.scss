@@ -5,6 +5,10 @@
   color: #000;
 }
 
+.carousel-indicators {
+  display: none;
+}
+
 .card {
   padding-top: 6rem;
   background-color: $background-color;
