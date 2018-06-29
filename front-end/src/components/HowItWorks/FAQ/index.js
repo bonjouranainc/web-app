@@ -17,7 +17,7 @@ export default class FAQ extends Component {
 
     return (
       <div className="faq">
-        <h2 className="heading-tertiary-Title">Preguntas frecuentes</h2>
+        <h2 className="faq__header">Preguntas frecuentes</h2>
         <Accordion>
           <Accordion.Title
             active={activeIndex === 0}
@@ -28,7 +28,7 @@ export default class FAQ extends Component {
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 0}>
-            <p>
+            <p className="faq__paragraph">
               Ana es la "mastermind" detrás de las operaciones y logísticas. Es
               quien está atenta a cada detalle de tu hogar. Junto a Ana, trabaja
               un personal quienes son empleadas a tiempo completo -tiempo
@@ -53,7 +53,7 @@ export default class FAQ extends Component {
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 1}>
-            <p>
+            <p className="faq__paragraph">
               Para comenzar, regístrate -Aqui- para saber si estamos disponible
               en tu vecindario. Luego, nos comunicaremos con usted para
               coordinar una cita de bienvenida a la hora más conveniente para
@@ -73,7 +73,7 @@ export default class FAQ extends Component {
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 2}>
-            <p>
+            <p className="faq__paragraph">
               No le cobraremos hasta que comiencen sus servicios. La
               subscripción será cobrada la primera semana del servicio y cada
               cuatro semanas después. En adición, se le estará cargando el costo
@@ -102,7 +102,7 @@ export default class FAQ extends Component {
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 3}>
-            <p>
+            <p className="faq__paragraph">
               Asegúrate de registrarte para ver si estamos disponibles en tu
               vecindario. Por el momento, estamos limitando los nuevos miembros
               y estaremos enfocándonos en el número de vecindarios más alto de
@@ -121,7 +121,7 @@ export default class FAQ extends Component {
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 4}>
-            <p>
+            <p className="faq__paragraph">
               Comunicaciones entre el cliente y las directoras de clientes serán
               a través de nuestro equipo de servicio al cliente en las oficina.
               Eso asegura que su solicitud y comentarios sean registradas
@@ -141,7 +141,7 @@ export default class FAQ extends Component {
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 5}>
-            <p>
+            <p className="faq__paragraph">
               La subscripción cubre su visita(s) semanal(es), que incluye el
               ordenamiento y la coordinación y manejo de todos sus pedidos. Le
               facturaremos por el costo de los bienes y servicios que usted
@@ -161,7 +161,7 @@ export default class FAQ extends Component {
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 6}>
-            <p>
+            <p className="faq__paragraph">
               ¡Claro que NO! Le exhortamos a que hagas los pedidos que desee. Al
               pasar el tiempo, notaremos si usted hace un pedido o solicitud
               recurrentemente, de forma que no tendrá que hacerla nuevamente.
@@ -179,7 +179,7 @@ export default class FAQ extends Component {
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 7}>
-            <p>
+            <p className="faq__paragraph">
               A usted se le facturará una vez al mes y usted puede colocar su
               cuenta en "hold" en cualquier momento. Sin embargo, nuestro
               servicios está diseñado para conocer sus preferencias, y hábitos y
@@ -200,7 +200,7 @@ export default class FAQ extends Component {
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 8}>
-            <p>
+            <p className="faq__paragraph">
               Con el servicio A1, le visitarán una vez a la semana en un día
               fijo establecido (Cada lunes, por ejemplo). Con el servicio A2, le
               visitarán dos veces a la semana en días fijos establecidos (Cada
@@ -221,7 +221,7 @@ export default class FAQ extends Component {
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 9}>
-            <p>
+            <p className="faq__paragraph">
               Por supuesto que sí. Sin embargo, esto puede resultar en un
               pequeño "fee". Estamos muy seguros que le encantarán los comercios
               con los cuales trabajamos. Cada vendedor es evaluado personalmente
@@ -238,7 +238,7 @@ export default class FAQ extends Component {
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 10}>
-            <p>
+            <p className="faq__paragraph">
               Comercios: Supermercados, sastres, laundries, ect. Trabajamos con
               los mejores comercios que ofrecen competitivos precios y calidad
               de servicio. Hacemos lo mejor para darte la mejor opción pero
@@ -256,7 +256,7 @@ export default class FAQ extends Component {
             <Icon name="dropdown" />
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 11}>
-            <p>
+            <p className="faq__paragraph">
               No le añadimos precios y cobramos los precios que están en el
               mercado y/o lo que los comercios/ partners cobran. Todos los
               precios están basados en estimados de comercios corrientes. Sin

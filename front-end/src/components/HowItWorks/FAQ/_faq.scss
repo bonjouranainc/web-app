@@ -1,64 +1,40 @@
 @import 'styles/variables';
+@import 'styles/mixins';
 
 .faq {
-  background-color: $background-color;
-  width: 100%;
-  padding: 10rem 2.5rem;
+  padding: 10rem 3rem;
+  font-size: 1.4rem;
 
-  .heading-tertiary-Title {
-    font-size: 2rem;
+  @include respond(tab-land) {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  &__header {
+    font-size: 3rem;
     text-transform: capitalize;
     margin-bottom: 3.5rem;
+
+    @include respond(tab-land) {
+      font-size: 3.8rem;
+      margin-bottom: 4.5rem;
+    }
   }
 
   &__title {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: $color-dark;
     display: inline;
-  }
 
-  p {
-    font-size: 1.3rem;
-    font-weight: 100;
-  }
-
-  // MEDIA QUERY FOR TABLET
-
-  @media (min-width: 600px) {
-    & {
-      padding: 20rem 8rem 10rem 8rem;
-    }
-
-    .heading-tertiary-Title {
-      font-size: 2.7rem;
-    }
-
-    &__title {
-      font-size: 1.8rem;
-    }
-
-    p {
-      font-size: 1.5rem;
-    }
-  }
-
-  // MEDIA QUERY FOR LAPTOP
-
-  @media (min-width: 1200px) {
-    & {
-      padding-top: 10rem;
-      padding-left: 20rem;
-    }
-
-    .heading-tertiary-Title {
-      font-size: 3.3rem;
-    }
-
-    &__title {
+    @include respond(tab-land) {
       font-size: 2rem;
     }
+  }
 
-    p {
+  &__paragraph {
+    font-size: 1.6rem;
+
+    @include respond(tab-land) {
       font-size: 1.8rem;
     }
   }
