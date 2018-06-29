@@ -1,9 +1,6 @@
-$big-desktops: 1281px;
-$laptop-desktops: 1025px;
-$portrait-tablets: 768px;
-$landscape-tablets: $portrait-tablets;
-$landscape-mobiles: 481px;
-$portrait-mobiles: 320px;
+$bp-tablet-portrait: 37.5em;
+$bp-tablet-landscape: 56.25em;
+$bp-desktop: 75em;
 
 // @media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
 // @media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ }

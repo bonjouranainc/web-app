@@ -2,184 +2,184 @@
 
 .process {
   padding-top: 10rem;
-  width: 100%;
-  background-color: $background-color;
+  font-size: 1.5rem;
 
   &__heading {
-    text-align: center;
-    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     &--title {
+      font-size: 3.5rem;
       font-family: $heading-font;
-      font-size: 3rem;
       color: $color-primary;
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
     }
 
     &--text {
-      font-size: 1.5rem;
-      padding: 0 4rem;
+      padding: 0 3rem;
       text-align: left;
     }
   }
 
-  &__content {
+  &__body {
+    margin-top: 5rem;
+    padding: 0 3rem;
     text-align: center;
+  }
+
+  &__img-box {
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   &__img {
     width: 100%;
-
-    img {
-      width: 70%;
-    }
-  }
-
-  &__content:first-child &__img {
-    img {
-      padding-bottom: 2rem;
-    }
-  }
-
-  &__content:last-child &__img {
-    img {
-      width: 70%;
-      padding-top: 3rem;
-      padding-bottom: 4rem;
-    }
   }
 
   &__text {
-    margin-top: 1.5rem;
-    padding-bottom: 3.5rem;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
 
     &--header {
-      font-size: 2rem;
       color: $color-primary;
-      text-align: left;
-      padding-left: 5rem;
-      font-weight: 500;
+      font-size: 2.5rem;
+      text-align: center;
     }
 
     &--description {
-      font-size: 1.5rem;
-      padding-right: 3.5rem;
-      padding-left: 5.5rem;
-      text-align: left;
-    }
-  }
-
-  // MEDIA QUERY FOR TABLETS
-  @media (min-width: 600px) {
-    &__heading {
-      text-align: left;
-      padding: 6rem 0 6rem 6rem;
-
-      &--title {
-        padding: 0 4rem;
-        font-size: 4rem;
-      }
-
-      &--text {
-        padding-right: 12rem;
-      }
-    }
-
-    &__content {
-      display: flex;
-
-      &:nth-child(odd) {
-        flex-direction: row-reverse;
-        padding-left: 4rem;
-      }
-    }
-
-    &__content:last-child &__img {
-      img {
-        width: 140%;
-        padding-top: 3rem;
-        padding-right: 22rem;
-      }
-    }
-
-    &__content:last-child &__text {
-      padding-right: 1rem;
-    }
-
-    &__img {
-      width: 50%;
-    }
-
-    &__text {
-      width: 50%;
-      text-align: left;
-      padding-top: 4rem;
-
-      &--header {
-        padding-left: 4rem;
-      }
-    }
-  }
-
-  // MEDIA QUERY FOR LAPTOPS
-  @media (min-width: 1200px) {
-    & {
-      padding-left: 10rem;
-    }
-    &__heading {
-      text-align: center;
-      &--title {
-        font-size: 5rem;
-      }
-
-      &--text {
-        font-size: 2rem;
-        padding-right: 45rem;
-      }
-    }
-
-    &__content:nth-child(odd) {
-      padding-left: 6rem;
-    }
-
-    &__img {
-      width: 50%;
-      text-align: left;
-
-      img {
-        width: 45%;
-      }
-    }
-
-    &__content:nth-child(even) &__img {
-      img {
-        width: 65%;
-        padding-left: 10rem;
-      }
-    }
-
-    &__content:last-child &__img {
-      img {
-        width: 90%;
-        padding-top: 4rem;
-      }
-    }
-
-    &__content:last-child &__text {
-      padding-right: 20rem;
-    }
-
-    &__text {
-      width: 50%;
-      padding-right: 22rem;
-
-      &--header {
-        font-size: 2.6rem;
-      }
-
-      &--description {
-        font-size: 2rem;
-      }
+      padding: 0 2rem;
     }
   }
 }
+
+//   &__content:first-child &__img {
+//     img {
+//       padding-bottom: 2rem;
+//     }
+//   }
+
+//   &__content:last-child &__img {
+//     img {
+//       width: 70%;
+//       padding-top: 3rem;
+//       padding-bottom: 4rem;
+//     }
+//   }
+
+//   // MEDIA QUERY FOR TABLETS
+//   @media (min-width: 600px) {
+//     &__heading {
+//       text-align: left;
+//       padding: 6rem 0 6rem 6rem;
+
+//       &--title {
+//         padding: 0 4rem;
+//         font-size: 4rem;
+//       }
+
+//       &--text {
+//         padding-right: 12rem;
+//       }
+//     }
+
+//     &__content {
+//       display: flex;
+
+//       &:nth-child(odd) {
+//         flex-direction: row-reverse;
+//         padding-left: 4rem;
+//       }
+//     }
+
+//     &__content:last-child &__img {
+//       img {
+//         width: 140%;
+//         padding-top: 3rem;
+//         padding-right: 22rem;
+//       }
+//     }
+
+//     &__content:last-child &__text {
+//       padding-right: 1rem;
+//     }
+
+//     &__img {
+//       width: 50%;
+//     }
+
+//     &__text {
+//       width: 50%;
+//       text-align: left;
+//       padding-top: 4rem;
+
+//       &--header {
+//         padding-left: 4rem;
+//       }
+//     }
+//   }
+
+//   // MEDIA QUERY FOR LAPTOPS
+//   @media (min-width: 1200px) {
+//     & {
+//       padding-left: 10rem;
+//     }
+//     &__heading {
+//       text-align: center;
+//       &--title {
+//         font-size: 5rem;
+//       }
+
+//       &--text {
+//         font-size: 2rem;
+//         padding-right: 45rem;
+//       }
+//     }
+
+//     &__content:nth-child(odd) {
+//       padding-left: 6rem;
+//     }
+
+//     &__img {
+//       width: 50%;
+//       text-align: left;
+
+//       img {
+//         width: 45%;
+//       }
+//     }
+
+//     &__content:nth-child(even) &__img {
+//       img {
+//         width: 65%;
+//         padding-left: 10rem;
+//       }
+//     }
+
+//     &__content:last-child &__img {
+//       img {
+//         width: 90%;
+//         padding-top: 4rem;
+//       }
+//     }
+
+//     &__content:last-child &__text {
+//       padding-right: 20rem;
+//     }
+
+//     &__text {
+//       width: 50%;
+//       padding-right: 22rem;
+
+//       &--header {
+//         font-size: 2.6rem;
+//       }
+
+//       &--description {
+//         font-size: 2rem;
+//       }
+//     }
+//   }
+// }
