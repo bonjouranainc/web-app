@@ -1,8 +1,16 @@
 @import 'styles/variables';
+@import 'styles/mixins';
 
 .process {
   padding-top: 10rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+
+  @include respond(tab-port) {
+    font-size: 2rem;
+    padding-top: 15rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 
   &__heading {
     display: flex;
@@ -10,15 +18,27 @@
     align-items: center;
 
     &--title {
-      font-size: 3.5rem;
+      font-size: 4rem;
       font-family: $heading-font;
       color: $color-primary;
       margin-bottom: 3rem;
+
+      @include respond(tab-port) {
+        font-size: 5rem;
+      }
     }
 
     &--text {
       padding: 0 3rem;
       text-align: left;
+
+      @include respond(tab-port) {
+        padding: 0 8rem;
+      }
+
+      @include respond(desktop) {
+        padding: 0 15rem;
+      }
     }
   }
 
@@ -26,16 +46,52 @@
     margin-top: 5rem;
     padding: 0 3rem;
     text-align: center;
+
+    @include respond(tab-port) {
+      margin-top: 8rem;
+    }
+
+    @include respond(desktop) {
+      padding: 0 13rem;
+    }
+  }
+
+  &__content {
+    @include respond(tab-port) {
+      display: flex;
+      align-items: center;
+
+      &:nth-child(odd) {
+        flex-direction: row-reverse;
+      }
+    }
   }
 
   &__img-box {
     width: 25rem;
     margin-left: auto;
     margin-right: auto;
+
+    @include respond(tab-land) {
+      width: 33rem;
+      margin-left: 0;
+    }
+
+    @include respond(desktop) {
+      margin-left: auto;
+    }
   }
 
   &__img {
     width: 100%;
+
+    &--small {
+      margin: 6rem 0;
+
+      @include respond(tab-land) {
+        width: 110%;
+      }
+    }
   }
 
   &__text {
@@ -43,143 +99,27 @@
     margin-top: 2rem;
     margin-bottom: 4rem;
 
+    @include respond(tab-port) {
+      flex: 0 0 50%;
+    }
+
     &--header {
       color: $color-primary;
       font-size: 2.5rem;
       text-align: center;
+
+      @include respond(tab-port) {
+        text-align: left;
+        padding: 0 1.5rem;
+      }
     }
 
     &--description {
-      padding: 0 2rem;
+      padding: 0 2.75rem;
+
+      @include respond(tab-land) {
+        padding-right: 8rem;
+      }
     }
   }
 }
-
-//   &__content:first-child &__img {
-//     img {
-//       padding-bottom: 2rem;
-//     }
-//   }
-
-//   &__content:last-child &__img {
-//     img {
-//       width: 70%;
-//       padding-top: 3rem;
-//       padding-bottom: 4rem;
-//     }
-//   }
-
-//   // MEDIA QUERY FOR TABLETS
-//   @media (min-width: 600px) {
-//     &__heading {
-//       text-align: left;
-//       padding: 6rem 0 6rem 6rem;
-
-//       &--title {
-//         padding: 0 4rem;
-//         font-size: 4rem;
-//       }
-
-//       &--text {
-//         padding-right: 12rem;
-//       }
-//     }
-
-//     &__content {
-//       display: flex;
-
-//       &:nth-child(odd) {
-//         flex-direction: row-reverse;
-//         padding-left: 4rem;
-//       }
-//     }
-
-//     &__content:last-child &__img {
-//       img {
-//         width: 140%;
-//         padding-top: 3rem;
-//         padding-right: 22rem;
-//       }
-//     }
-
-//     &__content:last-child &__text {
-//       padding-right: 1rem;
-//     }
-
-//     &__img {
-//       width: 50%;
-//     }
-
-//     &__text {
-//       width: 50%;
-//       text-align: left;
-//       padding-top: 4rem;
-
-//       &--header {
-//         padding-left: 4rem;
-//       }
-//     }
-//   }
-
-//   // MEDIA QUERY FOR LAPTOPS
-//   @media (min-width: 1200px) {
-//     & {
-//       padding-left: 10rem;
-//     }
-//     &__heading {
-//       text-align: center;
-//       &--title {
-//         font-size: 5rem;
-//       }
-
-//       &--text {
-//         font-size: 2rem;
-//         padding-right: 45rem;
-//       }
-//     }
-
-//     &__content:nth-child(odd) {
-//       padding-left: 6rem;
-//     }
-
-//     &__img {
-//       width: 50%;
-//       text-align: left;
-
-//       img {
-//         width: 45%;
-//       }
-//     }
-
-//     &__content:nth-child(even) &__img {
-//       img {
-//         width: 65%;
-//         padding-left: 10rem;
-//       }
-//     }
-
-//     &__content:last-child &__img {
-//       img {
-//         width: 90%;
-//         padding-top: 4rem;
-//       }
-//     }
-
-//     &__content:last-child &__text {
-//       padding-right: 20rem;
-//     }
-
-//     &__text {
-//       width: 50%;
-//       padding-right: 22rem;
-
-//       &--header {
-//         font-size: 2.6rem;
-//       }
-
-//       &--description {
-//         font-size: 2rem;
-//       }
-//     }
-//   }
-// }

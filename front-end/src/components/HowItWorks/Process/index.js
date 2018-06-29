@@ -2,7 +2,7 @@ import React from 'react';
 
 import url1 from '../../../images/png/Escoga los servicios.png';
 import url2 from '../../../images/png/Reciba su visita-01.png';
-import url3 from '../../../images/png/Voila-07.png';
+import url3 from '../../../images/png/Voila.png';
 
 const Process = () => (
   <div className="process">
@@ -49,7 +49,7 @@ const Process = () => (
 
       <div className="process__content">
         <div className="process__img-box">
-          <img src={url3} alt="" className="process__img" />
+          <img src={url3} alt="" className="process__img process__img--small" />
         </div>
         <div className="process__text">
           <h3 className="process__text--header">
