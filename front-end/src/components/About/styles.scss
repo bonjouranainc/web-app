@@ -1,78 +1,51 @@
 @import 'styles/variables';
+@import 'styles/mixins';
 
 .about {
-  padding-top: 10rem;
-  height: 100vh;
-  padding-bottom: 90rem;
+  padding: 8rem 0;
 
   &__heading {
-    margin: 0 auto;
+    margin: 5rem auto;
     text-align: center;
-    padding-bottom: 7rem;
+    padding: 0 3rem 7rem 3rem;
+  }
 
-    &--header {
-      font-size: 5.5rem;
-      color: $color-primary;
-      font-family: $heading-font;
-    }
+  &__title {
+    font-size: 6rem;
+    color: $color-primary;
+    font-family: $heading-font;
+    margin-bottom: 4rem;
+  }
 
-    &--text {
-      font-size: 1.7rem;
-      color: $color-dark;
-      padding: 2rem 5rem;
-    }
+  &__subTitle {
+    font-size: 2.4rem;
   }
 
   &__grid {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  &__img-box {
-    width: 50%;
-    height: auto;
-    display: inline-block;
+  &__helper-box {
+    text-align: center;
+    margin-bottom: 5rem;
   }
 
   &__img {
-    width: 100%;
-    height: auto;
+    width: 80%;
+    border-radius: 3px;
+    margin-bottom: 2rem;
   }
 
-  @media only screen and (min-width: 600px) {
-    & {
-      &__heading {
-        &--header {
-          font-size: 6.5rem;
-        }
-
-        &--text {
-          font-size: 2.3rem;
-        }
-      }
-
-      &__img-box {
-        width: 25%;
-      }
-    }
+  &__helper-name {
+    font-size: 2rem;
+    font-weight: 600;
   }
 
-  @media only screen and (min-width: 1200px) {
-    & {
-      padding-bottom: 115rem;
-    }
-
-    &__heading {
-      &--header {
-        font-size: 7rem;
-      }
-      &--text {
-        font-size: 2.5rem;
-        padding-left: 35rem;
-        padding-right: 35rem;
-      }
-    }
+  &__helper-hobby {
+    font-size: 2rem;
+    padding: 0 2.5rem;
   }
 }
