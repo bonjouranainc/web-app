@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'semantic-ui-react';
 import logo from '../../../images/png/BonjourAna_Blanco-01.png';
 
-import './styles.css';
+import '../../../styles/components/Header.css';
 
 const Header = () => (
   <div className="hero">

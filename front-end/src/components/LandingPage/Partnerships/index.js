@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Button } from 'semantic-ui-react';
 
-import './styles.css';
+import '../../../styles/components/Partnerships.css';
 
 const Partnerships = () => (
   <div className="partnerships">

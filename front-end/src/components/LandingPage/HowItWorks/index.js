@@ -4,7 +4,7 @@ import url1 from '../../../images/png/Escoga los servicios.png';
 import url2 from '../../../images/png/Recibe tu Visita-07.png';
 import url3 from '../../../images/png/Voila-07.png';
 
-import './styles.css';
+import '../../../styles/components/HowItWorksLanding.css';
 
 export default class HowItWorks extends Component {
   render() {

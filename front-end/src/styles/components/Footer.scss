@@ -1,4 +1,4 @@
-@import 'styles/variables';
+@import '../base/variables';
 
 /* Footer Top */
 .footer-top {
@@ -56,5 +56,30 @@
     & {
       display: none;
     }
+  }
+}
+
+// FOOTER BOTTOM
+.footer-bottom {
+  height: 10vh;
+  background-color: $background-footer-bottom;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  bottom: 0;
+
+  a {
+    margin: 0.5rem;
+
+    &:hover {
+      text-decoration: underline;
+      color: $color-dark;
+    }
+  }
+
+  p {
+    margin: 0.5em 1em 0.5em 0.5em;
+    font-size: 1.4rem;
   }
 }

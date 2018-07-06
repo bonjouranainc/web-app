@@ -4,7 +4,7 @@ import NavBarMobile from './NavBarMobile';
 import NavBarDesktop from './NavBarDesktop';
 import NavBarTablet from './NavBarTablet';
 
-import './styles.css';
+import '../../../styles/components/NavBar.css';
 
 export default class NavBar extends Component {
   constructor(props) {
