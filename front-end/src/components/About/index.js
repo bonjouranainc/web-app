@@ -5,7 +5,7 @@ import pic2 from '../../images/jpg/3.jpg';
 import pic5 from '../../images/jpg/5.jpg';
 import pic3 from '../../images/jpg/4.jpg';
 
-import './styles.css';
+import '../../styles/components/About.css';
 
 const About = () => (
   <section className="about">
