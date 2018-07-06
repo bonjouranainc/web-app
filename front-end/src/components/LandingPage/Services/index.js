@@ -25,6 +25,12 @@ const Services = () => (
       <Service image={service7} title="Plomería" />
       <Service image={service8} title="Pintura" />
     </div>
+
+    <div className="services__btn">
+      <a href="" className="button-y">
+        Ver más
+      </a>
+    </div>
   </div>
 );
 
