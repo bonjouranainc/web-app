@@ -12,7 +12,8 @@ const person = {
 
 const person2 = {
   name: 'Mayra Candelaria',
-  quote: 'Muy contenta con el servicio. Mi casa quedo inmaculada!'
+  quote:
+    'Muy contenta con el servicio. Mi casa quedo inmaculada! 100% recomendado!'
 };
 
 const TestimonialDesktop = () => (
