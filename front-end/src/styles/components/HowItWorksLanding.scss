@@ -1,5 +1,6 @@
 // Variables
 @import '../base/variables';
+@import '../base/mixins';
 
 .howItWorks {
   background-color: $background-color;
@@ -53,12 +54,32 @@
           }
         }
 
+        #group-image2 {
+          text-align: left;
+        }
+
         &-text {
           width: 50%;
           margin-top: 7rem;
 
           &-1 {
             margin-top: 1rem;
+          }
+
+          &-even {
+            text-align: left;
+
+            @include respond(tab-land) {
+              padding: 2rem 15rem 0 2.5rem;
+            }
+          }
+
+          &-odd {
+            text-align: right;
+
+            @include respond(tab-land) {
+              padding: 7rem 3.5rem 0 15rem;
+            }
           }
         }
       }
