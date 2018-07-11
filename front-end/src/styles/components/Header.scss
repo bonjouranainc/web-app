@@ -37,12 +37,21 @@
 
   &__txt {
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 2.5rem;
   }
 
-  &-btns {
+  &__btns {
     display: flex;
+    justify-content: center;
     align-items: center;
+
+    .button-y {
+      margin-right: 2rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 
   @media (min-width: 600px) {
@@ -76,10 +85,6 @@
       .header-title {
         font-size: 4.8rem;
       }
-    }
-
-    .button-y {
-      font-size: 1.5rem !important;
     }
   }
 }

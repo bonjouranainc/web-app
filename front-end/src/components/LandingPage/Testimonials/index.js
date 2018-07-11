@@ -11,7 +11,7 @@ const Testimonials = () => (
       <TestimonialResponsive />
     </Responsive>
 
-    <Responsive minWidth={Responsive.onlyComputer.minWidth}>
+    <Responsive minWidth={1200}>
       <TestimonialDesktop />
     </Responsive>
   </div>

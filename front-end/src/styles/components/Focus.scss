@@ -27,6 +27,7 @@
     }
 
     @include respond(desktop) {
+      margin-top: 0;
       padding-left: 10rem;
       padding-right: 25rem;
     }
