@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import LandingPage from '../components/LandingPage/index';
-import NavBar from '../components/LandingPage/NavBar';
-import Footer from '../components/LandingPage/Footer';
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 import About from '../components/About/index';
 import TermsAndPrivacy from '../components/TermsAndPrivacy/index';

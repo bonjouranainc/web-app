@@ -1,8 +1,8 @@
 import React from 'react';
 
-import facebook from '../../../images/svg/facebook-icon.svg';
-import twitter from '../../../images/svg/twitter-icon.svg';
-import instagram from '../../../images/svg/instagram-icon.svg';
+import facebook from '../../images/svg/facebook-icon.svg';
+import twitter from '../../images/svg/twitter-icon.svg';
+import instagram from '../../images/svg/instagram-icon.svg';
 
 const FooterTop = () => (
   <div className="footer-top">

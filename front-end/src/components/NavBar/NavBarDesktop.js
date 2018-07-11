@@ -1,6 +1,6 @@
 import React from 'react';
 import { Menu, Image } from 'semantic-ui-react';
-import logo from '../../../images/svg/ba-logo-w.svg';
+import logo from '../../images/svg/ba-logo-w.svg';
 import { Link } from 'react-router-dom';
 
 const NavBarDesktop = () => (
@@ -43,7 +43,7 @@ const NavBarDesktop = () => (
           className="link-text"
           href="https://bonjour-ana.myshopify.com/account/login"
         >
-          Sign up
+          Sign Up
         </a>
       </Menu.Item>
     </Menu.Menu>

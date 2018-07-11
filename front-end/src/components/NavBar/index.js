@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import { Responsive } from 'semantic-ui-react';
 import NavBarMobile from './NavBarMobile';
 import NavBarDesktop from './NavBarDesktop';
-import NavBarTablet from './NavBarTablet';
 
-import '../../../styles/components/NavBar.css';
+import '../../styles/components/NavBar.css';
 
 export default class NavBar extends Component {
   constructor(props) {
@@ -30,16 +29,8 @@ export default class NavBar extends Component {
 
     return (
       <div className="navbar">
-        <Responsive {...Responsive.onlyMobile}>
+        <Responsive minWidth={320} maxWidth={1199}>
           <NavBarMobile
-            onPusherClick={this.handlePusher}
-            onToggle={this.handleToggle}
-            visible={visible}
-          />
-        </Responsive>
-
-        <Responsive {...Responsive.onlyTablet}>
-          <NavBarTablet
             onPusherClick={this.handlePusher}
             onToggle={this.handleToggle}
             visible={visible}

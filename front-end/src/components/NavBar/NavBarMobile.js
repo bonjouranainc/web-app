@@ -1,6 +1,6 @@
 import React from 'react';
 import { Menu, Icon, Sidebar, Image } from 'semantic-ui-react';
-import logo from '../../../images/svg/ba-logo-w.svg';
+import logo from '../../images/svg/ba-logo-w.svg';
 import { Link } from 'react-router-dom';
 
 const navBarColor = {
@@ -11,12 +11,12 @@ const linkColors = {
   color: 'rgba(0, 0, 0, 0.6)'
 };
 
-const NavBarTablet = ({ onPusherClick, onToggle, visible }) => (
+const NavBarMobile = ({ onPusherClick, onToggle, visible }) => (
   <Sidebar.Pushable>
     <Sidebar
       as={Menu}
       animation="overlay"
-      width="wide"
+      width="thin"
       vertical
       inverted
       direction="right"
@@ -69,11 +69,11 @@ const NavBarTablet = ({ onPusherClick, onToggle, visible }) => (
           </Link>
         </Menu.Item>
         <Menu.Item position="right" onClick={onToggle}>
-          <Icon size="big" name="sidebar" style={{ color: '#fff' }} />
+          <Icon size="large" name="sidebar" style={{ color: '#fff' }} />
         </Menu.Item>
       </Menu>
     </Sidebar.Pusher>
   </Sidebar.Pushable>
 );
 
-export default NavBarTablet;
+export default NavBarMobile;
