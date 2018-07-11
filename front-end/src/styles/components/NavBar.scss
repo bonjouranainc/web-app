@@ -2,11 +2,12 @@
 @import '../base/mixins';
 
 .navbar {
-  position: absolute;
+  position: fixed;
   height: 7vh;
   width: 100%;
   background-color: $color-primary !important;
   border-radius: 0 !important;
+  z-index: 100;
 
   .link-text {
     font-size: 1.8rem;
