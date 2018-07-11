@@ -7,11 +7,7 @@ import '../../../styles/components/Testimonials.css';
 
 const Testimonials = () => (
   <div>
-    <Responsive {...Responsive.onlyMobile}>
-      <TestimonialResponsive />
-    </Responsive>
-
-    <Responsive {...Responsive.onlyTablet}>
+    <Responsive minWidth={320} maxWidth={1199}>
       <TestimonialResponsive />
     </Responsive>
 

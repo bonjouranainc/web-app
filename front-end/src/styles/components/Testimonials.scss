@@ -1,7 +1,7 @@
 @import '../base/variables';
 @import '../base/mixins';
 
-// BOOTSTRAP CODE
+// BOOTSTRAP CODE //////////////////////////////
 .carousel-control {
   opacity: 0.1;
   color: #000;
@@ -10,7 +10,7 @@
 .carousel-indicators {
   display: none;
 }
-//
+////////////////////////////////////
 
 .testimonial {
   margin-top: 15rem;
@@ -45,7 +45,7 @@
   }
 
   &__img {
-    width: 20rem;
+    width: 16rem;
     border-radius: 50%;
     margin: 0 auto;
   }
@@ -54,9 +54,41 @@
     padding-left: 8rem;
     text-align: left;
     font-size: 1.8rem;
+
+    @include respond(tab-port) {
+      padding-left: 15rem;
+    }
+
+    @include respond(desktop) {
+      padding-left: 8rem;
+    }
   }
 
   &__quote {
-    padding: 1.5rem 8rem;
+    padding: 1rem 8rem;
+
+    @include respond(tab-port) {
+      padding: 1rem 15rem;
+    }
+
+    @include respond(desktop) {
+      padding: 1rem 8rem;
+    }
+  }
+
+  &__stars {
+    padding-left: 8rem;
+
+    @include respond(tab-port) {
+      padding-left: 15rem;
+    }
+
+    @include respond(desktop) {
+      padding-left: 8rem;
+    }
+
+    .checked {
+      color: $color-primary;
+    }
   }
 }

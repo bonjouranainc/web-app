@@ -13,7 +13,7 @@ const person = {
 
 const person2 = {
   name: 'Mayra Candelaria',
-  quote: 'Muy contenta con el servicio. Mi casa quedo inmaculada!'
+  quote: 'Cuento con el servicio de compras semanales hace varios meses y estoy satisfecha. Son muy receptivos a comentarios hechos y buscan satisfacer al cliente rápidamente.'
 };
 
 const TestimonialResponsive = () => (

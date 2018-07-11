@@ -7,13 +7,13 @@ import picture2 from '../../../images/jpg/mayra-candelaria.jpg';
 const person = {
   name: 'Lily M.',
   quote:
-    'Excelente servicio! Siempre dan la milla extra y mi vida ahora es mucho más fácil gracias a ellos! 100% recomendado!'
+    '"Excelente servicio! Siempre dan la milla extra y mi vida ahora es mucho más fácil gracias a ellos! 100% recomendado!"'
 };
 
 const person2 = {
   name: 'Mayra Candelaria',
   quote:
-    'Muy contenta con el servicio. Mi casa quedo inmaculada! 100% recomendado!'
+    '"Cuento con el servicio de compras semanales hace varios meses y estoy satisfecha. Son muy receptivos a comentarios hechos y buscan satisfacer al cliente rápidamente."'
 };
 
 const TestimonialDesktop = () => (
