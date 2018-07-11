@@ -27,7 +27,10 @@ const Services = () => (
     </div>
 
     <div className="services__btn">
-      <a href="" className="button-y">
+      <a
+        href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar"
+        className="button-y"
+      >
         Ver más
       </a>
     </div>
