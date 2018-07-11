@@ -8,7 +8,8 @@ const navBarColor = {
 };
 
 const linkColors = {
-  color: 'rgba(0, 0, 0, 0.6)'
+  color: 'rgba(0, 0, 0, 0.6)',
+  textAlign: 'right'
 };
 
 const NavBarMobile = ({ onPusherClick, onToggle, visible }) => (
@@ -24,7 +25,11 @@ const NavBarMobile = ({ onPusherClick, onToggle, visible }) => (
       style={navBarColor}
     >
       <Menu.Item name="servicio">
-        <a className="link-text" style={linkColors} href="">
+        <a
+          className="link-text"
+          style={linkColors}
+          href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar"
+        >
           Servicios
         </a>
       </Menu.Item>
