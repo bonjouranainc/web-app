@@ -2,7 +2,7 @@
 @import '../base/mixins';
 
 .navbar {
-  position: fixed;
+  position: absolute;
   height: 7vh;
   width: 100%;
   background-color: $color-primary !important;
