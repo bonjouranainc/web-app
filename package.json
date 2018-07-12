@@ -1,9 +1,6 @@
 {
   "name": "front-end",
   "version": "0.1.0",
-  "engines": {
-    "node": "10.6.0"
-  },
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.2",
