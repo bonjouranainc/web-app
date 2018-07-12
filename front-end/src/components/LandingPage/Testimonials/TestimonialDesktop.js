@@ -20,7 +20,6 @@ const TestimonialDesktop = () => (
   <div className="testimonial">
     <Testimonial name={person.name} quote={person.quote} image={picture} />
     <Testimonial name={person2.name} quote={person2.quote} image={picture2} />
-    <Testimonial name={person.name} quote={person.quote} image={picture} />
   </div>
 );
 

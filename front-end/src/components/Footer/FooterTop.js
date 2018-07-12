@@ -55,11 +55,11 @@ const FooterTop = () => (
           </a>
         </li>
         <li>Tel: 787-523-5870</li>
-        <li>
+        <li className="link-text--admin">
           <strong>Horario Administrativo</strong>:<br />&nbsp; Lunes a Viernes
           10:00am - 6:00pm
         </li>
-        <li>
+        <li className="link-text--admin">
           <strong>Horario de Servicio</strong>:<br />&nbsp; Lunes a Domingo
           7:30am en adelante
         </li>

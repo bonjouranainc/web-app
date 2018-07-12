@@ -25,9 +25,6 @@ const TestimonialResponsive = () => (
     <Carousel.Item>
       <Testimonial name={person2.name} quote={person2.quote} image={picture2} />
     </Carousel.Item>
-    <Carousel.Item>
-      <Testimonial name={person.name} quote={person.quote} image={picture} />
-    </Carousel.Item>
   </Carousel>
 );
 
