@@ -1,0 +1,16 @@
+.navbar {
+  position: absolute;
+  height: 7vh;
+  width: 100%;
+  background-color: #ebd831 !important;
+  border-radius: 0 !important;
+  z-index: 100; }
+  .navbar .link-text {
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    transition: all 0.1s;
+    padding: 1rem 1.5rem; }
+    .navbar .link-text:hover {
+      background-color: #fff;
+      border-radius: 3px; }

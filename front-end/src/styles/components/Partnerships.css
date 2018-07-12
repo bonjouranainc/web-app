@@ -1,0 +1,14 @@
+.partnerships {
+  background-color: #f5f4ed;
+  padding: 15rem 0 15rem 0;
+  margin: 0 auto; }
+  .partnerships__grid {
+    text-align: center; }
+  .partnerships .button-y {
+    font-size: 1rem; }
+    @media only screen and (min-width: 37.5em) {
+      .partnerships .button-y {
+        font-size: 1.2rem; } }
+    @media only screen and (min-width: 56.25em) {
+      .partnerships .button-y {
+        font-size: 1.4rem; } }
