@@ -8,7 +8,7 @@ const Partnerships = () => (
     <Grid columns={2} divided>
       <Grid.Column className="partnerships__grid">
         <a
-          href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar"
+          href="https://docs.google.com/forms/u/2/d/e/1FAIpQLSd3Dpyd_pdlBsuGJzYtlabFOsFA_bBK7hpNOclSeVnPAA6eng/viewform"
           className="button-y"
         >
           ¿Quieres ser un Ana Helper?
@@ -16,7 +16,7 @@ const Partnerships = () => (
       </Grid.Column>
       <Grid.Column className="partnerships__grid">
         <a
-          href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar"
+          href="https://bonjourjuana.typeform.com/to/xPEoh8"
           className="button-y"
         >
           Coordinar Cita de Bienvenida
