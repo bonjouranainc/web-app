@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import facebook from '../../images/svg/facebook-icon.svg';
 import twitter from '../../images/svg/twitter-icon.svg';
@@ -22,7 +23,6 @@ const FooterTop = () => (
       >
         <img src={twitter} alt="" />
       </a>
-
       <a
         href="http://instagram.com/bonjouranainc"
         target="_blank"
@@ -35,31 +35,34 @@ const FooterTop = () => (
     <div className="footer-top__links">
       <ul>
         <li>
-          <a className="link-text" href="">
+          <Link className="link-text" to="/about">
             Sobre BA
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="link-text" href="">
+          <Link className="link-text" to="/how">
             Preguntas Frecuentes
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="link-text" href="">
+          <a className="link-text" href="mailto:hi@bonjourana.com">
             Partnerships
           </a>
         </li>
         <li>
-          <a className="link-text" href="">
-            Ayuda
-          </a>
-        </li>
-        <li>
-          <a className="link-text" href="">
+          <a className="link-text" href="mailto:hi@bonjourana.com">
             Contáctanos
           </a>
         </li>
         <li>Tel: 787-523-5870</li>
+        <li>
+          <strong>Horario Administrativo</strong>:<br />&nbsp; Lunes a Viernes
+          10:00am - 6:00pm
+        </li>
+        <li>
+          <strong>Horario de Servicio</strong>:<br />&nbsp; Lunes a Domingo
+          7:30am en adelante
+        </li>
       </ul>
     </div>
 

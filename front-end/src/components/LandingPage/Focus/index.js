@@ -12,7 +12,10 @@ const Focus = () => (
         Bonjour Ana es tu asistente personal para el hogar y necesidades
         diarias.
       </p>
-      <a href="" className="button-y">
+      <a
+        href="https://bonjour-ana.myshopify.com/products/especial-de-limpieza"
+        className="button-y"
+      >
         Oferta de Limpieza
       </a>
     </div>

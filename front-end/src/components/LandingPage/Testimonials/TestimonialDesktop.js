@@ -5,7 +5,7 @@ import picture from '../../../images/jpg/tamara-matos.jpg';
 import picture2 from '../../../images/jpg/mayra-candelaria.jpg';
 
 const person = {
-  name: 'Lily M.',
+  name: 'Tamara Matos',
   quote:
     '"Excelente servicio! Siempre dan la milla extra y mi vida ahora es mucho más fácil gracias a ellos! 100% recomendado!"'
 };
