@@ -1,0 +1,38 @@
+@import 'variables';
+
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 300;
+  // font-size: 20px;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  color: $color-dark;
+}
+
+.header-title {
+  color: $color-light;
+  font-size: 2rem;
+  font-family: $heading-font;
+  letter-spacing: 1px;
+}
+
+.header-subtitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.header-tertiary-Title {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.paragraph {
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+.link-text {
+  font-size: 1em;
+  text-decoration: none;
+  color: $color-dark;
+}

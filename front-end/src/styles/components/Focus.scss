@@ -1,0 +1,66 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+.focus {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include respond(desktop) {
+    flex-direction: row;
+  }
+
+  &__description {
+    margin-top: 5rem;
+    padding: 0 4rem 4rem 4rem;
+
+    @include respond(tab-port) {
+      margin-top: 8rem;
+      margin-bottom: 8rem;
+      padding: 0 32rem 0 4rem;
+    }
+
+    @include respond(tab-land) {
+      padding: 0 40 0 4rem;
+    }
+
+    @include respond(desktop) {
+      margin-top: 0;
+      padding-left: 10rem;
+      padding-right: 25rem;
+    }
+  }
+
+  &__header {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+
+    @include respond(tab-port) {
+      font-size: 5rem;
+    }
+  }
+
+  &__text {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+
+    @include respond(tab-port) {
+      font-size: 2.2rem;
+      margin-bottom: 3rem;
+    }
+
+    @include respond(desktop) {
+      font-size: 2.7rem;
+    }
+  }
+
+  &__img-box {
+    flex: 0 0 50%;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}

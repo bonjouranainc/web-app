@@ -1,0 +1,92 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+.about {
+  padding: 8rem 0;
+
+  &__heading {
+    margin: 5rem auto;
+    text-align: center;
+    padding: 0 3rem 7rem 3rem;
+
+    @include respond(tab-port) {
+      padding: 0 8rem 7rem 8rem;
+    }
+
+    @include respond(tab-land) {
+      padding: 0 12rem 7rem 12rem;
+    }
+  }
+
+  &__title {
+    font-size: 4.5rem;
+    color: $color-primary;
+    font-family: $heading-font;
+    margin-bottom: 4rem;
+
+    @include respond(tab-port) {
+      font-size: 6rem;
+    }
+  }
+
+  &__subTitle {
+    font-size: 2.4rem;
+
+    @include respond(tab-port) {
+      font-size: 3rem;
+    }
+
+    @include respond(desktop) {
+      padding: 0 14rem;
+    }
+  }
+
+  &__grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @include respond(tab-port) {
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      margin: 0 auto;
+    }
+  }
+
+  &__helper-box {
+    margin-bottom: 5rem;
+
+    @include respond(tab-port) {
+      text-align: left;
+    }
+  }
+
+  &__img {
+    width: 25rem;
+    border-radius: 3px;
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+
+    @include respond(tab-land) {
+      width: 20rem;
+    }
+  }
+
+  &__helper-name {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  &__helper-hobby {
+    font-size: 2rem;
+    padding: 0 2.5rem;
+
+    @include respond(tab-port) {
+      padding: 0;
+    }
+  }
+}

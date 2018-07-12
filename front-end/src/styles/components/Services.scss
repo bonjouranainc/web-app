@@ -1,0 +1,85 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+.services {
+  margin: 8rem auto;
+
+  &__header {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 5rem;
+
+    @include respond(tab-port) {
+      font-size: 4.8rem;
+      margin-bottom: 8rem;
+      text-align: left;
+      margin-left: 10rem;
+    }
+  }
+
+  &__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__card {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 10rem;
+    height: 15rem;
+    margin-right: 2.5rem;
+    margin-bottom: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 0 0 30%;
+    transition: all 0.2s;
+
+    &__card:hover {
+      transform: scaleY(2);
+    }
+
+    @include respond(tab-port) {
+      flex: 0 0 25%;
+      height: 18rem;
+      margin-right: 3rem;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(tab-land) {
+      flex: 0 0 20%;
+    }
+
+    @include respond(desktop) {
+      flex: 0;
+      width: 25rem;
+      height: 20rem;
+    }
+  }
+
+  &__img {
+    width: 8rem;
+
+    @include respond(tab-port) {
+      width: 12rem;
+    }
+  }
+
+  &__title {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+
+    @include respond(tab-port) {
+      font-size: 1.8rem;
+    }
+  }
+
+  &__btn {
+    text-align: center;
+    margin-top: 3rem;
+  }
+}

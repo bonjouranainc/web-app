@@ -1,13 +1,13 @@
 import React from 'react';
 
-import './styles.css';
+const year = new Date();
 
 const FooterBottom = () => (
-  <div className="footerBottom">
-    <a href="/terms" className="s-txt">
+  <div className="footer-bottom">
+    <a className="link-text" href="/terms">
       Terms & Privacy
     </a>
-    <p className="s-txt">@2017 Bonjour Ana Inc.</p>
+    <p>&copy;{year.getFullYear()} Bonjour Ana Inc.</p>
   </div>
 );
 

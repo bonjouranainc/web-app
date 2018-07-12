@@ -1,0 +1,149 @@
+// Variables
+@import '../base/variables';
+@import '../base/mixins';
+
+.howItWorks {
+  background-color: $background-color;
+  width: 100%;
+  padding: 1.5rem 0;
+
+  .group {
+    width: 100%;
+    padding: 2.5rem 1rem;
+
+    &-image {
+      margin: 0 auto;
+      text-align: center;
+
+      .first-image {
+        width: 80%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &-text {
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .groups {
+      width: 100%;
+      padding-top: 4rem;
+
+      .group {
+        display: flex;
+        flex-direction: row;
+
+        &-reverse {
+          flex-direction: row-reverse;
+        }
+
+        &-image {
+          width: 50%;
+
+          .first-image {
+            width: 80%;
+          }
+
+          img {
+            width: 100%;
+          }
+        }
+
+        #group-image2 {
+          text-align: left;
+        }
+
+        &-text {
+          width: 50%;
+          margin-top: 7rem;
+
+          &-1 {
+            margin-top: 1rem;
+          }
+
+          &-even {
+            text-align: left;
+
+            @include respond(tab-land) {
+              padding: 2rem 15rem 0 2.5rem;
+            }
+          }
+
+          &-odd {
+            text-align: right;
+
+            @include respond(tab-land) {
+              padding: 7rem 3.5rem 0 15rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .groups {
+      width: 100%;
+      padding-top: 4rem;
+
+      .group {
+        display: flex;
+        flex-direction: row;
+
+        &-reverse {
+          flex-direction: row-reverse;
+        }
+
+        &-image {
+          width: 50%;
+          text-align: right;
+
+          .first-image {
+            width: 50%;
+          }
+
+          img {
+            width: 80%;
+          }
+        }
+
+        #group-image2 {
+          text-align: left;
+        }
+
+        &-text {
+          width: 50%;
+          margin-top: 5rem;
+          padding: 0 4rem;
+
+          &-1 {
+            margin-top: 1rem;
+          }
+
+          &-even {
+            text-align: left;
+            padding: 2rem 30rem 0 2.5rem;
+          }
+
+          &-odd {
+            text-align: right;
+            padding: 7rem 3.5rem 0 30rem;
+          }
+
+          .header-tertiary-Title {
+            font-size: 2.6rem;
+          }
+
+          .paragraph {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+}

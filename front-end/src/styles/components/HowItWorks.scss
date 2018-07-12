@@ -1,0 +1,171 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+////////////////////////////
+//  PROCESS
+////////////////////////////
+.process {
+  padding-top: 10rem;
+  font-size: 1.7rem;
+
+  @include respond(tab-port) {
+    font-size: 2rem;
+    padding-top: 15rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--title {
+      font-size: 4rem;
+      font-family: $heading-font;
+      color: $color-primary;
+      margin-bottom: 3rem;
+
+      @include respond(tab-port) {
+        font-size: 5rem;
+      }
+    }
+
+    &--text {
+      padding: 0 3rem;
+      text-align: left;
+
+      @include respond(tab-port) {
+        padding: 0 8rem;
+      }
+
+      @include respond(desktop) {
+        padding: 0 15rem;
+      }
+    }
+  }
+
+  &__body {
+    margin-top: 5rem;
+    padding: 0 3rem;
+    text-align: center;
+
+    @include respond(tab-port) {
+      margin-top: 8rem;
+    }
+
+    @include respond(desktop) {
+      padding: 0 13rem;
+    }
+  }
+
+  &__content {
+    @include respond(tab-port) {
+      display: flex;
+      align-items: center;
+
+      &:nth-child(odd) {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+
+  &__img-box {
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include respond(tab-land) {
+      width: 33rem;
+      margin-left: 0;
+    }
+
+    @include respond(desktop) {
+      margin-left: auto;
+    }
+  }
+
+  &__img {
+    width: 100%;
+
+    &--small {
+      margin: 6rem 0;
+
+      @include respond(tab-land) {
+        width: 110%;
+      }
+    }
+  }
+
+  &__text {
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+    @include respond(tab-port) {
+      flex: 0 0 50%;
+    }
+
+    &--header {
+      color: $color-primary;
+      font-size: 2.5rem;
+      text-align: center;
+
+      @include respond(tab-port) {
+        text-align: left;
+        padding: 0 1.5rem;
+      }
+    }
+
+    &--description {
+      padding: 0 2.75rem;
+
+      @include respond(tab-land) {
+        padding-right: 8rem;
+      }
+    }
+  }
+}
+
+////////////////////////////
+//  FAQ
+////////////////////////////
+
+.faq {
+  padding: 10rem 3rem;
+  font-size: 1.4rem;
+
+  @include respond(tab-land) {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  &__header {
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-bottom: 3.5rem;
+
+    @include respond(tab-land) {
+      font-size: 3.8rem;
+      margin-bottom: 4.5rem;
+    }
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    color: $color-dark;
+    display: inline;
+
+    @include respond(tab-land) {
+      font-size: 2rem;
+    }
+  }
+
+  &__paragraph {
+    font-size: 1.6rem;
+
+    @include respond(tab-land) {
+      font-size: 1.8rem;
+    }
+  }
+}

@@ -1,65 +1,59 @@
-body {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
-}
+  box-sizing: inherit; }
 
-/* 
-  Global variables
-    ba = Bonjour Ana
-    g = Gray
-*/
+html {
+  font-size: 50%; }
+  @media only screen and (min-width: 56.25em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (min-width: 75em) {
+    html {
+      font-size: 62.5%; } }
 
-:root {
-  --ba-yellow: #EBD831;
-  --ba-blue: #89ABE3;
-  --g1: #F2F2F2;
-  --g2: #CCCCCC;
-}
+body {
+  box-sizing: border-box;
+  background-color: #f5f4ed; }
 
-h1 {
-  font-size: 1.6em;
-  font-weight: 400;
-}
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.6); }
 
-h2 {
-  font-size: 1.3em;
-  font-weight: 400;
-}
+.header-title {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px; }
 
-p {
+.header-subtitle {
+  font-size: 3.5rem;
+  font-weight: 700; }
+
+.header-tertiary-Title {
+  font-size: 2.3rem;
+  font-weight: 700; }
+
+.paragraph {
+  font-size: 1.2em;
+  font-weight: 100; }
+
+.link-text {
   font-size: 1em;
-  font-weight: 400;
-}
-
-a {
-  font-size: 1em;
-}
-
-button {
-  border: none;
-  background-color: transparent;
-  transition: background-color .3s;
-}
-
-@media only screen and (min-width: 768px) {
-  h1 {
-    font-size: 2.5em;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-}
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6); }
 
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2em 1em;
-}
-
+  padding: 2em 1em; }
 
 /* Cols & Rows */
 .col {
@@ -69,8 +63,7 @@ button {
   align-items: center;
   width: auto;
   height: auto;
-  text-align: center;
-}
+  text-align: center; }
 
 .row {
   display: flex;
@@ -79,218 +72,92 @@ button {
   align-items: center;
   width: 100vw;
   height: auto;
-  text-align: center;
-}
+  text-align: center; }
 
-/*
-  Text styles
-*/
-
-
-/* Add bold */
-.b-txt {
-  font-weight: 900;
-}
-
-/* Small text */
-.s-txt {
-  font-size: 0.8em;
-}
-/* Buttons */
-
-/*
-  Button styles 
-    y = yellow
-    b = blue
-    w = white
-    o = outline
-*/
+button {
+  border: none;
+  background-color: transparent;
+  transition: background-color 0.2s; }
 
 /* Solid yellow button */
-
 .button-y {
-  padding: 0.5em 1.5em 0.5em 1.5em;
-  color: #000;
-  background-color: var(--ba-yellow);
-  font-size: 1em;
-  text-decoration: none;  
-  border-radius: 5px;
-  margin: 0.5em;
-  transition: background-color .3s;
-}
-
-.button-y:active {
-  background-color: transparent;
-}
-
-.button-y:hover {
-  background-color: #fff;
-}
+  padding: 0.5em 1.5em 0.5em 1.5em !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  background-color: #ebd831 !important;
+  font-size: 1em !important;
+  border-radius: 5px !important;
+  margin: 0.5em !important;
+  transition: all 0.3s !important; }
+  .button-y:hover {
+    background-color: #fff !important; }
+  .button-y a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6) !important; }
 
 /* Solid blue button */
-
 .button-b {
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #fff;
-  background-color: var(--ba-blue);
+  background-color: #89abe3;
   font-size: 1em;
-  text-decoration: none;  
+  text-decoration: none;
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color .3s;
-}
-
-.button-b:active {
-  background-color: transparent;
-}
-
-.button-b:hover {
-  color: #000;
-  background-color: #fff;
-}
+  transition: background-color 0.3s; }
+  .button-b:active {
+    background-color: transparent; }
+  .button-b:hover {
+    color: rgba(0, 0, 0, 0.6);
+    background-color: #fff; }
 
 /* Solid black button */
-
 .button-black {
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #fff;
   background-color: #000;
   font-size: 1em;
-  text-decoration: none;  
+  text-decoration: none;
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color .3s;
-}
-
-.button-black:active {
-  background-color: #fff;
-  color: #000;
-}
-
-.button-black:hover {
-  background-color: #fff;
-  color: #000;
-}
+  transition: background-color 0.3s; }
+  .button-black:active {
+    background-color: #fff;
+    color: #000; }
+  .button-black:hover {
+    background-color: #fff;
+    color: #000; }
 
 /* Outline yellow button */
-
 .button-y-o {
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #000;
   background-color: transparent;
   font-size: 1em;
-  text-decoration: none;  
-  border: solid 1px var(--ba-yellow);
+  text-decoration: none;
+  border: solid 1px #ebd831;
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color .3s;
-}
-
-.button-y-o:active {
-  background-color: var(--ba-yellow);
-}
-
-.button-y-o:hover {
-  border-color: #000;
-}
+  transition: background-color 0.3s; }
+  .button-y-o:active {
+    background-color: #ebd831; }
+  .button-y-o:hover {
+    border-color: #000; }
 
 /* Outline white button */
-
 .button-w-o {
   display: flex;
   padding: 0.5em 1.5em 0.5em 1.5em;
   color: #fff !important;
   background-color: transparent;
   font-size: 1em;
-  text-decoration: none;  
+  text-decoration: none;
   border: solid 1px #fff;
   border-radius: 5px;
   margin: 0.5em;
-  transition: background-color .3s;
-}
-
-.button-w-o:active {
-  border: solid 1px var(--ba-yellow);
-  background-color: var(--ba-yellow);
-}
-
-.button-w-o:hover {
-  color: #000 !important;
-  background-color: #fff;
-}
-
-/* Button Groups */
-
-.btn-group {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Checkbox buttons */
-
-.checkbox-btn {
-  background-color: transparent;
-  border: solid 1px var(--ba-yellow);
-  border-radius: 5px;
-  margin: 0.5em;
-  overflow: auto;
-  float: left;
-}
-
-.checkbox-btn label {
-  float: left;
-}
-
-.checkbox-btn label span {
-  padding: 0.5em 1.5em 0.5em 1.5em;
-  text-align: center;
-  display: block;
-  transition: background-color .3s;
-}
-
-.checkbox-btn label input {
-  position: absolute;
-  top: -20px;
-  transition: background-color .3s;
-}
-
-.checkbox-btn input:checked + span {
-  background-color: var(--ba-yellow);
-  transition: background-color .3s;
-}
-
-/* Inline pickers ex. Day, Hours */
-
-.inline-picker {
-  background-color: var(--g1);
-  margin: 0.5em;
-  overflow: auto;
-  float: left;
-}
-
-.inline-picker label {
-  float: left;
-}
-
-.inline-picker label span {
-  padding: 0.5em 1.5em 0.5em 1.5em;
-  text-align: center;
-  display: block;
-  transition: background-color .3s;
-}
-
-.inline-picker label input {
-  position: absolute;
-  top: -20px;
-  transition: background-color .3s;
-}
-
-.inline-picker input:checked + span {
-  background-color: var(--ba-yellow);
-  transition: background-color .3s;
-}
-
+  transition: background-color 0.3s; }
+  .button-w-o:active {
+    border: solid 1px #ebd831;
+    background-color: #ebd831; }
+  .button-w-o:hover {
+    color: #000 !important;
+    background-color: #fff; }

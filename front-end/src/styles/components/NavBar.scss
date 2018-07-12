@@ -1,0 +1,24 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+.navbar {
+  position: absolute;
+  height: 7vh;
+  width: 100%;
+  background-color: $color-primary !important;
+  border-radius: 0 !important;
+  z-index: 100;
+
+  .link-text {
+    font-size: 1.8rem;
+    color: $color-dark;
+    text-decoration: none;
+    transition: all 0.1s;
+    padding: 1rem 1.5rem;
+
+    &:hover {
+      background-color: $color-light;
+      border-radius: 3px;
+    }
+  }
+}
