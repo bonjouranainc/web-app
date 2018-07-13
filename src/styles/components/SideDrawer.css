@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  width: 30%;
+  width: 50%;
   max-width: 40rem;
   z-index: 200;
   transform: translateX(100%);
