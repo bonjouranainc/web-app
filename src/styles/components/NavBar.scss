@@ -53,7 +53,13 @@
     width: 3.5rem;
   }
 
-  @media (max-width: 768px) {
+  &__toggle-button {
+    @include respond(desktop) {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1024px) {
     &__navigation-items {
       display: none;
     }
