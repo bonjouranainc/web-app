@@ -2,23 +2,54 @@
 @import '../base/mixins';
 
 .navbar {
-  position: absolute;
-  height: 7vh;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  background-color: $color-primary !important;
-  border-radius: 0 !important;
-  z-index: 100;
+  background-color: $color-primary;
+  height: 5.6rem;
+  border: none;
 
-  .link-text {
-    font-size: 1.8rem;
-    color: $color-dark;
-    text-decoration: none;
-    transition: all 0.1s;
-    padding: 1rem 1.5rem;
+  &__spacer {
+    flex: 1;
+  }
 
-    &:hover {
-      background-color: $color-light;
-      border-radius: 3px;
+  &__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+
+    &-items ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
     }
+
+    &-items li {
+      margin: 0 1.5rem;
+      padding: 0 0.5rem;
+      justify-content: space-around;
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+
+    &-items a:link,
+    &-items a:visited {
+      text-decoration: none;
+      color: $color-dark;
+      padding: 1rem 1rem;
+      transition: all 0.2s;
+    }
+
+    &-items a:hover {
+      border-radius: 3px;
+      background-color: #fff;
+    }
+  }
+
+  &__logo {
+    width: 3.5rem;
   }
 }

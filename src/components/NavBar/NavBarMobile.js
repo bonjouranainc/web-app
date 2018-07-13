@@ -63,9 +63,10 @@ const NavBarMobile = ({ onPusherClick, onToggle, visible }) => (
       </Menu.Item>
     </Sidebar>
     <Sidebar.Pusher
+      className="navbar__mobile"
       dimmed={visible}
       onClick={onPusherClick}
-      style={{ minHeight: '100vh' }}
+      // style={{ minHeight: '100vh' }}
     >
       <Menu secondary>
         <Menu.Item>

@@ -16,7 +16,7 @@ const Header = () => (
       </div>
       <div className="hero__btns">
         <a
-          href="https://bonjour-ana.myshopify.com/products/servicio-de-limpieza"
+          href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar/products/bonjour-ana-basic"
           className="button-y"
         >
           Ana Básico

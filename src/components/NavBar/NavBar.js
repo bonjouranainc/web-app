@@ -1,0 +1,43 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../../images/svg/ba-logo-w.svg';
+
+import '../../styles/components/NavBar.css';
+
+const NavBar = () => (
+  <header className="navbar">
+    <nav className="navbar__navigation">
+      <div className="navbar__logo">
+        <Link to="/">
+          <img src={logo} alt="bonjour ana" />
+        </Link>
+      </div>
+      <div className="navbar__navigation-items">
+        <ul>
+          <li>
+            <a href="">Servicios</a>
+          </li>
+          <li>
+            <Link to="/about">Nosotros</Link>
+          </li>
+          <li>
+            <Link to="/how">&iquest;Cómo funciona?</Link>
+          </li>
+        </ul>
+      </div>
+      <div className="navbar__spacer" />
+      <div className="navbar__navigation-items">
+        <ul>
+          <li>
+            <a href="">Sign Up</a>
+          </li>
+          <li>
+            <a href="">Log In</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+);
+
+export default NavBar;
