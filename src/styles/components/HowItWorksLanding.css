@@ -12,8 +12,11 @@
         width: 80%; }
       .howItWorks .group-image img {
         width: 100%; }
-    .howItWorks .group-text {
+    .howItWorks .group .header-tertiary-Title {
       text-align: center; }
+    .howItWorks .group .paragraph {
+      text-align: left;
+      padding-left: 2.5rem; }
   @media (min-width: 600px) {
     .howItWorks .groups {
       width: 100%;
