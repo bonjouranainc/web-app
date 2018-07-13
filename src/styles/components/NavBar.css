@@ -5,7 +5,8 @@
   width: 100%;
   background-color: #ebd831;
   height: 5.6rem;
-  border: none; }
+  border-radius: 0;
+  z-index: 50; }
   .navbar__spacer {
     flex: 1; }
   .navbar__navigation {
@@ -20,7 +21,6 @@
       display: flex; }
     .navbar__navigation-items li {
       margin: 0 1.5rem;
-      padding: 0 0.5rem;
       justify-content: space-around;
       font-size: 1.8rem;
       font-weight: 400; }
@@ -35,3 +35,6 @@
       background-color: #fff; }
   .navbar__logo {
     width: 3.5rem; }
+  @media (max-width: 768px) {
+    .navbar__navigation-items {
+      display: none; } }

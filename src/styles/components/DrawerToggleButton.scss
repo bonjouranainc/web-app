@@ -1,0 +1,29 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+.toggle-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 2.4rem;
+  width: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+
+  @include respond(desktop) {
+    display: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &__line {
+    width: 3rem;
+    height: 2px;
+    background-color: #fff;
+  }
+}

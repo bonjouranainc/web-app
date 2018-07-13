@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import DrawerToggleButton from './DrawerToggleButton';
 import logo from '../../images/svg/ba-logo-w.svg';
 
 import '../../styles/components/NavBar.css';
 
-const NavBar = () => (
+const NavBar = props => (
   <header className="navbar">
     <nav className="navbar__navigation">
       <div className="navbar__logo">
@@ -35,6 +36,9 @@ const NavBar = () => (
             <a href="">Log In</a>
           </li>
         </ul>
+      </div>
+      <div className="navbar__toggle-button">
+        <DrawerToggleButton click={props.drawerClickHandler} />
       </div>
     </nav>
   </header>
