@@ -56,8 +56,7 @@ const Process = () => (
             <span>3.</span> Voila! Todas sus tareas completadas
           </h3>
           <p className="process__text--description">
-            Llega a un hogar limpio y fresco, con las compras del supermercado
-            realizada, el dry-cleaning recogido y todas sus tareas completadas.
+            Llega a un hogar limpio y fresco y con todas sus tareas completadas.
           </p>
         </div>
       </div>

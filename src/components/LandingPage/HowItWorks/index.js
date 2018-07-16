@@ -20,7 +20,7 @@ export default class HowItWorks extends Component {
               <h3 className="header-tertiary-Title">Escoja sus servicios</h3>
               <p className="paragraph">
                 Seleccione entre una variedad de servicios para el hogar y
-                escoja el día y hora que desea recibir el servicvio.
+                escoja el día y hora que desea recibir el servicio.
               </p>
             </div>
           </div>
@@ -50,8 +50,7 @@ export default class HowItWorks extends Component {
                 Todas sus tareas completadas
               </h3>
               <p className="paragraph">
-                Llega a un hogar limpio y fresco, con las compras del
-                supermercado realizada, el dry-cleaning recogido y todas sus
+                Llega a un hogar limpio y fresco y con todas sus
                 tareas completadas.
               </p>
             </div>

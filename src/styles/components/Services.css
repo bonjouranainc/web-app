@@ -28,8 +28,8 @@
     justify-content: space-around;
     flex: 0 0 30%;
     transition: all 0.2s; }
-    .services__card__card:hover {
-      transform: scaleY(2); }
+    .services__card:hover {
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6); }
     @media only screen and (min-width: 37.5em) {
       .services__card {
         flex: 0 0 25%;
@@ -58,3 +58,6 @@
   .services__btn {
     text-align: center;
     margin-top: 3rem; }
+  @media only screen and (min-width: 75em) {
+    .services .button-y {
+      font-size: 1.6rem; } }

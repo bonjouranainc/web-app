@@ -1,14 +1,35 @@
 .partnerships {
   background-color: #f5f4ed;
-  padding: 15rem 0;
-  margin: 0 auto; }
-  .partnerships__grid {
-    text-align: center; }
+  padding: 15rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media only screen and (min-width: 75em) {
+    .partnerships {
+      padding-left: 0;
+      padding-right: 0; } }
+  .partnerships__divider {
+    height: 15rem;
+    width: 0.1rem;
+    margin: 0 2rem;
+    background-color: rgba(0, 0, 0, 0.6); }
+    @media only screen and (min-width: 37.5em) {
+      .partnerships__divider {
+        height: 25rem;
+        width: 0.25rem;
+        margin: 0 5rem; } }
+    @media only screen and (min-width: 75em) {
+      .partnerships__divider {
+        height: 30rem;
+        margin: 0 8rem; } }
   .partnerships .button-y {
-    font-size: 1rem; }
+    font-size: 1.4rem;
+    text-align: center; }
     @media only screen and (min-width: 37.5em) {
       .partnerships .button-y {
-        font-size: 1.2rem; } }
-    @media only screen and (min-width: 56.25em) {
+        font-size: 1.6rem;
+        margin: 5rem; } }
+    @media only screen and (min-width: 75em) {
       .partnerships .button-y {
-        font-size: 1.4rem; } }
+        margin: 12rem; } }

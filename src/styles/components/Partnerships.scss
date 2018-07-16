@@ -3,22 +3,47 @@
 
 .partnerships {
   background-color: $background-color;
-  padding: 15rem 0;
+  padding: 15rem 3rem;
   margin: 0 auto;
 
-  &__grid {
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include respond(desktop) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &__divider {
+    height: 15rem;
+    width: 0.1rem;
+    margin: 0 2rem;
+    background-color: $color-dark;
+
+    @include respond(tab-port) {
+      height: 25rem;
+      width: 0.25rem;
+      margin: 0 5rem;
+    }
+
+    @include respond(desktop) {
+      height: 30rem;
+      margin: 0 8rem;
+    }
   }
 
   .button-y {
-    font-size: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
 
     @include respond(tab-port) {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
+      margin: 5rem;
     }
 
-    @include respond(tab-land) {
-      font-size: 1.4rem;
+    @include respond(desktop) {
+      margin: 12rem;
     }
   }
 }

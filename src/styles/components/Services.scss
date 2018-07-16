@@ -39,8 +39,8 @@
     flex: 0 0 30%;
     transition: all 0.2s;
 
-    &__card:hover {
-      transform: scaleY(2);
+    &:hover {
+      box-shadow: 0 3px 6px $color-dark;
     }
 
     @include respond(tab-port) {
@@ -81,5 +81,11 @@
   &__btn {
     text-align: center;
     margin-top: 3rem;
+  }
+
+  .button-y {
+    @include respond(desktop) {
+      font-size: 1.6rem;
+    }
   }
 }

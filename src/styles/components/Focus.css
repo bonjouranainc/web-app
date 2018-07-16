@@ -43,3 +43,6 @@
     flex: 0 0 50%; }
   .focus__img {
     width: 100%; }
+  @media only screen and (min-width: 75em) {
+    .focus .button-y {
+      font-size: 1.6rem; } }

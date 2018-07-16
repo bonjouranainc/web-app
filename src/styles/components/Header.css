@@ -31,6 +31,9 @@
     align-items: center; }
     .hero__btns .button-y {
       margin-right: 2rem; }
+      @media only screen and (min-width: 75em) {
+        .hero__btns .button-y {
+          font-size: 1.6rem; } }
       .hero__btns .button-y:last-child {
         margin-right: 0; }
   @media (min-width: 600px) {
