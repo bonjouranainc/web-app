@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 import About from '../components/About/index';
 import TermsAndPrivacy from '../components/TermsAndPrivacy/index';
 import HowItWorks from '../components/HowItWorks/index';
+import ServicesPage from '../components/Services/ServicesPage';
 
 const Routes = () => (
   <BrowserRouter>
@@ -18,6 +19,7 @@ const Routes = () => (
         <Route path="/terms" component={TermsAndPrivacy} />
         <Route path="/about" component={About} />
         <Route path="/how" component={HowItWorks} />
+        <Route path="/services" component={ServicesPage} />
       </Switch>
       <Footer />
     </div>
