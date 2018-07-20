@@ -30,12 +30,12 @@ const NavBar = props => (
       <div className="navbar__navigation-items">
         <ul>
           <li>
+            <a href="https://bonjour-ana.myshopify.com/account/login">Log In</a>
+          </li>
+          <li>
             <a href="https://bonjour-ana.myshopify.com/account/login">
               Sign Up
             </a>
-          </li>
-          <li>
-            <a href="https://bonjour-ana.myshopify.com/account/login">Log In</a>
           </li>
         </ul>
       </div>

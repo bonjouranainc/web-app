@@ -1,9 +1,10 @@
 import React from 'react';
+import '../../styles/components/Service.css';
 
 const Service = ({ title, image }) => (
-  <div className="services-page__card">
-    <img src={image} alt="service" className="services-page__img" />
-    <p className="services-page__job">{title}</p>
+  <div className="service">
+    <img src={image} alt="service" className="service__img" />
+    <p className="services__title">{title}</p>
   </div>
 );
 

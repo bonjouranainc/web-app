@@ -1,0 +1,40 @@
+.service {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 10rem;
+  height: 15rem;
+  margin-right: 2.5rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex: 0 0 30%;
+  transition: all 0.2s; }
+  .service:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6); }
+  @media only screen and (min-width: 37.5em) {
+    .service {
+      flex: 0 0 25%;
+      height: 18rem;
+      margin-right: 3rem;
+      margin-bottom: 5rem; } }
+  @media only screen and (min-width: 56.25em) {
+    .service {
+      flex: 0 0 20%; } }
+  @media only screen and (min-width: 75em) {
+    .service {
+      flex: 0;
+      width: 25rem;
+      height: 20rem; } }
+  .service__img {
+    width: 8rem; }
+    @media only screen and (min-width: 37.5em) {
+      .service__img {
+        width: 12rem; } }
+  .service__title {
+    font-size: 1.6rem;
+    margin-bottom: 2rem; }
+    @media only screen and (min-width: 37.5em) {
+      .service__title {
+        font-size: 1.8rem; } }
