@@ -16,9 +16,7 @@ const NavBar = props => (
       <div className="navbar__navigation-items">
         <ul>
           <li>
-            <a href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar">
-              Servicios
-            </a>
+            <Link to="/services">Servicios</Link>
           </li>
           <li>
             <Link to="/about">Nosotros</Link>
