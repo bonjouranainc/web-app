@@ -34,7 +34,8 @@
         width: 12rem; } }
   .service__title {
     font-size: 1.6rem;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    color: rgba(0, 0, 0, 0.6); }
     @media only screen and (min-width: 37.5em) {
       .service__title {
         font-size: 1.8rem; } }

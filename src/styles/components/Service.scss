@@ -48,6 +48,7 @@
   &__title {
     font-size: 1.6rem;
     margin-bottom: 2rem;
+    color: $color-dark;
 
     @include respond(tab-port) {
       font-size: 1.8rem;

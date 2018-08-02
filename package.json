@@ -40,6 +40,7 @@
     "react-router-dom": "^4.3.1",
     "semantic-ui-css": "^2.3.3",
     "semantic-ui-react": "^0.80.2",
+    "shopify-buy": "^1.6.0",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "^1.0.1",

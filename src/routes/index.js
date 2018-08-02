@@ -10,7 +10,9 @@ import TermsAndPrivacy from '../components/TermsAndPrivacy/index';
 import HowItWorks from '../components/HowItWorks/index';
 import ServicesPage from '../components/Services/ServicesPage';
 
-const Routes = () => (
+import Handyman from '../components/Services/Handyman/Handyman';
+
+const Routes = ({ client }) => (
   <BrowserRouter>
     <div>
       <NavBar />
@@ -20,6 +22,7 @@ const Routes = () => (
         <Route path="/about" component={About} />
         <Route path="/how" component={HowItWorks} />
         <Route path="/services" component={ServicesPage} />
+        <Route path="/handyman" render={() => <Handyman client={client} />} />
       </Switch>
       <Footer />
     </div>
