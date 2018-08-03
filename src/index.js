@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Client from 'shopify-buy';
-import Routes from './routes/index';
+import AppRouter from './routes/AppRouter';
 import 'semantic-ui-css/semantic.min.css';
 import './styles/index.css';
 
@@ -13,4 +13,4 @@ const client = Client.buildClient({
   storefrontAccessToken: accessToken
 });
 
-ReactDOM.render(<Routes client={client} />, document.getElementById('root'));
+ReactDOM.render(<AppRouter client={client} />, document.getElementById('root'));

@@ -10,7 +10,11 @@
     justify-content: center;
     align-items: flex-start;
 
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
+
+    @include respond(tab-port) {
+      margin-left: 4rem;
+    }
   }
 
   &__title {
@@ -26,12 +30,36 @@
 
   &__container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include respond(tab-land) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+    }
   }
 
-  &__services {
+  &__services-box {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+
+    @include respond(tab-land) {
+      flex: 0 0 50%;
+    }
+
+    @include respond(desktop) {
+      flex: 0 0 55%;
+      justify-content: flex-start;
+    }
+
+    & a {
+      margin-left: 2rem;
+    }
   }
 
   &__service {
@@ -64,7 +92,12 @@
   }
 
   &__text {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+
+    @include respond(tab-port) {
+      font-size: 1.8rem;
+      margin: 0 4rem;
+    }
 
     & p {
       line-height: 1.5;

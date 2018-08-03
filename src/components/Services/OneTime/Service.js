@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Handyman extends Component {
+export default class Service extends Component {
   state = {
     checkout: { lineItem: [] },
     product: {}
@@ -12,20 +12,17 @@ export default class Handyman extends Component {
       });
     });
 
-    this.props.client.product
-      .fetch('Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzExNzcyNTkzMjMx')
-      .then(product => {
-        this.setState({
-          product: {
-            title: product.title,
-            description: product.description,
-            variantId: product.variants[0].id,
-            price: product.variants[0].price
-          }
-        });
+    this.props.client.product.fetch(this.props.productId).then(product => {
+      this.setState({
+        product: {
+          title: product.title,
+          variantId: product.variants[0].id,
+          price: product.variants[0].price
+        }
       });
+    });
   }
-  onSubmit = e => {
+  onFormSubmit = e => {
     e.preventDefault();
 
     const checkoutId = this.state.checkout.id;
@@ -65,14 +62,13 @@ export default class Handyman extends Component {
     return (
       <div
         style={{
-          paddingTop: '50px',
-          paddingBottom: '100px'
+          paddingTop: '100px',
+          paddingBottom: '200px'
         }}
       >
         <h2>{this.state.product.title}</h2>
-        <p>{this.state.product.description}</p>
         <p>{`$${this.state.product.price}`}</p>
-        <form onSubmit={this.onSubmit}>
+        <form onSubmit={this.onFormSubmit}>
           <label id="hourLbl">
             Hora:
             <input type="text" placeholder="7:00am" name="hour" />
@@ -81,7 +77,7 @@ export default class Handyman extends Component {
             Dia:
             <input type="text" placeholder="Lunes" name="day" />
           </label>
-          <button>Submit</button>
+          <button className="button-yo">Submit</button>
         </form>
       </div>
     );
