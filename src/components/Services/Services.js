@@ -13,7 +13,7 @@ import service9 from '../../images/png/Aire Acondicionado-01.png';
 
 const Services = () => (
   <div className="services-page__services-box">
-    <Link to="/">
+    <Link to="/limpieza">
       <ServiceCard title={'Limpieza'} image={service1} />
     </Link>
     <Link to="/ventanas">
