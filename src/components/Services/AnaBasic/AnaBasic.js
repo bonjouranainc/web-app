@@ -3,10 +3,9 @@ import React, { Component } from 'react';
 export default class AnaBasic extends Component {
   state = {
     checkout: { lineItem: [] },
-    variants: [],
-    variantId: ''
+    variants: []
   };
-  componentWillMount() {
+  componentDidMount() {
     this.props.client.checkout.create().then(res => {
       this.setState({
         checkout: res
@@ -18,6 +17,25 @@ export default class AnaBasic extends Component {
         variants: product.variants
       });
     });
+  }
+
+  compare(variantString) {
+    const items = this.state.variants;
+    let id;
+    items.forEach(variant => {
+      if (variant.title === variantString) {
+        id = variant.id;
+      }
+    });
+    return id;
+  }
+
+  checkout(checkoutId, lineItemsToAdd) {
+    this.props.client.checkout
+      .addLineItems(checkoutId, lineItemsToAdd)
+      .then(checkout => {
+        window.open(checkout.webUrl);
+      });
   }
 
   onFormSubmit = e => {
@@ -32,17 +50,11 @@ export default class AnaBasic extends Component {
 
     const variantString = `${typeHouse} / ${rooms} / ${bathroom}`;
 
-    this.state.variants.forEach(variant => {
-      if (variant.title === variantString) {
-        return this.setState({
-          variantId: variant.id
-        });
-      }
-    });
+    const id = this.compare(variantString);
 
     const lineItemsToAdd = [
       {
-        variantId: this.state.variantId,
+        variantId: id,
         quantity: 1,
         customAttributes: [
           {
@@ -61,11 +73,14 @@ export default class AnaBasic extends Component {
       }
     ];
 
-    this.props.client.checkout
-      .addLineItems(checkoutId, lineItemsToAdd)
-      .then(checkout => {
-        window.open(checkout.webUrl);
-      });
+    this.checkout(checkoutId, lineItemsToAdd);
+
+    e.target.elements.houseType.value = '';
+    e.target.elements.rooms.value = '';
+    e.target.elements.bathrooms.value = '';
+    e.target.elements.town.value = '';
+    e.target.elements.day.value = '';
+    e.target.elements.hour.value = '';
   };
 
   render() {
