@@ -1,0 +1,33 @@
+.description {
+  margin: 2rem 5rem;
+  font-size: 1.8rem; }
+  .description__list-box {
+    font-weight: 700; }
+  .description__list-item {
+    font-size: 1.6rem;
+    list-style-type: none;
+    margin-bottom: 1em;
+    padding: 0.25em 0 0 2.5em;
+    position: relative; }
+    .description__list-item:after {
+      content: ' ';
+      display: block;
+      width: 0.5em;
+      height: 0.8em;
+      border: solid #ebd831;
+      border-width: 0 0.2em 0.2em 0;
+      position: absolute;
+      left: 1em;
+      top: 40%;
+      margin-top: -0.2em;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg); }
+  .description__text {
+    margin-top: 5rem;
+    padding-left: 2rem; }
+    .description__text-paragraph {
+      padding-right: 30rem; }
+    .description__text-list {
+      list-style-type: none; }

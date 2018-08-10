@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 
 export default class AnaBasic extends Component {
   state = {
-    checkout: { lineItem: [] },
-    variants: []
+    checkout: { lineItem: [] }
   };
   componentDidMount() {
     this.props.client.checkout.create().then(res => {
@@ -13,16 +12,13 @@ export default class AnaBasic extends Component {
     });
 
     this.props.client.product.fetch(this.props.productId).then(product => {
-      this.setState({
-        variants: product.variants
-      });
+      this.variants = product.variants;
     });
   }
 
-  compare(variantString) {
-    const items = this.state.variants;
+  compareVariantStrings(variantString) {
     let id;
-    items.forEach(variant => {
+    this.variants.forEach(variant => {
       if (variant.title === variantString) {
         id = variant.id;
       }
@@ -50,7 +46,7 @@ export default class AnaBasic extends Component {
 
     const variantString = `${typeHouse} / ${rooms} / ${bathroom}`;
 
-    const id = this.compare(variantString);
+    const id = this.compareVariantStrings(variantString);
 
     const lineItemsToAdd = [
       {

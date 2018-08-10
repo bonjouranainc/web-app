@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #fff;
+  border-radius: 15px;
+  padding: 3rem;
+  width: 55rem; }
+  .form__label {
+    text-align: left; }
+  .form__input {
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem; }
+  .form__image-box {
+    margin-top: -2rem;
+    text-align: center; }
+  .form__image {
+    width: 15rem; }
+  .form__button {
+    margin-top: 6rem;
+    text-align: center; }

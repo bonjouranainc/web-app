@@ -1,0 +1,18 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+.one-time {
+  margin: 10rem 3rem 10rem 8rem;
+
+  &__title {
+    font-size: 5rem;
+    color: $color-primary;
+    font-family: $heading-font;
+    margin-bottom: 4rem;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
