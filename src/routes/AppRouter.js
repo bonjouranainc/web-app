@@ -35,6 +35,7 @@ const Routes = ({ client }) => (
               label5={'Dia'}
               label6={'Hora'}
               productId={'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzExNzAzMjA2MzUx'}
+              collectionId={'Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzQ0NTkyODU5MQ=='}
             />
           )}
         />
@@ -47,7 +48,7 @@ const Routes = ({ client }) => (
               title={'Handyman'}
               label={'Hora'}
               label2={'Dia'}
-              label3={'Horas'}
+              label3={'Horas de trabajo'}
               label4={'Comentario'}
               productId={'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzExNzcyNTkzMjMx'}
             />

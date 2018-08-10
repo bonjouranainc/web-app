@@ -1,21 +1,36 @@
 import React, { Component } from 'react';
+import Header from './Header';
+import AnaBasicService from './AnaBasicService';
+import Addons from './Addons';
+import Extras from './Extras';
 
 export default class AnaBasic extends Component {
   state = {
-    checkout: { lineItem: [] }
+    checkout: { lineItem: [] },
+    addons: []
   };
   componentDidMount() {
+    // Fetch the checkout for the id
     this.props.client.checkout.create().then(res => {
       this.setState({
         checkout: res
       });
     });
-
+    // Fetch the product by the id
     this.props.client.product.fetch(this.props.productId).then(product => {
       this.variants = product.variants;
     });
+
+    // Fetch the collection for the products inside of it
+    this.props.client.collection
+      .fetchWithProducts(this.props.collectionId)
+      .then(product => {
+        this.setState(() => ({ addons: product.products }));
+      });
   }
 
+  // Retrieve the variant id by searching for the
+  // same title
   compareVariantStrings(variantString) {
     let id;
     this.variants.forEach(variant => {
@@ -26,6 +41,8 @@ export default class AnaBasic extends Component {
     return id;
   }
 
+  // Call the checkout with the id and
+  // line items
   checkout(checkoutId, lineItemsToAdd) {
     this.props.client.checkout
       .addLineItems(checkoutId, lineItemsToAdd)
@@ -84,53 +101,24 @@ export default class AnaBasic extends Component {
 
     return (
       <div style={{ paddingTop: '100px', paddingBottom: '100px' }}>
-        <header>
-          <h1>{title}</h1>
-          <h3>
-            Compra/Subscripcion de servicio de limpieza y servicios adicionales
-          </h3>
-        </header>
-
-        <form onSubmit={this.onFormSubmit}>
-          <select name="houseType">
-            <option>{label}</option>
-            <option value="Apartamento 1 piso">Apartamento 1 piso</option>
-            <option value="Apartamento 2 pisos">Apartamento 2 pisos</option>
-            <option value="Casa 1 piso">Casa 1 piso</option>
-            <option value="Casa 2 pisos">Casa 2 pisos</option>
-          </select>
-
-          <select name="rooms">
-            <option>{label2}</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-
-          <select name="bathrooms">
-            <option>{label3}</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-          <label>
-            {label4}:
-            <input type="text" name="town" placeholder="Bayamón" />
-          </label>
-          <label>
-            {label5}:
-            <input type="text" name="day" placholder="Miercoles" />
-          </label>
-          <label>
-            {label6}:
-            <input type="text" name="hour" placholder="7:00am" />
-          </label>
-          <button>Submit</button>
-        </form>
+        <Header title={title} />
+        <div style={{ borderBottom: '1px dashed #000' }}>
+          <AnaBasicService
+            onFormSubmit={this.onFormSubmit}
+            label={label}
+            label2={label2}
+            label3={label3}
+            label4={label4}
+            label5={label5}
+            label6={label6}
+          />
+        </div>
+        <div style={{ borderBottom: '1px dashed #000' }}>
+          <Addons addons={this.state.addons} />
+        </div>
+        <div>
+          <Extras />
+        </div>
       </div>
     );
   }
