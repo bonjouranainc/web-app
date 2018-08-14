@@ -102,23 +102,27 @@ export default class AnaBasic extends Component {
     return (
       <div style={{ paddingTop: '100px', paddingBottom: '100px' }}>
         <Header title={title} />
-        <div style={{ borderBottom: '1px dashed #000' }}>
-          <AnaBasicService
-            onFormSubmit={this.onFormSubmit}
-            label={label}
-            label2={label2}
-            label3={label3}
-            label4={label4}
-            label5={label5}
-            label6={label6}
-          />
-        </div>
-        <div style={{ borderBottom: '1px dashed #000' }}>
-          <Addons addons={this.state.addons} />
-        </div>
-        <div>
-          <Extras />
-        </div>
+        <form onSubmit={this.onFormSubmit}>
+          <div style={{ borderBottom: '1px dashed #000' }}>
+            <AnaBasicService
+              onFormSubmit={this.onFormSubmit}
+              label={label}
+              label2={label2}
+              label3={label3}
+              label4={label4}
+              label5={label5}
+              label6={label6}
+            />
+          </div>
+
+          <div style={{ borderBottom: '1px dashed #000' }}>
+            <Addons addons={this.state.addons} />
+          </div>
+          <div>
+            <Extras />
+          </div>
+          <button className="button-y">Checkout</button>
+        </form>
       </div>
     );
   }

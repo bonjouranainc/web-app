@@ -1,15 +1,7 @@
 import React from 'react';
 
-const AnaBasicService = ({
-  onFormSubmit,
-  label,
-  label2,
-  label3,
-  label4,
-  label5,
-  label6
-}) => (
-  <form onSubmit={onFormSubmit}>
+const AnaBasicService = ({ label, label2, label3, label4, label5, label6 }) => (
+  <div>
     <select name="houseType">
       <option>{label}</option>
       <option value="Apartamento 1 piso">Apartamento 1 piso</option>
@@ -44,8 +36,7 @@ const AnaBasicService = ({
     <label>
       {label6}:<input type="text" name="hour" placholder="7:00am" />
     </label>
-    <button className="button-y">Submit</button>
-  </form>
+  </div>
 );
 
 export default AnaBasicService;
