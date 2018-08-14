@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import AnaBasicService from './AnaBasicService';
-import Addons from './Addons';
-import Extras from './Extras';
 
+import '../../../styles/components/AnaBasic.css';
 export default class AnaBasic extends Component {
   state = {
     checkout: { lineItem: [] },
@@ -43,12 +42,8 @@ export default class AnaBasic extends Component {
 
   // Call the checkout with the id and
   // line items
-  checkout(checkoutId, lineItemsToAdd) {
-    this.props.client.checkout
-      .addLineItems(checkoutId, lineItemsToAdd)
-      .then(checkout => {
-        window.open(checkout.webUrl);
-      });
+  checkout() {
+    window.open(this.state.checkout.webUrl);
   }
 
   onFormSubmit = e => {
@@ -86,11 +81,14 @@ export default class AnaBasic extends Component {
       }
     ];
 
-    this.checkout(checkoutId, lineItemsToAdd);
+    this.props.client.checkout
+      .addLineItems(checkoutId, lineItemsToAdd)
+      .then(res => {
+        this.setState(() => ({ checkout: res }));
+      });
 
-    e.target.elements.houseType.value = '';
-    e.target.elements.rooms.value = '';
-    e.target.elements.bathrooms.value = '';
+    this.checkout();
+
     e.target.elements.town.value = '';
     e.target.elements.day.value = '';
     e.target.elements.hour.value = '';
@@ -100,28 +98,21 @@ export default class AnaBasic extends Component {
     const { title, label, label2, label3, label4, label5, label6 } = this.props;
 
     return (
-      <div style={{ paddingTop: '100px', paddingBottom: '100px' }}>
+      <div className="ana-basic">
         <Header title={title} />
-        <form onSubmit={this.onFormSubmit}>
-          <div style={{ borderBottom: '1px dashed #000' }}>
-            <AnaBasicService
-              onFormSubmit={this.onFormSubmit}
-              label={label}
-              label2={label2}
-              label3={label3}
-              label4={label4}
-              label5={label5}
-              label6={label6}
-            />
+        <form className="ana-basic__form" onSubmit={this.onFormSubmit}>
+          <AnaBasicService
+            onFormSubmit={this.onFormSubmit}
+            label={label}
+            label2={label2}
+            label3={label3}
+            label4={label4}
+            label5={label5}
+            label6={label6}
+          />
+          <div className="ana-basic__checkout">
+            <button className="button-y">Checkout</button>
           </div>
-
-          <div style={{ borderBottom: '1px dashed #000' }}>
-            <Addons addons={this.state.addons} />
-          </div>
-          <div>
-            <Extras />
-          </div>
-          <button className="button-y">Checkout</button>
         </form>
       </div>
     );

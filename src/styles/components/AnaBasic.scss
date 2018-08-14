@@ -1,0 +1,68 @@
+@import '../base/mixins';
+@import '../base/variables';
+
+.ana-basic {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: #fff;
+
+  &__header {
+    margin: 10rem 5rem;
+  }
+
+  &__title {
+    font-size: 5rem;
+    font-family: $heading-font;
+  }
+
+  &__subtitle {
+    font-size: 1.8rem;
+    font-weight: 100;
+  }
+
+  &__form {
+    margin: 0 4rem;
+    width: 70rem;
+    padding: 4rem;
+    border-radius: 2rem;
+    background: $background-color;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__label {
+    margin-right: 0.5rem;
+  }
+
+  &__variants {
+    margin: 1rem;
+    padding: 2rem;
+
+    &-option {
+      margin-right: 2rem;
+    }
+  }
+
+  &__custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 3rem;
+
+    & input {
+      padding: 0.5rem;
+      margin-right: 2rem;
+      border-radius: 10px;
+    }
+  }
+
+  &__checkout {
+    text-align: center;
+  }
+}
