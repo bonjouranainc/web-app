@@ -40,12 +40,6 @@ export default class AnaBasic extends Component {
     return id;
   }
 
-  // Call the checkout with the id and
-  // line items
-  checkout() {
-    window.open(this.state.checkout.webUrl);
-  }
-
   onFormSubmit = e => {
     e.preventDefault();
     const checkoutId = this.state.checkout.id;
@@ -83,11 +77,9 @@ export default class AnaBasic extends Component {
 
     this.props.client.checkout
       .addLineItems(checkoutId, lineItemsToAdd)
-      .then(res => {
-        this.setState(() => ({ checkout: res }));
+      .then(cart => {
+        window.open(cart.webUrl);
       });
-
-    this.checkout();
 
     e.target.elements.town.value = '';
     e.target.elements.day.value = '';

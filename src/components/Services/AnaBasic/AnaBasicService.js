@@ -35,10 +35,10 @@ const AnaBasicService = ({ label, label2, label3, label4, label5, label6 }) => (
         {label4}:<input type="text" name="town" placeholder="Bayamón" />
       </label>
       <label>
-        {label5}:<input type="text" name="day" placholder="Miercoles" />
+        {label5}:<input type="text" name="day" placeholder="Miercoles" />
       </label>
       <label>
-        {label6}:<input type="text" name="hour" placholder="7:00am" />
+        {label6}:<input type="text" name="hour" placeholder="7:00am" />
       </label>
     </div>
   </div>
