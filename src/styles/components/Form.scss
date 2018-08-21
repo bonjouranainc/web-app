@@ -1,0 +1,38 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  background: #fff;
+  border-radius: 15px;
+  padding: 3rem;
+  width: 55rem;
+
+  &__label {
+    text-align: left;
+  }
+
+  &__input {
+    border: 1px solid $color-dark;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  &__image-box {
+    margin-top: -2rem;
+    text-align: center;
+  }
+
+  &__image {
+    width: 15rem;
+  }
+
+  &__button {
+    margin-top: 6rem;
+    text-align: center;
+  }
+}

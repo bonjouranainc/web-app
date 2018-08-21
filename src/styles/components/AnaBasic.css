@@ -1,0 +1,41 @@
+.ana-basic {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: #fff; }
+  .ana-basic__header {
+    margin: 10rem 5rem; }
+  .ana-basic__title {
+    font-size: 5rem;
+    font-family: "Playfair Display", serif; }
+  .ana-basic__subtitle {
+    font-size: 1.8rem;
+    font-weight: 100; }
+  .ana-basic__form {
+    margin: 0 4rem;
+    width: 70rem;
+    padding: 4rem;
+    border-radius: 2rem;
+    background: #f5f4ed; }
+  .ana-basic__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .ana-basic__label {
+    margin-right: 0.5rem; }
+  .ana-basic__variants {
+    margin: 1rem;
+    padding: 2rem; }
+    .ana-basic__variants-option {
+      margin-right: 2rem; }
+  .ana-basic__custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem; }
+    .ana-basic__custom input {
+      padding: 0.5rem;
+      margin-right: 2rem;
+      border-radius: 10px; }
+  .ana-basic__checkout {
+    text-align: center; }

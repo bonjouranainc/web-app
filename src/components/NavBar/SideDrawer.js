@@ -14,7 +14,7 @@ const SideDrawer = props => {
       <ul>
         <li>
           <a href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar">
-            Servicios
+            Servicio
           </a>
         </li>
         <li>
@@ -24,10 +24,10 @@ const SideDrawer = props => {
           <Link to="/how">&iquest;Cómo funciona?</Link>
         </li>
         <li>
-          <a href="https://bonjour-ana.myshopify.com/account/login">Sign Up</a>
+          <a href="https://bonjour-ana.myshopify.com/account/login">Log In</a>
         </li>
         <li>
-          <a href="https://bonjour-ana.myshopify.com/account/login">Log In</a>
+          <a href="https://bonjour-ana.myshopify.com/account/login">Sign Up</a>
         </li>
       </ul>
     </nav>

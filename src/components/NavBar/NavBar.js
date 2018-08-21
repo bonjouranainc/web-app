@@ -16,9 +16,7 @@ const NavBar = props => (
       <div className="navbar__navigation-items">
         <ul>
           <li>
-            <a href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar">
-              Servicios
-            </a>
+            <a href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar">Servicio</a>
           </li>
           <li>
             <Link to="/about">Nosotros</Link>
@@ -32,12 +30,12 @@ const NavBar = props => (
       <div className="navbar__navigation-items">
         <ul>
           <li>
+            <a href="https://bonjour-ana.myshopify.com/account/login">Log In</a>
+          </li>
+          <li>
             <a href="https://bonjour-ana.myshopify.com/account/login">
               Sign Up
             </a>
-          </li>
-          <li>
-            <a href="https://bonjour-ana.myshopify.com/account/login">Log In</a>
           </li>
         </ul>
       </div>

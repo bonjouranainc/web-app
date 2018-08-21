@@ -1,0 +1,10 @@
+.one-time {
+  margin: 10rem 3rem 10rem 8rem; }
+  .one-time__title {
+    font-size: 5rem;
+    color: #ebd831;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 4rem; }
+  .one-time__container {
+    display: flex;
+    justify-content: space-between; }

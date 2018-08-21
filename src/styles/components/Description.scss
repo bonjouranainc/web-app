@@ -1,0 +1,49 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+.description {
+  margin: 2rem 5rem;
+  font-size: 1.8rem;
+
+  &__list-box {
+    font-weight: 700;
+  }
+
+  &__list-item {
+    font-size: 1.6rem;
+    list-style-type: none;
+    margin-bottom: 1em;
+    padding: 0.25em 0 0 2.5em;
+    position: relative;
+
+    &:after {
+      content: ' ';
+      display: block;
+      width: 0.5em;
+      height: 0.8em;
+      border: solid $color-primary;
+      border-width: 0 0.2em 0.2em 0;
+      position: absolute;
+      left: 1em;
+      top: 40%;
+      margin-top: -0.2em;
+      -webkit-transform: rotate(45deg); // tilts the shape
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  }
+
+  &__text {
+    margin-top: 5rem;
+    padding-left: 2rem;
+
+    &-paragraph {
+      padding-right: 30rem;
+    }
+
+    &-list {
+      list-style-type: none;
+    }
+  }
+}

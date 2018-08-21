@@ -1,0 +1,107 @@
+@import '../base/mixins';
+@import '../base/variables';
+
+.services-page {
+  margin: 10rem 3rem;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-bottom: 6rem;
+
+    @include respond(tab-port) {
+      margin-left: 4rem;
+    }
+  }
+
+  &__title {
+    font-size: 5rem;
+    font-family: $heading-font;
+    color: $color-primary;
+    margin-bottom: 2rem;
+
+    @include respond(tab-port) {
+      font-size: 5.8rem;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include respond(tab-land) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  }
+
+  &__services-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+
+    @include respond(tab-land) {
+      flex: 0 0 50%;
+    }
+
+    @include respond(desktop) {
+      flex: 0 0 55%;
+      justify-content: flex-start;
+    }
+
+    & a {
+      margin-left: 2rem;
+    }
+  }
+
+  &__service {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 10rem;
+    height: 15rem;
+    margin-right: 2.5rem;
+    margin-bottom: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.2s;
+
+    &:hover {
+      box-shadow: 0 3px 6px $color-dark;
+    }
+  }
+
+  &__img {
+    width: 8rem;
+  }
+
+  &__name {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    color: $color-dark;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+
+    @include respond(tab-port) {
+      font-size: 1.8rem;
+      margin: 0 4rem;
+    }
+
+    & p {
+      line-height: 1.5;
+      margin-bottom: 4rem;
+    }
+  }
+}
