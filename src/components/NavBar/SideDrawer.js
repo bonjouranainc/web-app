@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../../styles/components/SideDrawer.css';
-
 const SideDrawer = props => {
   let drawerClasses = 'side-drawer';
   if (props.show) {

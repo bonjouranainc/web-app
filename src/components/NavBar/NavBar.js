@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import DrawerToggleButton from './DrawerToggleButton';
 import logo from '../../images/svg/ba-logo-w.svg';
 
-import '../../styles/components/NavBar.css';
-
 const NavBar = props => (
   <header className="navbar">
     <nav className="navbar__navigation">
@@ -16,7 +14,9 @@ const NavBar = props => (
       <div className="navbar__navigation-items">
         <ul>
           <li>
-            <a href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar">Servicio</a>
+            <a href="https://bonjour-ana.myshopify.com/collections/servicio-al-hogar">
+              Servicio
+            </a>
           </li>
           <li>
             <Link to="/about">Nosotros</Link>

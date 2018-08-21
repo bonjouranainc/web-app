@@ -1,7 +1,5 @@
 import React from 'react';
 
-import '../../../styles/components/Focus.css';
-
 import picture from '../../../images/jpg/IMG_0247 2.44.11 PM.JPG';
 
 const Focus = () => (

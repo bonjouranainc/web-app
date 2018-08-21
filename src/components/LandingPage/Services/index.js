@@ -9,8 +9,6 @@ import service6 from '../../../images/png/Laundry.png';
 import service7 from '../../../images/png/Plomeria.png';
 import service8 from '../../../images/png/Pintura.png';
 
-import '../../../styles/components/Services.css';
-
 const Services = () => (
   <div className="services">
     <h2 className="services__header">Otros Servicios</h2>

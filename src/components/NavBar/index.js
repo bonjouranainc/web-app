@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import NavBar from './NavBar';
 import SideDrawer from './SideDrawer';
 import Backdrop from './Backdrop';
-
 export default class Nav extends Component {
   state = {
     sideDrawerOpen: false

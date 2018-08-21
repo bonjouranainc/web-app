@@ -1,8 +1,6 @@
 import React from 'react';
 import logo from '../../../images/png/BonjourAna_Blanco-01.png';
 
-import '../../../styles/components/Header.css';
-
 const Header = () => (
   <div className="hero">
     <div className="hero__main">

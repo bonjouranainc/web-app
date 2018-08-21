@@ -3,8 +3,6 @@ import { Responsive } from 'semantic-ui-react';
 import TestimonialResponsive from './TestimonialResponsive';
 import TestimonialDesktop from './TestimonialDesktop';
 
-import '../../../styles/components/Testimonials.css';
-
 const Testimonials = () => (
   <div>
     <Responsive minWidth={320} maxWidth={1199}>
